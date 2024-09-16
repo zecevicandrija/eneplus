@@ -1,0 +1,141 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+  }
+  
+  .navbar-logo img {
+    width: 100%;
+    height: 73px;
+    cursor: pointer;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-item {
+    list-style: none;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #ff7e00;
+  }
+  
+  .menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .menu-bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Mobile Menu Open */
+  .menu-icon.open .menu-bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  
+  .menu-icon.open .menu-bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-icon.open .menu-bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+  
+  /* Responsive Navbar */
+  @media (max-width: 768px) {
+    .nav-menu {
+      position: fixed;
+      top: 70px;
+      left: -100%;
+      height: 100vh;
+      width: 100%;
+      background-color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transition: left 0.3s ease-in-out;
+    }
+  
+    .nav-menu.active {
+      left: 0;
+    }
+  
+    .nav-item {
+      margin: 1rem 0;
+    }
+  
+    .nav-link {
+      font-size: 1.5rem;
+    }
+  
+    .menu-icon {
+      display: flex;
+    }
+  }
+  
+  /* Desktop hover animation */
+  .nav-item .nav-link {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .nav-item .nav-link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #ff7e00;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .nav-item .nav-link:hover::before {
+    transform: scaleX(1);
+  }
+  

@@ -1,0 +1,230 @@
+/* General Styles */
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: "Bai Jamjuree", sans-serif;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .pocetna-strana {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Hero Section */
+  .hero {
+    color: black;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 700px;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-description {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-btn {
+    padding: 0.75rem 2rem;
+    background-color: #ff7e00;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: "Bai Jamjuree", sans-serif;
+  }
+  
+  .hero-btn:hover {
+    background-color: #e06600;
+  }
+  
+  /* Services Section */
+  .usluge {
+    padding: 3rem 0;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .usluge-lista {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .usluga {
+    flex: 1;
+    margin: 0 1rem;
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .usluga:hover {
+    transform: translateY(-10px);
+  }
+  
+  .usluga-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .usluga-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Products Section */
+  .proizvodi {
+    padding: 3rem 0;
+    background-color: #f5f5f5;
+  }
+  
+  .proizvodi-lista {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .proizvod {
+    flex: 1;
+    margin: 0 1rem;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .proizvod:hover {
+    transform: translateY(-10px);
+  }
+  
+  .proizvod-img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .proizvod-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .proizvod-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Contact Section */
+  .kontakt {
+    padding: 3rem 0;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .kontakt-info p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2.5rem;
+    }
+  
+    .hero-description {
+      font-size: 1rem;
+    }
+  
+    .hero-btn {
+      padding: 0.5rem 1.5rem;
+      font-size: 0.875rem;
+    }
+  
+    .usluge-lista, .proizvodi-lista {
+      flex-direction: column;
+    }
+  
+    .usluga, .proizvod {
+      margin: 1rem 0;
+    }
+  
+    .usluga-title, .proizvod-title {
+      font-size: 1.25rem;
+    }
+  
+    .usluga-description, .proizvod-description {
+      font-size: 0.875rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-title {
+      font-size: 2rem;
+    }
+  
+    .hero-description {
+      font-size: 0.875rem;
+    }
+  
+    .hero-btn {
+      padding: 0.5rem 1rem;
+      font-size: 0.75rem;
+    }
+  
+    .section-title {
+      font-size: 1.5rem;
+    }
+  
+    .usluga-title, .proizvod-title {
+      font-size: 1rem;
+    }
+  
+    .usluga-description, .proizvod-description {
+      font-size: 0.75rem;
+    }
+  
+    .kontakt-info p {
+      font-size: 1rem;
+    }
+  }
+  
