@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Onama from './komponente/Onama';
 import Media from './komponente/Media';
 import Usluge from './komponente/Usluge';
+import Treninzi from './Usluge/Treninzi';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/onama" element={<Onama />} />
         <Route path="/media" element={<Media />} />
         <Route path="/usluge" element={<Usluge />} />
+        <Route path="/treninzi-i-edukacije" element={<Treninzi />} />
       </Routes>
     </Router>
     </>
