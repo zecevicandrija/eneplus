@@ -3,6 +3,8 @@ import Pocetna from './komponente/Pocetna';
 import Navbar from './Navigacija/Navbar';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Onama from './komponente/Onama';
+import Media from './komponente/Media';
+import Usluge from './komponente/Usluge';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Pocetna />} />
         <Route path="/onama" element={<Onama />} />
+        <Route path="/media" element={<Media />} />
+        <Route path="/usluge" element={<Usluge />} />
       </Routes>
     </Router>
     </>

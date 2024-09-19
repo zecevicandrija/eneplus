@@ -1,0 +1,218 @@
+/* Osnovni stilovi za Media komponentu */
+.media-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
+  .media-section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Responsive grid za listu videa */
+  .media-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  /* Stil za svaki video item */
+  .media-item {
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 60%;
+    margin: auto;
+  }
+  
+  .media-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .media-item a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  
+  /* Stil za thumbnail slike */
+  .media-thumbnail {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 2px solid #dcdcdc;
+  }
+  
+  /* Tekstualni deo ispod thumbnail slike */
+  .media-text {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .media-text h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #34495e;
+  }
+  
+  .media-text p {
+    font-size: 16px;
+    color: #7f8c8d;
+  }
+  
+  .learn-more {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #2980b9;
+    font-weight: bold;
+  }
+  
+  .learn-more:hover {
+    text-decoration: underline;
+  }
+
+  .video-containermedia {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Maksimalna širina videa */
+    margin: 20px auto; /* Centriranje videa */
+    overflow: hidden; /* Skrivanje viška kod bordera */
+    border-radius: 15px; /* Zaobljeni uglovi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Blagi shadow efekat */
+    border: 3px solid #007EFE; /* Border oko videa */
+    transition: transform 0.3s ease; /* Animacija prilikom hovera */
+    padding: 5px;
+  }
+  
+  .videokons {
+    width: 100%;
+    height: auto; /* Automatsko prilagođavanje visine u odnosu na širinu */
+    display: block;
+    border-radius: 15px; /* Zaobljeni uglovi videa */
+  }
+
+  .video-containermedia2 {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Maksimalna širina videa */
+    margin: 20px auto; /* Centriranje videa */
+    overflow: hidden; /* Skrivanje viška kod bordera */
+    border-radius: 15px; /* Zaobljeni uglovi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Blagi shadow efekat */
+    border: 3px solid #01DEA4; /* Border oko videa */
+    transition: transform 0.3s ease; /* Animacija prilikom hovera */
+    padding: 5px;
+  }
+
+  .konsalting {
+    margin-top: 30px;
+  }
+  
+  /* Hover efekat */
+  .video-containermedia:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Pojačani shadow efekat na hover */
+  }
+
+  .video-containermedia2:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Pojačani shadow efekat na hover */
+  }
+
+  /* Sekcija za dokumentaciju */
+.document-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .document-item {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .document-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .document-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #2980b9;
+    font-weight: bold;
+  }
+  
+  .document-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive stilovi */
+  @media (max-width: 768px) {
+    .document-item {
+      font-size: 16px;
+    }
+  
+    .document-link {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .document-item {
+      font-size: 14px;
+    }
+  
+    .document-link {
+      font-size: 14px;
+    }
+    .media-item {
+        width: 100%;
+    }
+  }
+  
+  
+  /* Responsive stilovi */
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 20px;
+    }
+  
+    .media-text h3 {
+      font-size: 18px;
+    }
+  
+    .media-text p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .media-text {
+      padding: 10px;
+    }
+  
+    .media-text h3 {
+      font-size: 16px;
+    }
+  
+    .media-text p {
+      font-size: 12px;
+    }
+  }
+  

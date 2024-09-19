@@ -1,0 +1,116 @@
+/* Osnovni stilovi za Usluge komponentu */
+.usluge-container {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #eaf2f8;
+  margin-top: 50px;
+}
+
+.usluge-title {
+  font-size: 36px;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.usluge-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 kolona u jednom redu */
+  gap: 20px;
+  justify-items: center;
+}
+
+.usluga-card {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 190px;
+  cursor: pointer;
+}
+
+.usluga-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.usluga-icon {
+  font-size: 48px;
+  color: #3498db;
+  margin-bottom: 15px;
+  transition: color 0.3s ease;
+}
+
+.usluga-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.usluga-description {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.usluga-card:hover .usluga-icon {
+  color: #2ecc71;
+}
+
+/* Responsive stilovi */
+/* Smanjujemo na 3 kolone na srednjim ekranima */
+@media (max-width: 1200px) {
+  .usluge-grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 kartice po redu */
+  }
+}
+
+/* Smanjujemo na 2 kolone na manjim ekranima */
+@media (max-width: 768px) {
+  .usluge-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 kartice po redu */
+  }
+
+  .usluge-title {
+    font-size: 28px;
+  }
+
+  .usluga-title {
+    font-size: 16px;
+  }
+
+  .usluga-description {
+    font-size: 12px;
+  }
+}
+
+/* Smanjujemo veličinu kartica na veoma malim ekranima (mobilni uređaji) */
+@media (max-width: 480px) {
+  .usluge-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 kartice po redu */
+  }
+
+  .usluga-card {
+    width: 140px; /* Smanjujemo širinu kartica */
+    padding: 15px; /* Smanjujemo padding */
+  }
+
+  .usluga-icon {
+    font-size: 36px; /* Smanjujemo veličinu ikone */
+  }
+
+  .usluge-title {
+    font-size: 24px;
+  }
+
+  .usluga-title {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  .usluga-description {
+    font-size: 12px;
+  }
+}
