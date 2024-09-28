@@ -6,6 +6,7 @@ import Onama from './komponente/Onama';
 import Media from './komponente/Media';
 import Usluge from './komponente/Usluge';
 import Treninzi from './Usluge/Treninzi';
+import Projekt from './Usluge/Projekt';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/media" element={<Media />} />
         <Route path="/usluge" element={<Usluge />} />
         <Route path="/treninzi-i-edukacije" element={<Treninzi />} />
+        <Route path="/projekt-menadzment" element={<Projekt />} />
       </Routes>
     </Router>
     </>
