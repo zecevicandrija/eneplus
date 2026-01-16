@@ -87,16 +87,16 @@ export default function EnergyConsultingPage() {
                             <div className={styles.memberAvatar}>
                                 <Image
                                     src="/Assets/zeljko.avif"
-                                    alt="Željko Zečević"
+                                    alt={t('teamMembers.zeljko.name')}
                                     width={100}
                                     height={100}
                                     style={{ objectFit: 'cover', borderRadius: '50%' }}
                                 />
                             </div>
                             <div className={styles.memberInfo}>
-                                <h3 className={styles.memberName}>Željko Zečević</h3>
-                                <p className={styles.memberTitle}>dip.inž.el.-master</p>
-                                <a href="tel:+381641872552" className={styles.memberContact}>+381 64 187 2552</a>
+                                <h3 className={styles.memberName}>{t('teamMembers.zeljko.name')}</h3>
+                                <p className={styles.memberTitle}>{t('teamMembers.zeljko.title')}</p>
+                                <a href="tel:+381641872552" className={styles.memberContact}>{t('teamMembers.zeljko.phone')}</a>
                             </div>
                         </div>
 
@@ -104,16 +104,16 @@ export default function EnergyConsultingPage() {
                             <div className={styles.memberAvatar}>
                                 <Image
                                     src="/Assets/nikola.avif"
-                                    alt="Nikola Vujović"
+                                    alt={t('teamMembers.nikola.name')}
                                     width={100}
                                     height={100}
                                     style={{ objectFit: 'cover', borderRadius: '50%' }}
                                 />
                             </div>
                             <div className={styles.memberInfo}>
-                                <h3 className={styles.memberName}>Nikola Vujović</h3>
-                                <p className={styles.memberTitle}>dip.inž.maš.-master</p>
-                                <a href="tel:+381648375706" className={styles.memberContact}>+381 64 837 5706</a>
+                                <h3 className={styles.memberName}>{t('teamMembers.nikola.name')}</h3>
+                                <p className={styles.memberTitle}>{t('teamMembers.nikola.title')}</p>
+                                <a href="tel:+381648375706" className={styles.memberContact}>{t('teamMembers.nikola.phone')}</a>
                             </div>
                         </div>
                     </div>

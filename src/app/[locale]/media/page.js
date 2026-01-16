@@ -44,8 +44,8 @@ export default function MediaPage() {
     const getDocName = (id) => {
         if (id === 'energyManagement') return tServices('energyManagement.name');
         if (id === 'iso') return tServices('iso.name');
-        if (id === 'blowerDoor') return 'Blower door test'; // Common term
-        if (id === 'thermography') return 'Termovizijsko snimanje'; // Could be translated if needed, kept simple for now or added to messages
+        if (id === 'blowerDoor') return t('docs.blowerDoor');
+        if (id === 'thermography') return t('docs.thermography');
         return '';
     };
 

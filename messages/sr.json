@@ -172,6 +172,10 @@
         "videos": {
             "software": "SOFTVER",
             "services": "USLUGE"
+        },
+        "docs": {
+            "blowerDoor": "Blower door test",
+            "thermography": "Termovizijsko snimanje"
         }
     },
     "ContactPage": {
@@ -322,6 +326,18 @@
         "confirmationText": "Vaš termin ćemo vam javiti istog dana, najkasnije do 15h.",
         "teamTitle": "Naš stručni tim",
         "teamSubtitle": "Konsultacije vode stručnjaci sa višegodišnjim iskustvom",
+        "teamMembers": {
+            "zeljko": {
+                "name": "Željko Zečević",
+                "title": "dipl.inž.el.-master",
+                "phone": "+381 64 187 2552"
+            },
+            "nikola": {
+                "name": "Nikola Vujović",
+                "title": "dipl.inž.maš.-master",
+                "phone": "+381 64 837 5706"
+            }
+        },
         "generalContact": "Za sva dodatna pitanja možete pisati na <a href='mailto:office@eneplus.rs' class='linkLight'>office@eneplus.rs</a>",
         "ctaTitle": "Dostupni 24/7",
         "ctaText": "Klijentima smo dostupni 24 časa dnevno, uvek spremni da pružimo dragocen savet ili sugestiju, a sve u cilju i sa željom da naše klijente učinimo zadovoljnim, vaše ideje i vizije pretvorimo u stvarnost.",
