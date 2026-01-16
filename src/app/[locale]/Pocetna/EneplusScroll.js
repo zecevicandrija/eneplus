@@ -180,10 +180,16 @@ export default function EneplusScroll() {
         };
     }, [isLoading, renderFrame, animateFrames]);
 
+    const prevWidthRef = useRef(typeof window !== 'undefined' ? window.innerWidth : 0);
+
     useEffect(() => {
         const handleResize = () => {
             renderFrame(currentFrameRef.current.value);
-            ScrollTrigger.refresh();
+            // Only refresh ScrollTrigger if width changed (not just mobile address bar hiding)
+            if (window.innerWidth !== prevWidthRef.current) {
+                prevWidthRef.current = window.innerWidth;
+                ScrollTrigger.refresh();
+            }
         };
 
         window.addEventListener('resize', handleResize);

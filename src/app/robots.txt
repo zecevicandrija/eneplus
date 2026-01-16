@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://eneplus.rs/sitemap.xml
+Host: https://eneplus.rs
