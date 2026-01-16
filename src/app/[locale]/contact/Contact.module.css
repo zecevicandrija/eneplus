@@ -1,0 +1,263 @@
+.pageWrapper {
+    min-height: 100vh;
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+/* ==================== HERO SECTION ==================== */
+.heroSection {
+    position: relative;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8rem 8% 4rem;
+    background-color: #0a0a0a;
+    overflow: hidden;
+    text-align: center;
+}
+
+.heroBgPattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.heroGlow {
+    position: absolute;
+    top: -20%;
+    right: -10%;
+    width: 60%;
+    height: 60%;
+    background: radial-gradient(circle at center, rgba(74, 222, 128, 0.15) 0%, transparent 70%);
+    filter: blur(80px);
+    z-index: 1;
+}
+
+.heroContainer {
+    position: relative;
+    z-index: 10;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overline {
+    display: inline-block;
+    color: #4ade80;
+    font-weight: 800;
+    letter-spacing: 6px;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    font-family: var(--font-outfit), sans-serif;
+    position: relative;
+    padding: 0 20px;
+}
+
+.overline::before,
+.overline::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 15px;
+    height: 2px;
+    background: #4ade80;
+}
+
+.overline::before {
+    left: 0;
+}
+
+.overline::after {
+    right: 0;
+}
+
+.heroTitle {
+    font-size: clamp(3rem, 7vw, 6rem);
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 0.95;
+    text-transform: uppercase;
+    font-family: var(--font-outfit), sans-serif;
+    letter-spacing: -2px;
+    margin-bottom: 2rem;
+}
+
+.heroLine {
+    width: 2px;
+    height: 60px;
+    background: linear-gradient(to bottom, #4ade80, transparent);
+    margin: 2rem 0;
+}
+
+/* ==================== CONTENT SECTION ==================== */
+.contentSection {
+    padding: 6rem 8%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.contentContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 4rem;
+}
+
+/* Left Column: Info */
+.infoColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.infoBlock {
+    margin-bottom: 2rem;
+}
+
+.blockTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 2px solid #4ade80;
+    padding-bottom: 0.5rem;
+}
+
+.dataList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dataItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.1rem;
+    color: #4b5563;
+}
+
+.dataLabel {
+    font-weight: 700;
+    color: #1a1a1a;
+    min-width: 120px;
+}
+
+.dataValue {
+    font-weight: 500;
+}
+
+.contactLink {
+    color: #4ade80;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 600;
+}
+
+.contactLink:hover {
+    color: #1a1a1a;
+}
+
+.phonesList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Social Links */
+.socialWrapper {
+    margin-top: 1rem;
+}
+
+.socialTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.socialIcon {
+    font-size: 1.8rem;
+    color: #6b7280;
+    transition: all 0.3s ease;
+}
+
+.socialIcon:hover {
+    color: #4ade80;
+    transform: translateY(-3px);
+}
+
+/* Right Column: Map */
+.mapColumn {
+    height: 100%;
+    min-height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #f3f4f6;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.mapFrame {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 900px) {
+    .contentContainer {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .mapColumn {
+        min-height: 400px;
+        order: -1;
+        /* Show map first on mobile */
+    }
+}
+
+@media (max-width: 768px) {
+
+    .heroSection,
+    .contentSection {
+        padding: 4rem 5%;
+    }
+
+    .heroTitle {
+        font-size: 3rem;
+    }
+
+    .dataItem {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.2rem;
+    }
+
+    .dataLabel {
+        min-width: auto;
+    }
+}

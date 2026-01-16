@@ -1,0 +1,393 @@
+.pageWrapper {
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+/* ==================== HERO SECTION ==================== */
+.heroSection {
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8rem 8% 4rem;
+    background-color: #0a0a0a;
+    overflow: hidden;
+}
+
+.heroBgPattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(rgba(74, 222, 128, 0.15) 1px, transparent 1px);
+    background-size: 50px 50px;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.heroGlow {
+    position: absolute;
+    top: 20%;
+    right: -10%;
+    width: 60%;
+    height: 80%;
+    background: radial-gradient(ellipse at center, rgba(74, 222, 128, 0.2) 0%, transparent 60%);
+    filter: blur(80px);
+    z-index: 1;
+}
+
+.heroContainer {
+    position: relative;
+    z-index: 10;
+    max-width: 900px;
+}
+
+.overline {
+    display: inline-flex;
+    align-items: center;
+    color: #4ade80;
+    font-weight: 800;
+    letter-spacing: 5px;
+    font-size: 0.85rem;
+    margin-bottom: 2rem;
+    font-family: var(--font-outfit), sans-serif;
+}
+
+.overline::before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #4ade80;
+    margin-right: 15px;
+}
+
+.heroTitle {
+    font-size: clamp(3rem, 7vw, 6rem);
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: var(--font-outfit), sans-serif;
+    letter-spacing: -2px;
+    margin-bottom: 2rem;
+}
+
+.highlight {
+    color: #4ade80;
+    display: block;
+}
+
+.heroLine {
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(90deg, #4ade80, transparent);
+    margin-bottom: 2.5rem;
+}
+
+/* ==================== INTRO SPLIT SECTION ==================== */
+.introSection {
+    padding: 6rem 8%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.introContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.highlightBlock {
+    margin-bottom: 3rem;
+    border-left: 4px solid #1a1a1a;
+    padding-left: 2rem;
+}
+
+.leadText {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #1a1a1a;
+    font-weight: 500;
+    margin: 0;
+}
+
+.textBlock p {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+}
+
+.imageWrapper {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.imageFrame {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* border-radius: 8px; */
+    box-shadow: 20px 20px 0px rgba(74, 222, 128, 0.2);
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(10, 10, 10, 0.1), transparent);
+    z-index: 1;
+}
+
+/* ==================== STRATEGY SECTION ==================== */
+.strategySection {
+    padding: 5rem 8%;
+    background: #1a1a1a;
+    color: white;
+}
+
+.strategyContainer {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.strategyText {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+/* ==================== SERVICES SECTION ==================== */
+.servicesSection {
+    padding: 6rem 8%;
+    background: #fdfdfd;
+}
+
+.servicesContainer {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.servicesHeader {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.sectionTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.sectionSubtitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.2rem;
+    color: #4b5563;
+}
+
+.standardHighlight {
+    color: #1a1a1a;
+    font-weight: 700;
+    background: #4ade80;
+    padding: 0 5px;
+}
+
+.servicesGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.serviceCard {
+    background: #ffffff;
+    padding: 3rem;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+}
+
+.checkList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.checkList li {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.15rem;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-left: 2rem;
+    line-height: 1.4;
+}
+
+.checkList li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #4ade80;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+/* ==================== BENEFITS SECTION ==================== */
+.benefitsSection {
+    padding: 6rem 8%;
+    background: #ffffff;
+}
+
+.benefitsContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.benefitsTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.benefitsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.benefitItem {
+    background: #f3f4f6;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.benefitItem:hover {
+    background: #ffffff;
+    border-color: #4ade80;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.benefitIcon {
+    color: #4ade80;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.benefitText {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* ==================== CTA SECTION ==================== */
+.ctaSection {
+    padding: 6rem 8%;
+    background-color: #1a1a1a;
+    text-align: center;
+    color: white;
+}
+
+.ctaContainer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ctaTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.ctaText {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.2rem;
+    color: #d1d5db;
+    margin-bottom: 3rem;
+}
+
+.ctaButton {
+    display: inline-block;
+    padding: 1.3rem 4rem;
+    background: transparent;
+    border: 2px solid #4ade80;
+    color: #4ade80;
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    clip-path: polygon(15px 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0 100%, 0 15px);
+}
+
+.ctaButton:hover {
+    background: #4ade80;
+    color: #1a1a1a;
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(74, 222, 128, 0.3);
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 1024px) {
+    .introContainer {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .imageWrapper {
+        height: 400px;
+        order: -1;
+    }
+}
+
+@media (max-width: 768px) {
+    .servicesGrid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .serviceCard {
+        padding: 2rem;
+    }
+
+    .benefitsGrid {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .benefitItem {
+        justify-content: center;
+    }
+}

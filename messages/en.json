@@ -1,0 +1,504 @@
+{
+    "Navbar": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "software": "Software",
+        "media": "Media",
+        "contact": "Contact"
+    },
+    "Hero": {
+        "headingLine1": "Eneplus",
+        "headingLine2": "HELPS YOU",
+        "headingLine3": "BE MORE EFFICIENT",
+        "subheading": "The future of energy management is here. Become a leader in energy efficiency with our expertise.",
+        "cta": "Start Project"
+    },
+    "About": {
+        "analytics": "ENEPLUS ANALYTICS",
+        "overline": "ABOUT US",
+        "titleLine1": "WE SAVE YOUR",
+        "titleHighlight": "TIME AND MONEY",
+        "p1": "is a consulting firm providing services in the field of energy management, energy efficiency, and project management.",
+        "p2": "ENEPLUS develops strategies and implements solutions that enable process optimization, cost reduction, and sustainable development.",
+        "p3": "Our approach is personalized, focused on results and long-term value for each client."
+    },
+    "Services": {
+        "titlePrefix": "OUR",
+        "titleAccent": "SERVICES",
+        "learnMore": "Learn More",
+        "energyManagement": {
+            "name": "Energy Management",
+            "description": "Systematic energy management"
+        },
+        "studies": {
+            "name": "Studies and Analyses",
+            "description": "Detailed energy analysis"
+        },
+        "training": {
+            "name": "Training and Education",
+            "description": "Professional training"
+        },
+        "certification": {
+            "name": "Energy Certification",
+            "description": "Certificates and reports"
+        },
+        "design": {
+            "name": "Design",
+            "description": "Technical design"
+        },
+        "web": {
+            "name": "Web Applications and Presentations",
+            "description": "Digital solutions"
+        },
+        "ppp": {
+            "name": "PPP Preparation and Support",
+            "description": "Public-private partnerships"
+        },
+        "iso": {
+            "name": "ISO 50001",
+            "description": "International standard"
+        },
+        "consulting": {
+            "name": "Energy Consulting",
+            "description": "Expert consultations"
+        },
+        "audits": {
+            "name": "Energy Audits",
+            "description": "Detailed building audits"
+        },
+        "measurements": {
+            "name": "Measurements",
+            "description": "Thermography and Blower Door"
+        },
+        "management": {
+            "name": "Project Management",
+            "description": "Project management"
+        }
+    },
+    "Footer": {
+        "description": "A consulting firm providing services in the field of energy management, energy efficiency, and project management.",
+        "servicesTitle": "Services",
+        "companyTitle": "Company",
+        "contactTitle": "Contact",
+        "rights": "All rights reserved."
+    },
+    "AboutPage": {
+        "heroOverline": "ENEPLUS",
+        "heroTitle": "ABOUT US",
+        "leadText": "ENEPLUS is a consulting firm providing services in the field of energy management, energy efficiency, and project management.",
+        "p1": "Our expert team is at your disposal for analyzing and selecting optimal solutions that will increase your system's energy efficiency while reducing costs.",
+        "p2": "ENEPLUS develops strategies and implements solutions that enable process optimization, cost reduction, and sustainable development.",
+        "teamLabel": "ENEPLUS",
+        "teamTitle": "EXPERT TEAM",
+        "team": {
+            "zeljko": {
+                "title": "M.Sc. Electrical Engineering"
+            },
+            "nikola": {
+                "title": "M.Sc. Mechanical Engineering"
+            }
+        }
+    },
+    "ServicesPage": {
+        "overline": "ENEPLUS",
+        "heroTitle1": "OUR",
+        "heroTitle2": "SERVICES",
+        "subtitle": "Comprehensive solutions for energy efficiency and sustainability"
+    },
+    "SoftwarePage": {
+        "overline": "SOFTWARE",
+        "heroTitle1": "ENERGY",
+        "heroTitle2": "MANAGEMENT",
+        "heroSubtitle": "SOFTWARE",
+        "leadText": "Energy Management Software is a web-oriented software that is an indispensable tool in the work of an energy manager.",
+        "targetTitle": "Who is it for?",
+        "targetText": "The software is primarily intended for <span class='textHighlight'>municipalities</span>, <span class='textHighlight'>public utility companies</span>, but can also be used by other interested companies that want to monitor their energy consumption and performance.",
+        "videoLabel": "PRESENTATION",
+        "videoTitle": "Watch software in action",
+        "capabilitiesLabel": "CAPABILITIES",
+        "capabilitiesTitle": "Energy Management Software allows us to:",
+        "capabilitiesList": [
+            "Storage and access to information on energy and water consumption in all facilities covered by the system.",
+            "Continuous updating and maintenance of database on individual facilities",
+            "Continuous entry and monitoring of consumption data for all types of energy sources and water",
+            "Processing and analysis of collected data",
+            "Early detection of unnecessary energy waste",
+            "Creating an information basis for decision making",
+            "Review and analysis of historical operational data",
+            "Identification, preparation and execution of energy efficiency improvement projects",
+            "Precise definition of consumption, efficiency and performance indicators",
+            "Budgeting support",
+            "Evaluation of energy efficiency measures"
+        ],
+        "modulesLabel": "MODULES",
+        "modulesTitle": "Integral system modules",
+        "modules": {
+            "lighting": "PUBLIC LIGHTING",
+            "heating": "DISTRICT HEATING",
+            "water": "WATER SUPPLY & SEWERAGE",
+            "buildings": "BUILDINGS",
+            "fleet": "VEHICLE FLEET"
+        },
+        "ctaTitle": "Interested in our software?",
+        "ctaText": "Contact us for a demo version and a detailed presentation.",
+        "ctaButton": "Contact us"
+    },
+    "MediaPage": {
+        "overline": "RESOURCES",
+        "heroTitle": "MEDIA",
+        "docsLabel": "DOCUMENTATION",
+        "docsTitle": "Download useful materials",
+        "docsButton": "View",
+        "videosLabel": "VIDEO PRESENTATIONS",
+        "videosTitle": "Watch our video materials",
+        "videos": {
+            "software": "SOFTWARE",
+            "services": "SERVICES"
+        }
+    },
+    "ContactPage": {
+        "overline": "INFORMATION",
+        "heroTitle": "CONTACT",
+        "companyInfoTitle": "Company Info",
+        "pib": "VAT ID",
+        "idNumber": "Registration Number",
+        "account": "Bank Account",
+        "contactTitle": "Contact",
+        "email": "E-mail",
+        "phones": "Phones",
+        "address": "Address",
+        "socialTitle": "Follow us"
+    },
+    "EnergyManagementPage": {
+        "overline": "SERVICE",
+        "heroTitle1": "ENERGY",
+        "heroTitle2": "MANAGEMENT",
+        "leadText": "Eneplus performs an energy management service that represents the process of managing the energy performance of a municipality, company or specific facility, and includes an analysis of the current state, the process of procurement and energy production until its final use.",
+        "p1": "System power management is ensuring continuous care about the efficiency of energy and water consumption, and hence concerns about the environment.",
+        "p2": "Only technical measures without the establishment of energy management are not sufficient to achieve the estimated savings. Energy efficiency or energy improvements are a combination of technology-related and human-factor measures.",
+        "p3": "Establishing and introducing an energy management system also involves the implementation of education activities and raising awareness of users on the importance of rational use of energy. Such activities provide long-term continuity and effectiveness of energy efficiency programs.",
+        "isoLabel": "ISO 50001",
+        "isoTitle": "Energy management cycle",
+        "isoSubtitle": "The energy management cycle according to the ISO 50001 standard implies the implementation of the following activities:",
+        "isoSteps": [
+            "Defining the company's energy policy in accordance with its activities and energy saving needs",
+            "Energy planning that involves the development of an action plan for energy savings (based on the previous energy audit)",
+            "Implementing an energy saving plan through examined and approved projects",
+            "Control of the realization of the energy saving plan",
+            "Monitoring the effect of the implemented measures",
+            "Application of corrective measures in relation to nonconformities and deviations from the plans",
+            "Conducting internal audits that verify that the energy management system is well established and in place"
+        ],
+        "ctaTitle": "Ready for cooperation?",
+        "ctaText": "Contact us to find out how we can help your organization.",
+        "ctaButton": "Contact us"
+    },
+    "StudiesPage": {
+        "overline": "SERVICE",
+        "heroTitle1": "STUDIES AND",
+        "heroTitle2": "ANALYSES",
+        "leadText": "Eneplus prepares studies and analyses in the field of energy efficiency and renewable energy sources.",
+        "p1": "Our team of experts provides detailed insights and precise data to help you make informed decisions about your energy projects.",
+        "analysisItems": [
+            "Supply and demand analysis",
+            "Feasibility studies",
+            "Cost-benefit analyses",
+            "Energy efficiency improvement programs",
+            "Action plans",
+            "Strategies"
+        ],
+        "ctaTitle": "Need expert analysis?",
+        "ctaText": "Contact us for detailed studies and strategic planning.",
+        "ctaButton": "Contact us"
+    },
+    "TrainingPage": {
+        "overline": "SERVICE",
+        "heroTitle1": "TRAINING AND",
+        "heroTitle2": "EDUCATION",
+        "leadText": "We conduct training in our or your space. Our focus is on transferring practical knowledge and the latest trends in energy.",
+        "expertiseTitle": "Expertise",
+        "expertiseText": "We provide <span class='textHighlight'>certified training</span> for energy management.",
+        "listTitle": "Training and education we offer:",
+        "trainingItems": [
+            "Education for energy managers",
+            "Software tools for energy efficiency and energy management",
+            "Energy Performance Contracting",
+            "Energy Supply Contracting"
+        ],
+        "ctaTitle": "Want to improve your knowledge?",
+        "ctaText": "Sign up for our training and certified courses.",
+        "ctaButton": "Contact us"
+    },
+    "CertificationPage": {
+        "overline": "SERVICE",
+        "heroTitle1": "ENERGY",
+        "heroTitle2": "CERTIFICATION",
+        "elaboratTitle": "Energy efficiency elaborate",
+        "elaboratText": "Determination of the fulfillment of the conditions of energy efficiency of the building is done by the energy efficiency elaborate. It is an integral part of the technical documentation necessary for the issuance of a building permit for the construction of new and reconstruction of existing buildings",
+        "passportTitle": "Energy passport",
+        "passportText1": "Certificate of energy properties of buildings - energy passport is a document containing the calculated value of energy consumption within a certain category of buildings, energy class and recommendations for improving the energy properties of a building.",
+        "passportText2": "Energy passports must have all new buildings, as well as existing buildings that are being reconstructed, adapted, renovated or sanitized, except buildings that are exempted from the requirement of energy certification.",
+        "passportText3": "An energy passport is an integral part of the technical documentation that is enclosed with the application for the issuance of a usage permit.",
+        "passportLink": "More about energy passport",
+        "ctaTitle": "Need certification?",
+        "ctaText": "Contact us for the preparation of studies and energy passports.",
+        "ctaButton": "Contact us"
+    },
+    "DesignPage": {
+        "overline": "SERVICE",
+        "heroTitle": "DESIGN",
+        "introText": "In order to achieve maximum results with minimum investment, it is important to include us at the very start of the project development in order to offer the most efficient and financially optimal solution for you.",
+        "warningText": "Mistakes made at the very start have far-reaching negative consequences <span className={styles.warningHighlight}>(increased energy consumption, impaired comfort)</span> and are difficult to eliminate.",
+        "offerTitle": "Our offer",
+        "offerText": "Eneplus offers energy efficiency project design services:",
+        "offerList": [
+            "Construction",
+            "Sanitation",
+            "Reconstruction"
+        ],
+        "integralTitle": "Integral approach",
+        "integralText": "With an integral way of working (associates of all necessary profiles), we achieve that our projects have:",
+        "benefitsList": [
+            "Maximum quality and precision",
+            "Economic sustainability",
+            "Favorable impact on the environment"
+        ],
+        "ctaTitle": "Planning a project?",
+        "ctaText": "Contact us on time for maximum results.",
+        "ctaButton": "Contact us"
+    },
+    "WebAppsPage": {
+        "overline": "SERVICE",
+        "heroTitle1": "WEB APPLICATIONS",
+        "heroTitle2": "AND PRESENTATIONS",
+        "introText": "ENEPLUS provides custom WEB application development services using the latest IT technologies:",
+        "specializationTitle": "Specialization",
+        "specializationText": "Development of applications where <span class='textHighlight'>energy efficiency is primary</span>.",
+        "offerTitle": "WEB presentation development",
+        "offerText": "We create modern and effective presentations tailored to your needs:",
+        "offerList": [
+            "MS PowerPoint",
+            "Prezi",
+            "Video presentations"
+        ],
+        "ctaTitle": "Need a software solution?",
+        "ctaText": "Contact us for custom application and presentation development.",
+        "ctaButton": "Contact us"
+    },
+    "EnergyConsultingPage": {
+        "overline": "SERVICE",
+        "heroTitle1": "ENERGY",
+        "heroTitle2": "CONSULTING",
+        "introText": "As part of its services, ENEPLUS provides consulting services to all interested legal and natural persons on the construction and reconstruction of buildings in accordance with energy efficiency principles.",
+        "bookingTitle": "Scheduling an appointment",
+        "bookingText": "Appointments are scheduled via email at: <a href='mailto:office@eneplus.rs' class='link'>office@eneplus.rs</a>",
+        "infoNote": "Please provide the following information in your application:",
+        "requirementsList": [
+            "Name and surname, contact phone",
+            "Brief description of your subject of interest",
+            "Additional documentation (if any) in electronic form"
+        ],
+        "importantNote": "* Bring documentation related to your facility to the scheduled consultation.",
+        "timeSlotTitle": "Appointment time",
+        "timeSlotText": "Please list all time slots between <strong>10 AM and 3 PM</strong> that suit you during the work week.",
+        "confirmationText": "We will inform you of your appointment on the same day, no later than 3 PM.",
+        "teamTitle": "Our expert team",
+        "teamSubtitle": "Consultations are led by experts with years of experience",
+        "generalContact": "For any additional questions, you can write to <a href='mailto:office@eneplus.rs' class='linkLight'>office@eneplus.rs</a>",
+        "ctaTitle": "Available 24/7",
+        "ctaText": "We are available to clients 24 hours a day, always ready to provide valuable advice or suggestions, all with the aim and desire to make our clients satisfied, turning your ideas and visions into reality.",
+        "ctaButton": "Schedule a consultation"
+    },
+    "PppSupportPage": {
+        "overline": "SERVICE",
+        "heroTitle1": "PPP PREPARATION",
+        "heroTitle2": "AND SUPPORT",
+        "introText": "ENEPLUS provides expert assistance to the public and private sectors in the preparation and implementation of public-private partnership projects.",
+        "servicesTitle": "Our services",
+        "servicesList": [
+            "Project identification and definition with option elaboration",
+            "Market analysis and location selection",
+            "Preparation of PPP project proposal",
+            "PPP project preparation (project team, project plan and timeline)",
+            "Pre-tender phase (studies, PPP model, procurement selection, criteria, draft Agreement)",
+            "Risk analysis and financial construction",
+            "Preparation of tender documentation and tender implementation",
+            "Energy efficiency in procurement"
+        ],
+        "phasesSectionTitle": "Roadmap to realization",
+        "phasesSubtitle": "From idea to realization of PPP project",
+        "phases": [
+            {
+                "title": "Justification assessment",
+                "subtitle": "of applying the PPP model",
+                "list": [
+                    "Defining the priority project",
+                    "Assessment of the justification for applying the PPP model"
+                ]
+            },
+            {
+                "title": "Preparation and approval",
+                "subtitle": "of project proposal",
+                "list": [
+                    "Detailed preparations",
+                    "Proposing the project and obtaining consent"
+                ]
+            },
+            {
+                "title": "Award procedure",
+                "subtitle": "of public contract and tender",
+                "list": [
+                    "Selection of private partner",
+                    "Conclusion of public contract"
+                ]
+            },
+            {
+                "title": "Implementation",
+                "subtitle": "of PPP project",
+                "list": [
+                    "Contract management",
+                    "Ex-post evaluation"
+                ]
+            }
+        ],
+        "ctaTitle": "Planning a PPP project?",
+        "ctaText": "Contact us for expert support in all phases of realization.",
+        "ctaButton": "Contact us"
+    },
+    "IsoPage": {
+        "overline": "STANDARD",
+        "heroTitle": "ISO 50001",
+        "leadText": "The purpose of this international standard is to enable organizations to establish the systems and processes needed to improve energy performance, including energy efficiency, use and energy consumption.",
+        "navPurpose": "The purpose of this standard is to reduce energy costs, greenhouse gas emissions and other negative impacts on the environment through systematic energy management.",
+        "introText": "This international standard can be applied to all types and sizes of organizations, regardless of geographical, cultural or social conditions. Successful implementation depends on commitment from all levels and functions of the organization, and especially from top management.",
+        "benefitsTitle": "Benefits from ISO 50001",
+        "benefitsSubtitle": "Companies with an energy management system in accordance with the ISO 50001 standard open up new business opportunities for themselves. There are more and more global companies in the world wanting to do business with partners that have introduced the ISO 50001 standard.",
+        "directBenefitsTitle": "Direct benefits",
+        "directBenefitsList": [
+            "Saving on energy costs",
+            "Maximum use of energy sources",
+            "Reduction of energy consumption",
+            "Increasing energy efficiency",
+            "Increasing energy performance",
+            "Reduction of environmental pollution",
+            "Harmonization of energy consumption with the legal provisions"
+        ],
+        "businessBenefitsTitle": "Business benefits",
+        "businessBenefitsList": [
+            "Credibility in world frames on the need for rational energy management",
+            "Translation of energy management into business practice",
+            "Improving corporate image among regulatory bodies, clients and the public",
+            "Proof of social responsibility",
+            "Improving employee morale",
+            "Monitoring parameters through consistent <span class='textHighlight'>Plan - Do - Check - Act</span> method"
+        ],
+        "implTitle": "Implementation",
+        "implText": "Introducing the ISO 50001 standard is imperative for all companies that want to improve and strengthen their market position against the competition.",
+        "consultingBold": "Eneplus provides consulting services in the process of implementing energy management system.",
+        "consultingText": "Our practical experience, participation in standard preparation committees, knowledge of procedures, required documents and available technologies will greatly facilitate the introduction of the ISO 50001 standard in your organization.",
+        "ctaTitle": "Want to introduce the standard?",
+        "ctaText": "Contact us for expert assistance in implementing ISO 50001.",
+        "ctaButton": "Contact us"
+    },
+    "EnergyAuditsPage": {
+        "overline": "SERVICE",
+        "heroTitle1": "ENERGY",
+        "heroTitle2": "AUDITS",
+        "introText": "An energy audit is an inspection, survey and analysis of energy flows, for energy conservation in a building, process or system to reduce the amount of energy input into the system without negatively affecting the output(s).",
+        "detailsText1": "It is the first step in identifying opportunities to reduce energy expense and carbon footprints. It is an efficient tool that gives a clear insight into the condition of power installations, equipment and also the constructive characteristics of the facility that have a significant impact on energy consumption. The aim of the energy audit is to determine the location and causes of irrational energy consumption.",
+        "detailsText2": "By eliminating these causes, we achieve not only energy savings, but also savings in the budget, as well as extending the life of equipment and installations.",
+        "strategyText": "An energy audit is a systematic approach to reviewing the existing energy performance of a system or object, including an analysis of measures to improve its energy efficiency. Energy efficiency becomes a factor of success and the competitive advantage of companies, as energy is the basis of prosperity and economic development.",
+        "servicesTitle": "Our Services",
+        "servicesSubtitle": "Within the energy audits carried out according to the standards <highlight>ISO 50002</highlight> and <highlight>EN 16247</highlight> ENEPLUS offers the following services:",
+        "servicesList": [
+            "Comprehensive first interview",
+            "Current condition assessment",
+            "Gathering data on energy consumption and distribution by consumers",
+            "Identification of potential savings",
+            "Preparation of a priority list of energy efficiency measures",
+            "Advising on the establishment of an energy management system"
+        ],
+        "benefitsTitle": "Advantages for users",
+        "benefitsList": [
+            "Various optimization measures",
+            "Control of energy consumption",
+            "Long-term cost reduction",
+            "The advantage over the competition",
+            "Improvement of the company / institution image",
+            "Improved CO2 balance",
+            "Investment consulting"
+        ],
+        "ctaTitle": "Schedule an energy audit",
+        "ctaText": "Reduce costs and optimize energy consumption.",
+        "ctaButton": "Contact us"
+    },
+    "MeasurementsPage": {
+        "overline": "SERVICE",
+        "heroTitle": "MEASUREMENTS",
+        "thermoTitle": "Infrared thermography",
+        "thermoLead": "Infrared thermography is a method of contactless temperature measurement and its distribution on the surface of the observed object.",
+        "thermoText": "The application of thermography in the building provides great possibilities for controlling the quality of works in new buildings, as well as assessing the current state of the older buildings. In addition to providing an insight into the state of the object in terms of thermal insulation of the building, infrared thermography can be successfully applied to assess the condition of the building envelope:",
+        "thermoList": [
+            "detection of different types of errors (defects and damage)",
+            "the detection of the separation of the mortar from the surface and the possible presence of air or moisture into the layers below the outer plasters, and for evaluation of flat roofs",
+            "detection of the location of the separation of the roofing board from the substrate, inspection of electrical and HVAC installations, inspection of devices and equipment, etc …"
+        ],
+        "blowerTitle": "Blower Door",
+        "blowerSubtitle": "Checking the air-tightness of the building",
+        "preventionTitle": "Prevention of damage",
+        "preventionText": "The Blower Door measurement makes it possible to check the air-tightness of the building. It can prevent the formation of structural damage caused by the penetration of warm and humid air into the structure of the object through the joints.",
+        "comfortTitle": "Increasing comfort",
+        "comfortText": "In addition, the level of comfort in the object is also eliminated by the removal of the draft and the entry of cold air.",
+        "standardsTitle": "Energy standards",
+        "standardsText": "When reconstructing an existing facility, the air barrier, if it is planned in accordance with recognized standards, can meet applicable standards for a low-energy facility or passive house.",
+        "comfortCheckTitle": "Checking comfort conditions",
+        "comfortCheckLead": "Checking the conditions of comfort in buildings (temperature, CO2, humidity, lighting ...)",
+        "parameterLabels": [
+            "Temperature",
+            "CO2",
+            "Humidity",
+            "Lighting"
+        ],
+        "ctaTitle": "Need measurements?",
+        "ctaText": "Contact us for precise measurements and analysis of your building.",
+        "ctaButton": "Contact us"
+    },
+    "ProjectManagementPage": {
+        "overline": "SERVICE",
+        "heroTitle1": "PROJECT",
+        "heroTitle2": "MANAGEMENT",
+        "introLead": "ENEPLUS provides a turnkey service starting from the review of the location for the realization of your project and planning.",
+        "introText1": "Our expert team assesses the technical characteristics, conditions and requirements for the realization of your project. ENEPLUS meets all specific needs of each individual project.",
+        "introText2": "Our project team with its rich experience can achieve the highest standards in the industry, ensuring quality and efficiency in every phase.",
+        "workflowTitle": "Project Management",
+        "workflowSubtitle": "ENEPLUS project coordinators with years of experience provide complete services including:",
+        "workflowSteps": [
+            "Planning",
+            "Procurement and resource monitoring",
+            "Budget analysis",
+            "Deadline determination",
+            "Execution and monitoring",
+            "Project closure"
+        ],
+        "methodTitle": "Our Approach",
+        "methodText": "ENEPLUS determines project phases, we coordinate the work of the entire team and supervise progress.",
+        "methodList": [
+            {
+                "title": "Team coordination:",
+                "text": "Efficient management of all project participants."
+            },
+            {
+                "title": "Progress supervision:",
+                "text": "Continuous status monitoring and reporting."
+            },
+            {
+                "title": "On-time delivery:",
+                "text": "We ensure your project is delivered within constraints."
+            }
+        ],
+        "ctaTitle": "Start your project",
+        "ctaText": "Let experts handle management and ensure your investment success.",
+        "ctaButton": "Contact us"
+    }
+}

@@ -1,0 +1,277 @@
+.aboutSection {
+    position: relative;
+    /* Increased padding for luxurious white space */
+    padding: 12rem 5% 15rem;
+    background-color: #ffffff;
+    overflow: hidden;
+    /* Ensure it sits correctly relative to the fixed hero */
+    z-index: 30; 
+}
+
+/* --- Background Decorations --- */
+.bgDecoGlow {
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    width: 60%;
+    height: 70%;
+    background: radial-gradient(ellipse at center, rgba(74, 222, 128, 0.12) 0%, transparent 70%);
+    filter: blur(100px);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.bgDecoLine {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 1px;
+    height: 120%;
+    background: linear-gradient(to bottom, transparent, rgba(74, 222, 128, 0.3), transparent);
+    z-index: 1;
+    opacity: 0.6;
+}
+
+/* --- Main Grid Layout --- */
+.innerGrid {
+    display: grid;
+    /* Complex grid: Image takes more space, content overlaps */
+    grid-template-columns: 1.2fr 1fr;
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+    align-items: center;
+}
+
+/* --- Image Area Styling --- */
+.imageArea {
+    position: relative;
+    /* Pull image slightly left to create dynamic tension */
+    left: -5%;
+}
+
+.imageWrapperMasked {
+    position: relative;
+    width: 100%;
+    height: 700px; /* Fixed height for presence */
+    overflow: hidden;
+    
+    /* THE LUXURY MASK: Creates soft edges blending into white */
+    /* Similar concept to the hero sidebar mask */
+    mask-image: linear-gradient(to right, black 60%, transparent 98%),
+                radial-gradient(circle at 100% 50%, transparent 0%, black 80%);
+    -webkit-mask-image: linear-gradient(to right, black 60%, transparent 98%),
+                        radial-gradient(circle at 100% 50%, transparent 0%, black 80%);
+    
+    /* Initial state for GSAP reveal */
+    clip-path: inset(0 100% 0 0); 
+    transform-origin: left center;
+}
+
+.mainImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Subtle filter to blend better with white/green */
+    filter: saturate(0.9) brightness(1.05); 
+}
+
+.imageOverlayGradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Adds a slight green tint and darkens bottom left for text readability */
+    background: linear-gradient(135deg, rgba(74, 222, 128, 0.1), transparent 60%, rgba(0,0,0,0.2));
+    pointer-events: none;
+}
+
+.techFloatingMarker {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    padding: 0.8rem 1.5rem;
+    border-left: 3px solid #4ade80;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    z-index: 20;
+}
+
+.techFloatingMarker span {
+    font-family: var(--font-outfit), sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    color: #1a1a1a;
+}
+
+/* --- Content Area Styling --- */
+.contentArea {
+    position: relative;
+    /* LAYER OVERLAP: Pull content left over the image */
+    margin-left: -15%;
+    padding-top: 5rem;
+    z-index: 25; /* Must be higher than image */
+}
+
+.headerBlock {
+    margin-bottom: 6rem;
+}
+
+.overline {
+    display: flex;
+    align-items: center;
+    color: #4ade80;
+    font-weight: 800;
+    letter-spacing: 4px;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    font-family: var(--font-outfit), sans-serif;
+}
+
+.overline::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #4ade80;
+    margin-right: 15px;
+}
+
+.heading {
+    /* Massive, luxury typography sizing */
+    font-size: clamp(3rem, 6vw, 5.5rem);
+    font-weight: 900;
+    color: #1a1a1a;
+    line-height: 0.95;
+    text-transform: uppercase;
+    font-family: var(--font-outfit), sans-serif;
+    letter-spacing: -2px;
+    /* Subtle shadow to lift it off the image overlap */
+    text-shadow: 20px 20px 60px rgba(255, 255, 255, 0.5);
+}
+
+.highlight {
+    color: #4ade80;
+    position: relative;
+    display: inline-block;
+}
+
+/* --- Text Blocks Layout --- */
+.TextBlockLayout {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding-left: 2rem; /* Indent from heading */
+}
+
+.textBlockItem {
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    max-width: 600px;
+}
+
+/* Shift the second block for a dynamic layout layout */
+.offsetBlock {
+    margin-left: auto; /* Pushes it to the right */
+    margin-top: -2rem; /* Pulls it slightly up */
+}
+
+.blockMarker {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #e5e7eb; /* Very subtle gray */
+    /* Using stroke effect for technical feel */
+    -webkit-text-stroke: 1px #4ade80;
+    color: transparent;
+    opacity: 0.5;
+}
+
+.textContent p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #4b5563;
+    font-weight: 400;
+    font-family: var(--font-outfit), sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.leadParagraph {
+    font-size: 1.25rem !important;
+    color: #1a1a1a !important;
+}
+
+.textContent strong {
+    color: #1a1a1a;
+    font-weight: 700;
+    color: #4ade80; /* Highlight ENEPLUS */
+}
+
+.accentBarBottom {
+    width: 60px;
+    height: 4px;
+    background: #4ade80;
+    margin-top: 2rem;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 1200px) {
+    .innerGrid {
+        grid-template-columns: 1fr;
+    }
+    
+    .imageArea {
+        left: 0;
+        margin-bottom: -100px; /* Continue overlap on mobile */
+    }
+    
+    .imageWrapperMasked {
+        height: 500px;
+        /* Simpler mask for mobile */
+         mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+        -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    }
+
+    .contentArea {
+        margin-left: 0;
+        padding: 0 5%;
+    }
+
+    .heading {
+        font-size: clamp(3rem, 8vw, 4rem);
+        text-shadow: none; /* Remove shadow on mobile for clarity */
+    }
+
+    .TextBlockLayout {
+        padding-left: 0;
+    }
+    
+    .offsetBlock {
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutSection {
+        padding: 6rem 0;
+    }
+    
+    .techFloatingMarker {
+        display: none;
+    }
+
+    .textBlockItem {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .blockMarker {
+        font-size: 2rem;
+    }
+}

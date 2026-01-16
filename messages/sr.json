@@ -1,0 +1,504 @@
+{
+    "Navbar": {
+        "home": "Početna",
+        "about": "O nama",
+        "services": "Usluge",
+        "software": "Softver",
+        "media": "Media",
+        "contact": "Kontakt"
+    },
+    "Hero": {
+        "headingLine1": "Eneplus",
+        "headingLine2": "VAM POMAŽE",
+        "headingLine3": "DA BUDETE EFIKASNIJI",
+        "subheading": "Budućnost upravljanja energijom je stigla. Postanite lider u energetskoj efikasnosti uz našu ekspertizu.",
+        "cta": "Započnite Projekat"
+    },
+    "About": {
+        "analytics": "ENEPLUS ANALITIKA",
+        "overline": "O NAMA",
+        "titleLine1": "MI ŠTEDIMO VAŠE",
+        "titleHighlight": "VREME I NOVAC",
+        "p1": "je konsultantska firma koja pruža usluge iz oblasti energetskog menadžmenta, energetske efikasnosti i projektnog menadžmenta.",
+        "p2": "ENEPLUS razvija strategije i implementira rešenja koja omogućuju optimizaciju procesa, smanjenja troškova i održivi razvoj.",
+        "p3": "Naš pristup je personalizovan, fokusiran na rezultate i dugoročnu vrednost za svakog klijenta."
+    },
+    "Services": {
+        "titlePrefix": "NAŠE",
+        "titleAccent": "USLUGE",
+        "learnMore": "Saznaj više",
+        "energyManagement": {
+            "name": "Energetski menadžment",
+            "description": "Sistematsko upravljanje energijom"
+        },
+        "studies": {
+            "name": "Studije i analize",
+            "description": "Detaljna energetska analiza"
+        },
+        "training": {
+            "name": "Treninzi i edukacije",
+            "description": "Stručno osposobljavanje"
+        },
+        "certification": {
+            "name": "Energetska sertifikacija",
+            "description": "Sertifikati i elaborati"
+        },
+        "design": {
+            "name": "Projektovanje",
+            "description": "Tehničko projektovanje"
+        },
+        "web": {
+            "name": "Web aplikacije i prezentacije",
+            "description": "Digitalna rešenja"
+        },
+        "ppp": {
+            "name": "Priprema i podrška za JPP",
+            "description": "Javno-privatna partnerstva"
+        },
+        "iso": {
+            "name": "ISO 50001",
+            "description": "Međunarodni standard"
+        },
+        "consulting": {
+            "name": "Energetski konsalting",
+            "description": "Stručne konsultacije"
+        },
+        "audits": {
+            "name": "Energetski pregledi",
+            "description": "Detaljni pregledi objekata"
+        },
+        "measurements": {
+            "name": "Merenja",
+            "description": "Termografija i Blower Door"
+        },
+        "management": {
+            "name": "Projekt menadžment",
+            "description": "Upravljanje projektima"
+        }
+    },
+    "Footer": {
+        "description": "Konsultantska firma koja pruža usluge iz oblasti energetskog menadžmenta, energetske efikasnosti i projektnog menadžmenta.",
+        "servicesTitle": "Usluge",
+        "companyTitle": "Kompanija",
+        "contactTitle": "Kontakt",
+        "rights": "Sva prava zadržana."
+    },
+    "AboutPage": {
+        "heroOverline": "ENEPLUS",
+        "heroTitle": "O NAMA",
+        "leadText": "ENEPLUS je konsultantska firma koja pruža usluge iz oblasti energetskog menadžmenta, energetske efikasnosti i projektnog menadžmenta.",
+        "p1": "Naš ekspertski tim stoji Vam na raspolaganju prilikom analize i odabira najoptimalnijih rešenja koji će povećati energetsku efikasnost Vašeg sistema uz smanjenje troškova.",
+        "p2": "ENEPLUS razvija strategije i implementira rešenja koja omogućuju optimizaciju procesa, smanjenja troškova i održivi razvoj.",
+        "teamLabel": "ENEPLUS",
+        "teamTitle": "EKSPERTSKI TIM",
+        "team": {
+            "zeljko": {
+                "title": "dipl.inž.el.-master"
+            },
+            "nikola": {
+                "title": "dipl.inž.maš.-master"
+            }
+        }
+    },
+    "ServicesPage": {
+        "overline": "ENEPLUS",
+        "heroTitle1": "NAŠE",
+        "heroTitle2": "USLUGE",
+        "subtitle": "Sveobuhvatna rešenja za energetsku efikasnost i održivost"
+    },
+    "SoftwarePage": {
+        "overline": "SOFTVER",
+        "heroTitle1": "ENERGY",
+        "heroTitle2": "MANAGEMENT",
+        "heroSubtitle": "SOFTWARE",
+        "leadText": "Softver za energetski menadžment je web orijentisan softver koji predstavlja neizostavnu alatku u radu energetskog menadžera.",
+        "targetTitle": "Kome je namenjen?",
+        "targetText": "Softver je namenjen prvenstveno <span class='textHighlight'>opštinama</span>, <span class='textHighlight'>javnim preduzećima</span>, a mogu ga koristiti i druge zainteresovane kompanije koje žele da prate svoju energetsku potrošnju i performanse.",
+        "videoLabel": "PREZENTACIJA",
+        "videoTitle": "Pogledajte softver u akciji",
+        "capabilitiesLabel": "MOGUĆNOSTI",
+        "capabilitiesTitle": "Softver za energetski menadžment nam omogućava:",
+        "capabilitiesList": [
+            "Skladištenje i pristup informacijama o potrošnji energije i vode u svim objektima koji su obuhvaćeni sistemom.",
+            "Kontinualno ažuriranje i održavanje baze podataka o pojedinim objektima",
+            "Kontinualno unošenje i nadzor nad podacima o potrošnji svih vrsta energenata i vode",
+            "Obradu i analizu prikupljenih podataka",
+            "Rano otkrivanje nepotrebnog rasipanja energije",
+            "Stvaranje informacione osnova za donošenje odluka",
+            "Pregled i analiza dosadašnjih operativnih podataka",
+            "Identifikovanje, priprema i izvršavanje projekata poboljšanja energetske efikasnosti",
+            "Precizno definisanje pokazatelja potrošnje, efikasnosti i uspešnosti",
+            "Podrška budžetiranju",
+            "Evaluacija mera energetske efikasnosti"
+        ],
+        "modulesLabel": "MODULI",
+        "modulesTitle": "Integralni moduli sistema",
+        "modules": {
+            "lighting": "JAVNA RASVETA",
+            "heating": "DALJINSKO GREJANJE",
+            "water": "VODOVOD I KANALIZACIJA",
+            "buildings": "OBJEKTI",
+            "fleet": "VOZNI PARK"
+        },
+        "ctaTitle": "Zainteresovani ste za softver?",
+        "ctaText": "Kontaktirajte nas za demo verziju i detaljnu prezentaciju.",
+        "ctaButton": "Kontaktirajte nas"
+    },
+    "MediaPage": {
+        "overline": "RESURSI",
+        "heroTitle": "MEDIA",
+        "docsLabel": "DOKUMENTACIJA",
+        "docsTitle": "Preuzmite korisne materijale",
+        "docsButton": "Pogledaj",
+        "videosLabel": "VIDEO PREZENTACIJE",
+        "videosTitle": "Pogledajte naše video materijale",
+        "videos": {
+            "software": "SOFTVER",
+            "services": "USLUGE"
+        }
+    },
+    "ContactPage": {
+        "overline": "INFORMACIJE",
+        "heroTitle": "KONTAKT",
+        "companyInfoTitle": "Podaci o firmi",
+        "pib": "PIB",
+        "idNumber": "Matični broj",
+        "account": "Račun",
+        "contactTitle": "Kontakt",
+        "email": "E-mail",
+        "phones": "Telefoni",
+        "address": "Adresa",
+        "socialTitle": "Pratite nas"
+    },
+    "EnergyManagementPage": {
+        "overline": "USLUGA",
+        "heroTitle1": "ENERGETSKI",
+        "heroTitle2": "MENADŽMENT",
+        "leadText": "Eneplus vrši uslugu energetskog menadžmenta koji predstavlja proces upravljanja energetskim performansama opštine, preduzeća ili konkretnog objekta, a obuhvata analizu postojećeg stanja, procesa nabavke i proizvodnje energije sve do njenog finalnog korišćenja.",
+        "p1": "Sistemsko upravljanje energijom predstavlja osiguranje kontinualne brige o efikasnosti potrošnje energije i vode, a time i brige o zaštiti životne sredine.",
+        "p2": "Same tehničke mere bez uspostavljanja energetskog menadžmenta nisu dovoljne da bi se ostvarile procenjene uštede. Energetska efikasnost ili poboljšanja u energetici kombinacija su mera koje su vezane za tehnologiju, ali i za ljudski faktor.",
+        "p3": "Uspostavljanje i uvođenje sistema energetskog menadžmenta takođe podrazumeva i sprovođenje aktivnosti za edukaciju i podizanje svesti korisnika o važnosti racionalnog korišćenja energije. Ovakve aktivnosti dugoročno osiguravaju kontinuitet i uspešnost programa energetske efikasnosti.",
+        "isoLabel": "ISO 50001",
+        "isoTitle": "Ciklus energetskog menadžmenta",
+        "isoSubtitle": "Prema standardu ISO 50001 podrazumeva sprovođenje sledećih aktivnosti:",
+        "isoSteps": [
+            "Definisanje energetske politike firme u skladu sa njenim aktivnostima i potrebama za uštedu energije",
+            "Energetsko planiranje koje podrazumeva izradu akcionog plana ušteda energije (na bazi prethodnog energetskog audita)",
+            "Sprovođenje plana ušteda energije kroz sagledane i odobrene projekte",
+            "Kontrolu realizacije plana ušteda energije",
+            "Praćenje učinka sprovedenih mera",
+            "Primenu korektivnih mera u odnosu na neusaglašenosti i odstupanja u odnosu na planove",
+            "Sprovođenje internih provera kojima se verifikuje da je sistem energetskog menadžmenta dobro uspostavljen i da je u primeni."
+        ],
+        "ctaTitle": "Spremni za saradnju?",
+        "ctaText": "Kontaktirajte nas i saznajte kako možemo pomoći vašoj organizaciji.",
+        "ctaButton": "Kontaktirajte nas"
+    },
+    "StudiesPage": {
+        "overline": "USLUGA",
+        "heroTitle1": "STUDIJE I",
+        "heroTitle2": "ANALIZE",
+        "leadText": "Eneplus izrađuje studije i analize iz oblasti energetske efikasnosti i korišćenja obnovljivih izvora energije.",
+        "p1": "Naš tim stručnjaka pruža detaljne uvide i precizne podatke koji vam pomažu u donošenju informisanih odluka o vašim energetskim projektima.",
+        "analysisItems": [
+            "Analiza ponude i potražnje",
+            "Studije izvodljivosti",
+            "Cost benefit analize",
+            "Programi unapređenja energetske efikasnosti",
+            "Akcioni planovi",
+            "Strategije"
+        ],
+        "ctaTitle": "Potrebna vam je stručna analiza?",
+        "ctaText": "Kontaktirajte nas za detaljne studije i strateško planiranje.",
+        "ctaButton": "Kontaktirajte nas"
+    },
+    "TrainingPage": {
+        "overline": "USLUGA",
+        "heroTitle1": "TRENINZI I",
+        "heroTitle2": "EDUKACIJE",
+        "leadText": "Obuke sprovodimo u našem ili vašem prostoru. Naš fokus je na prenosu praktičnog znanja i najnovijih trendova u energetici.",
+        "expertiseTitle": "Ekspertiza",
+        "expertiseText": "Pružamo <span class='textHighlight'>sertifikovane obuke</span> za upravljanje energijom.",
+        "listTitle": "Treninzi i edukacije koje nudimo:",
+        "trainingItems": [
+            "Edukacije energetskih menadžera",
+            "Softverski alati za energetsku efikasnost i energetski menadžment",
+            "Energy Performance Contracting",
+            "Energy Supply Contracting"
+        ],
+        "ctaTitle": "Želite da unapredite znanje?",
+        "ctaText": "Prijavite se za naše obuke i sertifikovane treninge.",
+        "ctaButton": "Kontaktirajte nas"
+    },
+    "CertificationPage": {
+        "overline": "USLUGA",
+        "heroTitle1": "ENERGETSKA",
+        "heroTitle2": "SERTIFIKACIJA",
+        "elaboratTitle": "Elaborat energetske efikasnosti",
+        "elaboratText": "Utvrđivanje ispunjenosti uslova energetske efikasnosti zgrade vrši se izradom elaborata EE, koji je sastavni deo tehničke dokumentacije koja se prilaže uz zahtev za izdavanje građevinske dozvole ili uz zahtev za izdavanje rešenja kojim se odobrava izvođenje radova na adaptaciji ili sanaciji objekta, kao i energetskoj sanaciji.",
+        "passportTitle": "Energetski pasoš",
+        "passportText1": "Sertifikat o energetskim svojstvima – energetski pasoš je dokument koji sadrži izračunate vrednosti potrošnje energije u okviru određene kategorije zgrada, energetski razred i preporuke za poboljšanje energetskih svojstava zgrade.",
+        "passportText2": "Energetski pasoš moraju imati sve nove zgrade, kao i postojeće zgrade koje se rekonstruišu, adaptiraju, saniraju ili energetski saniraju, osim zgrada koje su ovim pravilnikom izuzete od obaveze energetske sertifikacije.",
+        "passportText3": "Energetski pasoš čini sastavni deo tehničke dokumentacije koja se prilaže uz zahtev za izdavanje upotrebne dozvole.",
+        "passportLink": "Više o energetskom pasošu",
+        "ctaTitle": "Potrebna vam je sertifikacija?",
+        "ctaText": "Kontaktirajte nas za izradu elaborata i energetskih pasoša.",
+        "ctaButton": "Kontaktirajte nas"
+    },
+    "DesignPage": {
+        "overline": "USLUGA",
+        "heroTitle": "PROJEKTOVANJE",
+        "introText": "Kako bi se postigli maksimalni rezultati uz minimalna ulaganja važno je da nas uključite na samom startu izrade projekta kako bi se ponudilo najefikasnije i finansijski najoptimalnije rešenje za vas.",
+        "warningText": "Greške koje se naprave u samom startu imaju dalekosežne negativne posledice <span className={styles.warningHighlight}>(povećana potrošnja energije, narušen komfor)</span> i teško se otklanjaju.",
+        "offerTitle": "Naša ponuda",
+        "offerText": "Eneplus nudi uslugu izrade projekata energetske efikasnosti:",
+        "offerList": [
+            "Izgradnja",
+            "Sanacija",
+            "Rekonstrukcija"
+        ],
+        "integralTitle": "Integralni pristup",
+        "integralText": "Integralnim načinom rada (saradnici svih neophodnih profila) postižemo da naši projekti imaju:",
+        "benefitsList": [
+            "Maksimalni kvalitet i preciznost",
+            "Ekonomsku održivost",
+            "Povoljan uticaj na životnu sredinu"
+        ],
+        "ctaTitle": "Planirate projekat?",
+        "ctaText": "Kontaktirajte nas na vreme za maksimalne rezultate.",
+        "ctaButton": "Kontaktirajte nas"
+    },
+    "WebAppsPage": {
+        "overline": "USLUGA",
+        "heroTitle1": "WEB APLIKACIJE",
+        "heroTitle2": "I PREZENTACIJE",
+        "introText": "ENEPLUS pruža uslugu izrade namenskih WEB aplikacija korišćenjem najsavremenijih IT tehnologija:",
+        "specializationTitle": "Specijalizacija",
+        "specializationText": "Razvoj aplikacija u kojima je <span class='textHighlight'>energetska efikasnost primarna</span>.",
+        "offerTitle": "Izrada WEB prezentacija",
+        "offerText": "Kreiramo moderne i efektne prezentacije prilagođene vašim potrebama:",
+        "offerList": [
+            "MS PowerPoint",
+            "Prezi",
+            "Video prezentacije"
+        ],
+        "ctaTitle": "Trebate softversko rešenje?",
+        "ctaText": "Kontaktirajte nas za razvoj namenskih aplikacija i prezentacija.",
+        "ctaButton": "Kontaktirajte nas"
+    },
+    "EnergyConsultingPage": {
+        "overline": "USLUGA",
+        "heroTitle1": "ENERGETSKI",
+        "heroTitle2": "KONSALTING",
+        "introText": "ENEPLUS u okviru svojih usluga svim zainteresovanim pravnim i fizičkim licima pruža konsultantske usluge o gradnji i rekonstrukciji objekata prema principima energetske efikasnosti.",
+        "bookingTitle": "Zakazivanje termina",
+        "bookingText": "Zakazivanje se vrši putem e-maila na: <a href='mailto:office@eneplus.rs' class='link'>office@eneplus.rs</a>",
+        "infoNote": "U okviru prijave navesti sledeće podatke:",
+        "requirementsList": [
+            "Ime i prezime, kontakt telefon",
+            "Kratak opis vašeg predmeta interesovanja",
+            "Dodatnu dokumentaciju (ukoliko postoji) u elektronskoj formi"
+        ],
+        "importantNote": "* Na zakazane konsultacije poneti dokumentaciju vezanu za vaš objekat.",
+        "timeSlotTitle": "Vreme termina",
+        "timeSlotText": "Molimo vas da navedete sve termine u periodu od <strong>10-15h</strong> koji vam odgovaraju tokom radne nedelje.",
+        "confirmationText": "Vaš termin ćemo vam javiti istog dana, najkasnije do 15h.",
+        "teamTitle": "Naš stručni tim",
+        "teamSubtitle": "Konsultacije vode stručnjaci sa višegodišnjim iskustvom",
+        "generalContact": "Za sva dodatna pitanja možete pisati na <a href='mailto:office@eneplus.rs' class='linkLight'>office@eneplus.rs</a>",
+        "ctaTitle": "Dostupni 24/7",
+        "ctaText": "Klijentima smo dostupni 24 časa dnevno, uvek spremni da pružimo dragocen savet ili sugestiju, a sve u cilju i sa željom da naše klijente učinimo zadovoljnim, vaše ideje i vizije pretvorimo u stvarnost.",
+        "ctaButton": "Zakažite konsultacije"
+    },
+    "PppSupportPage": {
+        "overline": "USLUGA",
+        "heroTitle1": "PRIPREMA I",
+        "heroTitle2": "PODRŠKA ZA JPP",
+        "introText": "ENEPLUS pruža stručnu pomoć javnom i privatnom sektoru u okviru poslova pripreme i realizacije projekata javno-privatnog partnerstva.",
+        "servicesTitle": "Naše usluge",
+        "servicesList": [
+            "Identifikacija i definisanje projekta uz razradu opcija",
+            "Analiza tržišta i odabira adekvatne lokacije",
+            "Izrada predloga projekta JPP",
+            "Priprema projekta JPP (projektni tim, projektni plan i vremenski raspored)",
+            "Predtenderska faza (studije, model JPP, odabir nabavke, kriterijumi, nacrt Ugovora)",
+            "Analiza rizika i finansijska konstrukcija",
+            "Izrada tenderske dokumentacije i sprovođenje tendera",
+            "Energetska efikasnost u nabavkama"
+        ],
+        "phasesSectionTitle": "Mapa puta do realizacije",
+        "phasesSubtitle": "Od ideje do realizacije projekta javno-privatnog partnerstva",
+        "phases": [
+            {
+                "title": "Procena opravdanosti",
+                "subtitle": "primene modela JPP",
+                "list": [
+                    "Definisanje prioritetnog projekta",
+                    "Procena opravdanosti primene modela JPP"
+                ]
+            },
+            {
+                "title": "Priprema i odobravanje",
+                "subtitle": "predloga projekta",
+                "list": [
+                    "Detaljne pripreme",
+                    "Predlaganje projekta i dobijanje saglasnosti"
+                ]
+            },
+            {
+                "title": "Postupak dodele",
+                "subtitle": "javnog ugovora i tendera",
+                "list": [
+                    "Izbor privatnog partnera",
+                    "Zaključivanje javnog ugovora"
+                ]
+            },
+            {
+                "title": "Sprovođenje",
+                "subtitle": "projekta JPP",
+                "list": [
+                    "Upravljanje ugovorom",
+                    "Naknadna ocena"
+                ]
+            }
+        ],
+        "ctaTitle": "Planirate JPP projekat?",
+        "ctaText": "Kontaktirajte nas za stručnu podršku u svim fazama realizacije.",
+        "ctaButton": "Kontaktirajte nas"
+    },
+    "IsoPage": {
+        "overline": "STANDARD",
+        "heroTitle": "ISO 50001",
+        "leadText": "Svrha ovog međunarodnog standarda je da omogući organizacijama da uspostave sisteme i procese koji su potrebni da se pobolјša energetska performansa, obuhvatajući energetsku efikasnost, korišćenje i potrošnju energije.",
+        "navPurpose": "Namena ovog standarda je da dovede do smanjenja emisija gasova sa efektom staklene bašte i drugih uticaja na životnu sredinu i troškova za energiju putem sistematskog menadžmenta energijom.",
+        "introText": "Ovaj međunarodni standard može da se primeni na sve tipove i veličine organizacija, bez obzira na geografske, kulturne ili društvene uslove. Uspešna primena zavisi od opredelјenosti svih nivoa i funkcija organizacije, a posebno od najvišeg rukovodstva.",
+        "benefitsTitle": "Koristi od ISO 50001",
+        "benefitsSubtitle": "Kompanije sa sistemom energetskog menadžmenta u skladu sa ISO 50001 standardom otvaraju sebi nove poslovne mogućnosti. U svetu je sve više globalnih kompanija koje žele da posluje sa partnerima koji imaju uveden standard ISO 50001.",
+        "directBenefitsTitle": "Direktne koristi",
+        "directBenefitsList": [
+            "Ušteda na troškovima energije",
+            "Maksimalno korišćenje energetskih izvora i sredstava",
+            "Smanjenje potrošnje energije",
+            "Povećanje energetske efikasnosti",
+            "Povećanje energetskih performansi",
+            "Smanjenje zagađenja životne sredine",
+            "Usaglašavanje potrošnje energije sa zakonskim odredbama"
+        ],
+        "businessBenefitsTitle": "Poslovne prednosti",
+        "businessBenefitsList": [
+            "Kredibilitet u svetskim okvirima o potrebi racionalnog upravljanja energijom",
+            "Prevođenje energetskog menadžmenta u poslovnu praksu",
+            "Poboljšanje korporativnog imidža među regulatorim telima, klijentima i javnosti",
+            "Dokaz o društvenoj odgovornosti",
+            "Poboljšanje morala zaposlenih",
+            "Praćenje parametara preko konzistentne <span class='textHighlight'>Planiraj - Uradi - Proveri - Izvesti</span> metode"
+        ],
+        "implTitle": "Implementacija",
+        "implText": "Uvođenje standarda ISO 50001 je imperativ za sve kompanije koje žele da poboljšaju i učvrste svoju tržišnu poziciju u odnosu na konkurenciju.",
+        "consultingBold": "Eneplus pruža konsultantske usluge u procesu implementacije sistema energetskog menadžmenta.",
+        "consultingText": "Naše praktično iskustvo, učešće u komisijama za pripremu standarda, poznavanje procedura, potrebnih dokumenata i dostupnih tehnologija će značajno olakšati uvođenje standarda ISO 50001 u Vašoj organizaciji.",
+        "ctaTitle": "Želite da uvedete standard?",
+        "ctaText": "Kontaktirajte nas za stručnu pomoć pri implementaciji ISO 50001.",
+        "ctaButton": "Kontaktirajte nas"
+    },
+    "EnergyAuditsPage": {
+        "overline": "USLUGA",
+        "heroTitle1": "ENERGETSKI",
+        "heroTitle2": "PREGLEDI",
+        "introText": "Energetski pregled je pregled opreme i sistema koji troše energiju u objektu, s namerom da se obezbedi racionalna potrošnja energije.",
+        "detailsText1": "To je efikasno sredstvo koje daje jasan uvid u stanje energetskih instalacija, opreme, ali i konstruktivnih karakteristika objekta koje imaju značajan uticaj na potrošnju energije. Cilj energetskog pregleda je utvrđivanje mesta i uzroka neracionalne potrošnje energije.",
+        "detailsText2": "Otklanjanjem tih uzroka postižemo ne samo energetske uštede već i uštede u budžetu, ali i produženje životnog veka opreme i instalacija.",
+        "strategyText": "Energetski pregled predstavlja sistematski pristup u sagledavanju postojeće energetske performanse nekog sistema ili objekta, uklјučujući i analizu mera za pobolјšanje njegove energetske efikasnosti. Energetska efikasnost postaje faktor uspeha i konkurentska prednost kompanija, pošto je energija osnova prosperiteta i ekonomskog razvoja.",
+        "servicesTitle": "Naše Usluge",
+        "servicesSubtitle": "U okviru energetskih pregleda koji se vrše prema standardima <highlight>ISO 50002</highlight> i <highlight>EN 16247</highlight> ENEPLUS nudi:",
+        "servicesList": [
+            "Sveobuhvatni prvi intervju",
+            "Snimanje postojećeg stanja",
+            "Prikupljanje podataka o potrošnji energije i raspodela po potrošačima",
+            "Identifikacija potencijala za uštedu",
+            "Predlozi i ocene mera energetske efikasnosti",
+            "Savetovanje kod uspostavljanja sistema menadžementa energijom"
+        ],
+        "benefitsTitle": "Prednosti za korisnike",
+        "benefitsList": [
+            "Raznovrsne mere optimizacije",
+            "Kontrola potrošnje energije",
+            "Dugoročno smanjenje troškova",
+            "Prednost u odnosu na konkurenciju",
+            "Jačanje tržišne pozicije",
+            "Poboljšan CO2 bilans",
+            "Savetovanje kod investicija"
+        ],
+        "ctaTitle": "Zakažite energetski pregled",
+        "ctaText": "Smanjite troškove i optimizujte potrošnju energije.",
+        "ctaButton": "Kontaktirajte nas"
+    },
+    "MeasurementsPage": {
+        "overline": "USLUGA",
+        "heroTitle": "MERENJA",
+        "thermoTitle": "Infracrvena termografija",
+        "thermoLead": "Infracrvena termografija je metoda beskontaktnog merenja temperature i njene raspodele na površini posmatranog objekta.",
+        "thermoText": "Primena termografije u zgradarstvu pruža velike mogućnosti kontrole kvaliteta izvođenja radova kod novih građevina, ali i procene trenutnog stanja starijih objekata. Osim što daje uvid u stanje objekta u smislu toplotne izolacije, infracrvena termografija se uspešno primenjuje za procenu stanja omotača zgrade:",
+        "thermoList": [
+            "Otkrivanje različitih tipova grešaka (nedostataka i oštećenja)",
+            "Otkrivanje odvajanja maltera od površine i mogućeg prisustva vazduha ili vlage u slojevima ispod spoljašnjeg maltera, kao i za procenu ravnih krovova",
+            "Otkrivanje mesta odvajanja krovne daske od podloge, inspekciju električnih i HVAC instalacija, inspekciju uređaja i opreme, itd..."
+        ],
+        "blowerTitle": "Merenje Blower Door",
+        "blowerSubtitle": "Provera vazdušne zaptivenosti zgrade",
+        "preventionTitle": "Prevencija oštećenja",
+        "preventionText": "Može sprečiti nastanak strukturalnih oštećenja prouzrokovanih prodorom toplog i vlažnog vazduha u konstrukciju objekta preko spojeva.",
+        "comfortTitle": "Povećanje komfora",
+        "comfortText": "Dodatno, nivo komfora u objektu se takođe eliminiše uklanjanjem promaje i ulaska hladnog vazduha.",
+        "standardsTitle": "Energetski standardi",
+        "standardsText": "Prilikom rekonstrukcije postojećeg objekta, vazdušna barijera, ako je planirana u skladu sa priznatim standardima, može zadovoljiti važeće standarde za niskoenergetski objekat ili pasivnu kuću.",
+        "comfortCheckTitle": "Provera uslova komfora",
+        "comfortCheckLead": "Provera uslova komfora u zgradama (temperatura, CO2, vlažnost, osvetljenost...)",
+        "parameterLabels": [
+            "Temperatura",
+            "CO2",
+            "Vlažnost",
+            "Osvetljenost"
+        ],
+        "ctaTitle": "Potrebna su vam merenja?",
+        "ctaText": "Kontaktirajte nas za precizna merenja i analizu vašeg objekta.",
+        "ctaButton": "Kontaktirajte nas"
+    },
+    "ProjectManagementPage": {
+        "overline": "USLUGA",
+        "heroTitle1": "PROJEKT",
+        "heroTitle2": "MENADŽMENT",
+        "introLead": "ENEPLUS vam pruža uslugu po sistemu „ključ u ruke“ počevši od pregleda lokacije za realizaciju vašeg projekta i planiranja.",
+        "introText1": "Naš stručni tim vrši ocenu tehničkih karakteristika, uslova i zahteve za realizaciju vašeg projekta. ENEPLUS udovoljava svim specifičnim potrebama pojedinačnog projekta.",
+        "introText2": "Naš projektni tim sa svojim bogatim iskustvom može postići najviše standarde u industriji, osiguravajući kvalitet i efikasnost u svakoj fazi.",
+        "workflowTitle": "Upravljanje Projektom",
+        "workflowSubtitle": "ENEPLUS projektni koordinatori s dugogodišnjim iskustvom pružaju kompletne usluge koje uključuju:",
+        "workflowSteps": [
+            "Planiranje",
+            "Nabavka i praćenje resursa",
+            "Analiza budžeta",
+            "Određivanje rokova",
+            "Izvođenje i praćenje",
+            "Zatvaranje projekta"
+        ],
+        "methodTitle": "Naš Pristup",
+        "methodText": "ENEPLUS određuje projektne faze, koordiniramo rad celog tima i nadziremo napredak.",
+        "methodList": [
+            {
+                "title": "Koordinacija tima:",
+                "text": "Efikasno upravljanje svim učesnicima u projektu."
+            },
+            {
+                "title": "Nadzor napretka:",
+                "text": "Kontinuirano praćenje statusa i izveštavanje."
+            },
+            {
+                "title": "Isporuka na vreme:",
+                "text": "Osiguravamo da se vaš projekat isporuči prema predviđenim ograničenjima."
+            }
+        ],
+        "ctaTitle": "Pokrenite svoj projekat",
+        "ctaText": "Prepustite upravljanje stručnjacima i osigurajte uspeh vaše investicije.",
+        "ctaButton": "Kontaktirajte nas"
+    }
+}

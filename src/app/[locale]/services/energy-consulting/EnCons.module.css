@@ -1,0 +1,461 @@
+.pageWrapper {
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+/* ==================== HERO SECTION ==================== */
+.heroSection {
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8rem 8% 4rem;
+    background-color: #0a0a0a;
+    overflow: hidden;
+}
+
+.heroBgPattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(rgba(74, 222, 128, 0.15) 1px, transparent 1px);
+    background-size: 50px 50px;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.heroGlow {
+    position: absolute;
+    top: 20%;
+    right: -10%;
+    width: 60%;
+    height: 80%;
+    background: radial-gradient(ellipse at center, rgba(74, 222, 128, 0.2) 0%, transparent 60%);
+    filter: blur(80px);
+    z-index: 1;
+}
+
+.heroContainer {
+    position: relative;
+    z-index: 10;
+    max-width: 900px;
+}
+
+.overline {
+    display: inline-flex;
+    align-items: center;
+    color: #4ade80;
+    font-weight: 800;
+    letter-spacing: 5px;
+    font-size: 0.85rem;
+    margin-bottom: 2rem;
+    font-family: var(--font-outfit), sans-serif;
+}
+
+.overline::before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #4ade80;
+    margin-right: 15px;
+}
+
+.heroTitle {
+    font-size: clamp(3rem, 7vw, 6rem);
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: var(--font-outfit), sans-serif;
+    letter-spacing: -2px;
+    margin-bottom: 2rem;
+}
+
+.highlight {
+    color: #4ade80;
+    display: block;
+}
+
+.heroLine {
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(90deg, #4ade80, transparent);
+    margin-bottom: 2.5rem;
+}
+
+/* ==================== INTRO SPLIT SECTION ==================== */
+.introSection {
+    padding: 6rem 8%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.introContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: flex-start;
+}
+
+.highlightBlock {
+    margin-bottom: 3rem;
+    border-left: 4px solid #1a1a1a;
+    padding-left: 2rem;
+}
+
+.leadText {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #1a1a1a;
+    font-weight: 500;
+    margin: 0;
+}
+
+.bookingInfoBlock {
+    background: #fafafa;
+    padding: 2.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.infoTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #4ade80;
+    display: inline-block;
+}
+
+.bookingInfoBlock p {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.1rem;
+    color: #4b5563;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.infoNote {
+    font-weight: 600;
+    color: #1a1a1a !important;
+    margin-top: 1.5rem;
+}
+
+.requirementsList {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+
+.requirementsList li {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.05rem;
+    color: #4b5563;
+    line-height: 1.5;
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.requirementsList li::before {
+    content: '•';
+    color: #4ade80;
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+.importantNote {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1rem;
+    color: #ef4444;
+    font-style: italic;
+    font-weight: 600;
+    background: #fef2f2;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.link {
+    color: #4ade80;
+    font-weight: 700;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #22c55e;
+}
+
+.imageWrapper {
+    position: relative;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.imageFrame {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: -3rem;
+    /* Overlap effect */
+    z-index: 1;
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(10, 10, 10, 0.2), transparent);
+    z-index: 1;
+}
+
+.timeSlotCard {
+    background: #1a1a1a;
+    padding: 2.5rem;
+    color: white;
+    position: relative;
+    z-index: 2;
+    margin-left: 3rem;
+    margin-right: -2rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    border-left: 4px solid #4ade80;
+}
+
+.timeSlotTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #4ade80;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.timeSlotCard p {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #e5e7eb;
+    margin-bottom: 1rem;
+}
+
+.confirmationText {
+    color: #9ca3af !important;
+    font-size: 0.95rem !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1rem;
+    margin-bottom: 0 !important;
+}
+
+/* ==================== TEAM SECTION ==================== */
+.teamSection {
+    padding: 8rem 8% 6rem;
+    background: #f3f4f6;
+}
+
+.teamContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.teamSectionTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.teamSectionSubtitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.2rem;
+    color: #4b5563;
+    margin-bottom: 4rem;
+}
+
+.teamGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+
+.teamMemberCard {
+    background: white;
+    padding: 3rem;
+    border-radius: 8px;
+    /* Slight rounding */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teamMemberCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.memberAvatar {
+    width: 100px;
+    height: 100px;
+    background: #1a1a1a;
+    color: #4ade80;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    border: 3px solid #4ade80;
+    overflow: hidden;
+}
+
+.memberName {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+.memberTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1rem;
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    background: #f3f4f6;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+}
+
+.memberContact {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 2px solid #4ade80;
+    padding-bottom: 2px;
+    transition: all 0.2s ease;
+}
+
+.memberContact:hover {
+    background: #4ade80;
+    color: white;
+    border-color: #4ade80;
+}
+
+.generalContact p {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.1rem;
+    color: #4b5563;
+}
+
+.linkLight {
+    color: #1a1a1a;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* ==================== CTA SECTION ==================== */
+.ctaSection {
+    padding: 6rem 8%;
+    background-color: #1a1a1a;
+    text-align: center;
+    color: white;
+}
+
+.ctaContainer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ctaTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.ctaText {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.2rem;
+    color: #d1d5db;
+    margin-bottom: 3rem;
+    line-height: 1.7;
+}
+
+.ctaButton {
+    display: inline-block;
+    padding: 1.3rem 4rem;
+    background: transparent;
+    border: 2px solid #4ade80;
+    color: #4ade80;
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    clip-path: polygon(15px 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0 100%, 0 15px);
+}
+
+.ctaButton:hover {
+    background: #4ade80;
+    color: #1a1a1a;
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(74, 222, 128, 0.3);
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 1024px) {
+    .introContainer {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .imageWrapper {
+        order: -1;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .timeSlotCard {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: -2rem;
+    }
+
+    .imageFrame {
+        margin-bottom: 0;
+    }
+
+    .teamGrid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,321 @@
+/* Navbar.module.css */
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    height: 80px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.logo {
+    z-index: 101;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 180px;
+    position: relative;
+    /* Removed scale, using clean sizing */
+}
+
+.logo img {
+    /* Ensure image fits well within container */
+    max-height: 45px;
+    width: auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navList {
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Language Toggle - Desktop */
+.langToggle {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    background: transparent;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #6b7280;
+    transition: all 0.3s ease;
+    margin-right: 2rem;
+}
+
+.langToggle:hover {
+    border-color: #4ade80;
+    background: rgba(74, 222, 128, 0.05);
+}
+
+.langActive {
+    color: #4ade80;
+    font-weight: 800;
+}
+
+.langDivider {
+    color: #d1d5db;
+}
+
+/* Mobile Controls Container */
+.mobileControls {
+    display: none;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Language Toggle - Mobile */
+.langToggleMobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: #f3f4f6;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    transition: all 0.3s ease;
+}
+
+.langToggleMobile:hover {
+    background: #4ade80;
+    color: #ffffff;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    position: relative;
+    transition: color 0.3s ease;
+    font-family: var(--font-outfit), sans-serif;
+    padding: 0.5rem 0;
+}
+
+/* Hover Effect - Green Underline */
+.navLink::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #4ade80;
+    transition: width 0.3s ease;
+}
+
+.navLink:hover {
+    color: #4ade80;
+}
+
+.navLink:hover::after {
+    width: 100%;
+}
+
+/* Specific styling for the Desktop Contact Button */
+.navList li:last-child .navLink {
+    background: #1a1a1a;
+    color: #4ade80;
+    padding: 0.7rem 1.8rem;
+    border-radius: 50px;
+    border: 1px solid #4ade80;
+    transition: all 0.3s ease;
+}
+
+.navList li:last-child .navLink::after {
+    display: none;
+    /* Remove underline effect for button */
+}
+
+.navList li:last-child .navLink:hover {
+    background: #4ade80;
+    color: #1a1a1a;
+    box-shadow: 0 4px 15px rgba(74, 222, 128, 0.4);
+    transform: translateY(-2px);
+}
+
+
+/* Mobile Menu Toggle */
+.mobileToggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    z-index: 101;
+    padding: 10px;
+}
+
+.hamburgerLine {
+    width: 24px;
+    height: 2px;
+    background-color: #1a1a1a;
+    transition: all 0.3s ease;
+    border-radius: 2px;
+}
+
+/* Mobile Drawer */
+.mobileMenu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: right 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 99;
+}
+
+.mobileMenuOpen {
+    right: 0;
+}
+
+.mobileNavList {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+}
+
+.mobileNavList li {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.4s ease;
+}
+
+.mobileMenuOpen .mobileNavList li {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Stagger delays manually for a few items since we don't have JS loops for styles easily */
+.mobileMenuOpen .mobileNavList li:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.mobileMenuOpen .mobileNavList li:nth-child(2) {
+    transition-delay: 0.15s;
+}
+
+.mobileMenuOpen .mobileNavList li:nth-child(3) {
+    transition-delay: 0.2s;
+}
+
+.mobileMenuOpen .mobileNavList li:nth-child(4) {
+    transition-delay: 0.25s;
+}
+
+.mobileMenuOpen .mobileNavList li:nth-child(5) {
+    transition-delay: 0.3s;
+}
+
+.mobileMenuOpen .mobileNavList li:nth-child(6) {
+    transition-delay: 0.35s;
+}
+
+.mobileNavLink {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-family: var(--font-outfit), sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    position: relative;
+}
+
+.mobileNavLink::after {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 0%;
+    height: 10px;
+    background: rgba(74, 222, 128, 0.3);
+    z-index: -1;
+    transition: width 0.3s ease;
+}
+
+.mobileNavLink:hover {
+    color: #000;
+}
+
+.mobileNavLink:hover::after {
+    width: 100%;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 1024px) {
+    .navList {
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 70px;
+        padding: 0 5%;
+    }
+
+    .navList {
+        display: none;
+    }
+
+    .langToggle {
+        display: none;
+    }
+
+    .mobileControls {
+        display: flex;
+    }
+
+    .mobileToggle {
+        display: flex;
+    }
+
+    .logo {
+        max-width: 140px;
+    }
+
+    .logo img {
+        max-height: 35px;
+    }
+}

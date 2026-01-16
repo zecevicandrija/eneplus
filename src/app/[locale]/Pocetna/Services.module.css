@@ -1,0 +1,220 @@
+.section {
+    width: 100%;
+    padding: 8rem 5%;
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.heading {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 800;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+    font-family: var(--font-outfit), sans-serif;
+}
+
+.accent {
+    color: #4ade80;
+    margin-left: 10px;
+    /* Optional: text-shadow for better contrast if needed */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+    border-radius: 4px;
+}
+
+.cardLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    text-decoration: none;
+    color: inherit;
+    height: 100%;
+    min-height: 220px;
+    position: relative;
+    z-index: 2;
+}
+
+.cardGlow {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at center, rgba(74, 222, 128, 0.05) 0%, transparent 60%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 1;
+}
+
+.card:hover .cardGlow {
+    opacity: 1;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #4ade80;
+    transform: scaleX(0);
+    transition: transform 0.4s ease;
+    transform-origin: left;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(74, 222, 128, 0.3);
+    box-shadow:
+        0 15px 30px -10px rgba(0, 0, 0, 0.08),
+        0 0 20px rgba(74, 222, 128, 0.05);
+}
+
+.card:hover::before {
+    transform: scaleX(1);
+}
+
+.cardContent {
+    position: relative;
+    z-index: 2;
+}
+
+.iconWrapper {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+    color: #4ade80;
+    background: #f0fdf4;
+    border-radius: 50%;
+    border: 1px solid rgba(74, 222, 128, 0.2);
+    transition: all 0.3s ease;
+}
+
+.card:hover .iconWrapper {
+    transform: scale(1.1);
+    background: #4ade80;
+    color: #ffffff;
+    box-shadow: 0 5px 15px rgba(74, 222, 128, 0.3);
+}
+
+.cardTitle {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    margin: 0 0 0.5rem 0;
+    transition: color 0.3s ease;
+    font-family: var(--font-outfit), sans-serif;
+}
+
+.cardDescription {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 0.95rem;
+    color: #6b7280;
+    margin: 0;
+    line-height: 1.5;
+    transition: color 0.3s ease;
+}
+
+.cardFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.learnMore {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .learnMore {
+    opacity: 1;
+    color: #4ade80;
+}
+
+.arrow {
+    font-size: 1.2rem;
+    color: #4ade80;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: all 0.3s ease;
+}
+
+.card:hover .arrow {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Background pattern element */
+.bgPattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+    background-size: 40px 40px;
+    opacity: 0.3;
+    z-index: 0;
+    pointer-events: none;
+    mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 5rem 5%;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .heading {
+        font-size: 2.2rem;
+    }
+}

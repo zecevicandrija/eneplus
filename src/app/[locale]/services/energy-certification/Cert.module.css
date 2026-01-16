@@ -1,0 +1,311 @@
+.pageWrapper {
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+/* ==================== HERO SECTION ==================== */
+.heroSection {
+    position: relative;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10rem 8% 6rem;
+    background-color: #0a0a0a;
+    overflow: hidden;
+}
+
+.heroBgPattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(rgba(74, 222, 128, 0.15) 1px, transparent 1px);
+    background-size: 50px 50px;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.heroGlow {
+    position: absolute;
+    top: 20%;
+    right: -10%;
+    width: 60%;
+    height: 80%;
+    background: radial-gradient(ellipse at center, rgba(74, 222, 128, 0.2) 0%, transparent 60%);
+    filter: blur(80px);
+    z-index: 1;
+}
+
+.heroContainer {
+    position: relative;
+    z-index: 10;
+    max-width: 900px;
+}
+
+.overline {
+    display: inline-flex;
+    align-items: center;
+    color: #4ade80;
+    font-weight: 800;
+    letter-spacing: 5px;
+    font-size: 0.85rem;
+    margin-bottom: 2rem;
+    font-family: var(--font-outfit), sans-serif;
+}
+
+.overline::before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #4ade80;
+    margin-right: 15px;
+}
+
+.heroTitle {
+    font-size: clamp(4rem, 10vw, 8rem);
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 0.9;
+    text-transform: uppercase;
+    font-family: var(--font-outfit), sans-serif;
+    letter-spacing: -3px;
+    margin-bottom: 2rem;
+}
+
+.highlight {
+    color: #4ade80;
+    position: relative;
+}
+
+.heroLine {
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(90deg, #4ade80, transparent);
+    margin-bottom: 2.5rem;
+}
+
+/* ==================== CONTENT SECTION ==================== */
+.contentSection {
+    padding: 5rem 8%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.contentContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.contentBlock {
+    background: #fafafa;
+    border-left: 4px solid #4ade80;
+    padding: 3rem;
+    position: relative;
+}
+
+.blockHeader {
+    margin-bottom: 2rem;
+}
+
+.blockTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    letter-spacing: -0.5px;
+}
+
+.titleUnderline {
+    width: 60px;
+    height: 4px;
+    background-color: #4ade80;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.textWrapper p {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #4b5563;
+}
+
+.externalLinkBtn {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: #1a1a1a;
+    color: #4ade80;
+    font-family: var(--font-outfit), sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+}
+
+.externalLinkBtn:hover {
+    background-color: #4ade80;
+    color: #1a1a1a;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(74, 222, 128, 0.2);
+}
+
+/* ==================== SPLIT SECTION (PASOS) ==================== */
+.splitSection {
+    padding: 6rem 8%;
+    background-color: #ffffff;
+    position: relative;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.splitContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.splitContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.imageWrapper {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.imageFrame {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 20px 20px 0px rgba(74, 222, 128, 0.2);
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(10, 10, 10, 0.1), transparent);
+    z-index: 1;
+}
+
+.projectImage {
+    transition: transform 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.imageFrame:hover .projectImage {
+    transform: scale(1.05);
+}
+
+/* ==================== CTA SECTION ==================== */
+.ctaSection {
+    padding: 5rem 8%;
+    background-color: #ffffff;
+    text-align: center;
+    border-top: 1px solid #f0f0f0;
+}
+
+.ctaContainer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ctaTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 900;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.ctaText {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.2rem;
+    color: #4b5563;
+    margin-bottom: 3rem;
+}
+
+.ctaButton {
+    display: inline-block;
+    padding: 1.3rem 4rem;
+    background: #1a1a1a;
+    border: 2px solid #4ade80;
+    color: #4ade80;
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    clip-path: polygon(15px 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0 100%, 0 15px);
+}
+
+.ctaButton:hover {
+    background: #4ade80;
+    color: #1a1a1a;
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(74, 222, 128, 0.3);
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 1024px) {
+    .heroSection {
+        padding: 6rem 5%;
+        min-height: 60vh;
+    }
+
+    .heroTitle {
+        font-size: clamp(3rem, 12vw, 5rem);
+    }
+
+    .contentSection,
+    .ctaSection,
+    .splitSection {
+        padding: 5rem 5%;
+    }
+
+    .splitContainer {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .imageWrapper {
+        height: 400px;
+        order: -1;
+    }
+}
+
+@media (max-width: 768px) {
+    .contentBlock {
+        padding: 2rem;
+    }
+
+    .blockTitle {
+        font-size: 1.5rem;
+    }
+}

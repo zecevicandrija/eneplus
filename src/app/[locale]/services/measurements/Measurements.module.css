@@ -1,0 +1,371 @@
+.pageWrapper {
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+/* ==================== HERO SECTION ==================== */
+.heroSection {
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8rem 8% 4rem;
+    background-color: #0a0a0a;
+    overflow: hidden;
+}
+
+.heroBgPattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(rgba(74, 222, 128, 0.15) 1px, transparent 1px);
+    background-size: 50px 50px;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.heroGlow {
+    position: absolute;
+    top: 20%;
+    right: -10%;
+    width: 60%;
+    height: 80%;
+    background: radial-gradient(ellipse at center, rgba(74, 222, 128, 0.2) 0%, transparent 60%);
+    filter: blur(80px);
+    z-index: 1;
+}
+
+.heroContainer {
+    position: relative;
+    z-index: 10;
+    max-width: 900px;
+}
+
+.overline {
+    display: inline-flex;
+    align-items: center;
+    color: #4ade80;
+    font-weight: 800;
+    letter-spacing: 5px;
+    font-size: 0.85rem;
+    margin-bottom: 2rem;
+    font-family: var(--font-outfit), sans-serif;
+}
+
+.overline::before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #4ade80;
+    margin-right: 15px;
+}
+
+.heroTitle {
+    font-size: clamp(3.5rem, 8vw, 7rem);
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: var(--font-outfit), sans-serif;
+    letter-spacing: -2px;
+    margin-bottom: 2rem;
+}
+
+.heroLine {
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(90deg, #4ade80, transparent);
+    margin-bottom: 2.5rem;
+}
+
+/* ==================== INTRO SPLIT SECTION ==================== */
+.introSection {
+    padding: 6rem 8%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.introContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: flex-start;
+}
+
+.contentTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.highlightBlock {
+    margin-bottom: 2rem;
+    border-left: 4px solid #4ade80;
+    padding-left: 2rem;
+}
+
+.leadText {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: #1a1a1a;
+    font-weight: 600;
+    margin: 0;
+}
+
+.textBlock p {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+}
+
+.featureList {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.featureList li {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.05rem;
+    color: #374151;
+    line-height: 1.5;
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.featureList li::before {
+    content: '•';
+    color: #4ade80;
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+.imageWrapper {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.imageFrame {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.imageOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(74, 222, 128, 0.1), transparent);
+    z-index: 1;
+}
+
+/* ==================== BLOWER DOOR SECTION ==================== */
+.blowerSection {
+    padding: 6rem 8%;
+    background: #1a1a1a;
+    color: white;
+}
+
+.blowerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sectionTitleWhite {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.sectionSubtitleWhite {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.2rem;
+    color: #9ca3af;
+    margin-bottom: 4rem;
+}
+
+.blowerGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.blowerCard {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 2.5rem;
+    transition: transform 0.3s ease;
+}
+
+.blowerCard:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-5px);
+    border-color: #4ade80;
+}
+
+.cardTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #4ade80;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.blowerCard p {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #d1d5db;
+    margin: 0;
+}
+
+/* ==================== COMFORT SECTION ==================== */
+.comfortSection {
+    padding: 6rem 8%;
+    background: #fdfdfd;
+}
+
+.comfortContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.comfortHeader {
+    margin-bottom: 4rem;
+}
+
+.parameterGrid {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.parameterItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.parameterIcon {
+    font-size: 3rem;
+    background: #f3f4f6;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.parameterLabel {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+
+/* ==================== CTA SECTION ==================== */
+.ctaSection {
+    padding: 6rem 8%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.ctaContainer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.ctaTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 900;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.ctaText {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.2rem;
+    color: #4b5563;
+    margin-bottom: 3rem;
+}
+
+.ctaButton {
+    display: inline-block;
+    padding: 1.3rem 4rem;
+    background: #1a1a1a;
+    border: 2px solid #4ade80;
+    color: #4ade80;
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    clip-path: polygon(15px 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 0 100%, 0 15px);
+}
+
+.ctaButton:hover {
+    background: #4ade80;
+    color: #1a1a1a;
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(74, 222, 128, 0.3);
+}
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 1024px) {
+    .introContainer {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .imageWrapper {
+        height: 400px;
+        order: -1;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .blowerGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .parameterGrid {
+        gap: 2rem;
+    }
+}
