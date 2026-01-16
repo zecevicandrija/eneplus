@@ -21,7 +21,24 @@
         "titleHighlight": "TIME AND MONEY",
         "p1": "is a consulting firm providing services in the field of energy management, energy efficiency, and project management.",
         "p2": "ENEPLUS develops strategies and implements solutions that enable process optimization, cost reduction, and sustainable development.",
-        "p3": "Our approach is personalized, focused on results and long-term value for each client."
+        "p3": "Our approach is personalized, focused on results and long-term value for each client.",
+        "cta": "View More"
+    },
+    "Team": {
+        "overline": "EXPERT TEAM",
+        "title": "OUR TEAM",
+        "description": "Our expert team consists of licensed engineers with years of experience in energy management, implementing and preparing energy efficiency projects, and renewable energy applications.",
+        "zeljko": {
+            "name": "Željko",
+            "title": "M.Sc. El. Eng.",
+            "phone": "+381 64 8172033"
+        },
+        "nikola": {
+            "name": "Nikola",
+            "title": "M.Sc. Mech. Eng.",
+            "phone": "+381 64 8375706"
+        },
+        "cta": "Contact Us"
     },
     "Services": {
         "titlePrefix": "OUR",

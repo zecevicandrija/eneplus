@@ -69,7 +69,7 @@
 }
 
 .heroTitle {
-    font-size: clamp(4rem, 10vw, 8rem);
+    font-size: clamp(2rem, 10vw, 8rem);
     font-weight: 900;
     color: #ffffff;
     line-height: 0.9;
@@ -215,7 +215,7 @@
 
 .ctaTitle {
     font-family: var(--font-outfit), sans-serif;
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(2rem, 5vw, 4rem);
     font-weight: 900;
     color: #1a1a1a;
     text-transform: uppercase;
@@ -272,7 +272,7 @@
     }
 
     .heroTitle {
-        font-size: clamp(3rem, 12vw, 5rem);
+        font-size: clamp(2rem, 12vw, 5rem);
         letter-spacing: -1px;
     }
 

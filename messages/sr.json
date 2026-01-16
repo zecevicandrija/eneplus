@@ -9,8 +9,8 @@
     },
     "Hero": {
         "headingLine1": "Eneplus",
-        "headingLine2": "VAM POMAŽE",
-        "headingLine3": "DA BUDETE EFIKASNIJI",
+        "headingLine2": "POMAŽE DA",
+        "headingLine3": "BUDETE EFIKASNIJI",
         "subheading": "Budućnost upravljanja energijom je stigla. Postanite lider u energetskoj efikasnosti uz našu ekspertizu.",
         "cta": "Započnite Projekat"
     },
@@ -21,7 +21,24 @@
         "titleHighlight": "VREME I NOVAC",
         "p1": "je konsultantska firma koja pruža usluge iz oblasti energetskog menadžmenta, energetske efikasnosti i projektnog menadžmenta.",
         "p2": "ENEPLUS razvija strategije i implementira rešenja koja omogućuju optimizaciju procesa, smanjenja troškova i održivi razvoj.",
-        "p3": "Naš pristup je personalizovan, fokusiran na rezultate i dugoročnu vrednost za svakog klijenta."
+        "p3": "Naš pristup je personalizovan, fokusiran na rezultate i dugoročnu vrednost za svakog klijenta.",
+        "cta": "Saznajte više"
+    },
+    "Team": {
+        "overline": "EKSPERTSKI TIM",
+        "title": "NAŠ TIM",
+        "description": "Naš ekspertski tim sačinjavaju licencirani inženjeri sa višegodišnjim iskustvom u oblasti energetskog menadžmenta, realizaciji i pripremi projekata energetske efikasnosti i primene obnovljivih izvora energije.",
+        "zeljko": {
+            "name": "Željko",
+            "title": "dipl.inž.el.-master",
+            "phone": "+381 64 8172033"
+        },
+        "nikola": {
+            "name": "Nikola",
+            "title": "dipl.inž.maš.-master",
+            "phone": "+381 64 8375706"
+        },
+        "cta": "Kontaktirajte nas"
     },
     "Services": {
         "titlePrefix": "NAŠE",
