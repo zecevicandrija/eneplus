@@ -155,11 +155,15 @@ export default function EneplusScroll() {
                 );
             }
 
+            // Reduce scroll duration on mobile for faster animation
+            const isMobile = window.innerWidth <= 1024;
+            const scrollEnd = isMobile ? "+=150%" : "+=300%";
+
             ScrollTrigger.create({
                 trigger: containerRef.current,
                 start: "top top",
-                end: "+=300%",
-                scrub: true,
+                end: scrollEnd,
+                scrub: isMobile ? 0.5 : true,
                 pin: true,
                 anticipatePin: 1,
                 onUpdate: (self) => {
