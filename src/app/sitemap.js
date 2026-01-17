@@ -33,9 +33,15 @@ export default function sitemap() {
         routes.forEach(route => {
             sitemapEntries.push({
                 url: `${baseUrl}/${locale}${route}`,
-                lastModified: new Date(),
+                lastModified: '2026-01-01',
                 changeFrequency: route === '' ? 'daily' : 'weekly',
                 priority: route === '' ? 1 : 0.8,
+                alternates: {
+                    languages: {
+                        sr: `${baseUrl}/sr${route}`,
+                        en: `${baseUrl}/en${route}`,
+                    },
+                },
             });
         });
     });

@@ -1,9 +1,26 @@
+import { Geist, Geist_Mono, Outfit } from "next/font/google";
+import '../globals.css';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import Navbar from './Pocetna/Navbar';
 import Footer from './Pocetna/Footer';
+
+const geistSans = Geist({
+    variable: "--font-geist-sans",
+    subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+    variable: "--font-geist-mono",
+    subsets: ["latin"],
+});
+
+const outfit = Outfit({
+    variable: "--font-outfit",
+    subsets: ["latin"],
+});
 
 export function generateStaticParams() {
     return routing.locales.map((locale) => ({ locale }));
@@ -24,7 +41,7 @@ export default async function LocaleLayout({ children, params }) {
     const messages = await getMessages();
 
     // JSON-LD for Organization
-    const jsonLd = {
+    const organizationJsonLd = {
         '@context': 'https://schema.org',
         '@type': 'Organization',
         name: 'Eneplus',
@@ -43,44 +60,77 @@ export default async function LocaleLayout({ children, params }) {
         }
     };
 
+    // JSON-LD for LocalBusiness (Serbian Only)
+    const localBusinessJsonLd = {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Eneplus",
+        "image": "https://eneplus.rs/Assets/banner.avif",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Stevana Doronjskog 38",
+            "addressLocality": "Vrbas",
+            "addressRegion": "Vojvodina",
+            "postalCode": "21460",
+            "addressCountry": "RS"
+        },
+        "telephone": "+381 64 8172033",
+        "url": "https://eneplus.rs/sr"
+    };
+
     return (
-        <NextIntlClientProvider messages={messages}>
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-            />
-            <Navbar />
-            {children}
-            <Footer />
-        </NextIntlClientProvider>
+        <html lang={locale} suppressHydrationWarning>
+            <body className={`${geistSans.variable} ${geistMono.variable} ${outfit.variable}`}>
+                <NextIntlClientProvider messages={messages}>
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+                    />
+                    {locale === 'sr' && (
+                        <script
+                            type="application/ld+json"
+                            dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+                        />
+                    )}
+                    <Navbar />
+                    {children}
+                    <Footer />
+                </NextIntlClientProvider>
+            </body>
+        </html>
     );
 }
 
 export async function generateMetadata({ params }) {
     const { locale } = await params;
 
+    const title = locale === 'sr' ? 'Eneplus | Energetska Efikasnost' : 'Eneplus | Energy Efficiency';
+    const description = locale === 'sr'
+        ? 'Eneplus pruža ekspertske usluge u oblasti energetske efikasnosti, menadžmenta i obnovljivih izvora energije. Vaš partner za održivu budućnost.'
+        : 'Eneplus provides expert services in energy efficiency, management, and renewable energy sources. Your partner for a sustainable future.';
+
     return {
         title: {
             template: '%s | Eneplus',
-            default: 'Eneplus | Energy Efficiency & Consulting',
+            default: title,
         },
-        description: 'Eneplus pruža ekspertske usluge u oblasti energetske efikasnosti, menadžmenta i obnovljivih izvora energije. Vaš partner za održivu budućnost.',
+        description: description,
         metadataBase: new URL('https://eneplus.rs'),
         alternates: {
-            canonical: `/${locale}`,
+            canonical: `https://eneplus.rs/${locale}`,
             languages: {
                 'sr': '/sr',
                 'en': '/en',
             },
         },
         openGraph: {
-            title: 'Eneplus | Energy Efficiency & Consulting',
-            description: 'Leading experts in energy audits, management, and certification.',
+            title: title,
+            description: description,
             url: `https://eneplus.rs/${locale}`,
             siteName: 'Eneplus',
             images: [
                 {
-                    url: '/Assets/enepluslogo.png',
+                    url: 'https://eneplus.rs/Assets/enepluslogo.png',
                     width: 800,
                     height: 600,
                     alt: 'Eneplus Logo',
@@ -91,14 +141,14 @@ export async function generateMetadata({ params }) {
         },
         twitter: {
             card: 'summary_large_image',
-            title: 'Eneplus',
-            description: 'Energy efficiency solutions.',
-            images: ['/Assets/enepluslogo.png'],
+            title: title,
+            description: description,
+            images: ['https://eneplus.rs/Assets/enepluslogo.png'],
         },
         icons: {
-            icon: '/Assets/enepluslogo.png', // Using logo as favicon fallback if actual favicon.ico is missing or this is preferred
-            shortcut: '/Assets/enepluslogo.png',
-            apple: '/Assets/enepluslogo.png',
+            icon: 'https://eneplus.rs/Assets/enepluslogo.png',
+            shortcut: 'https://eneplus.rs/Assets/enepluslogo.png',
+            apple: 'https://eneplus.rs/Assets/enepluslogo.png',
         },
     };
 }
