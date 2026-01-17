@@ -60,9 +60,6 @@
     /* Elegant mask */
     mask-image: linear-gradient(to right, black 70%, transparent 99%);
     -webkit-mask-image: linear-gradient(to right, black 70%, transparent 99%);
-
-    clip-path: inset(0 100% 0 0);
-    transform-origin: left center;
 }
 
 .mainImage {

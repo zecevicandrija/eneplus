@@ -109,12 +109,14 @@ export default function EneplusScroll() {
 
     const animateFrames = useCallback(() => {
         const diff = Math.abs(targetFrameRef.current - currentFrameRef.current.value);
+        const isMobileDevice = typeof window !== 'undefined' && window.innerWidth <= 1024;
+        const lerpFactor = isMobileDevice ? 0.15 : 0.08;
 
         if (diff > 0.01) {
             currentFrameRef.current.value = lerp(
                 currentFrameRef.current.value,
                 targetFrameRef.current,
-                0.08
+                lerpFactor
             );
             renderFrame(currentFrameRef.current.value);
         }
@@ -157,17 +159,27 @@ export default function EneplusScroll() {
 
             // Reduce scroll duration on mobile for faster animation
             const isMobile = window.innerWidth <= 1024;
-            const scrollEnd = isMobile ? "+=100%" : "+=200%";
+            const scrollEnd = isMobile ? "+=50%" : "+=200%";
 
             ScrollTrigger.create({
                 trigger: containerRef.current,
                 start: "top top",
                 end: scrollEnd,
-                scrub: isMobile ? 0.5 : true,
+                scrub: isMobile ? 1.5 : 1,
                 pin: true,
-                anticipatePin: 1,
+                pinSpacing: true,
+                anticipatePin: isMobile ? 0 : 1,
+                invalidateOnRefresh: true,
+                fastScrollEnd: true,
+                preventOverlaps: true,
                 onUpdate: (self) => {
                     targetFrameRef.current = self.progress * (frameCount - 1);
+                },
+                onLeave: () => {
+                    // Ensure final frame is rendered when leaving
+                    targetFrameRef.current = frameCount - 1;
+                    currentFrameRef.current.value = frameCount - 1;
+                    renderFrame(frameCount - 1);
                 }
             });
         }, containerRef);
