@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useTranslations, useLocale } from 'next-intl';
-import Link from 'next/link';
+import { Link } from '@/i18n/routing';
 import styles from './Software.module.css';
 
 if (typeof window !== 'undefined') {
@@ -237,7 +237,7 @@ export default function SoftwarePage() {
                 <div className={styles.ctaContainer}>
                     <h2 className={styles.ctaTitle}>{t('ctaTitle')}</h2>
                     <p className={styles.ctaText}>{t('ctaText')}</p>
-                    <Link href={`/${locale}/contact`} className={styles.ctaButton}>{t('ctaButton')}</Link>
+                    <Link href="/contact" className={styles.ctaButton}>{t('ctaButton')}</Link>
                 </div>
             </section>
         </main>

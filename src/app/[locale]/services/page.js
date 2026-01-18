@@ -1,10 +1,10 @@
 'use client';
 
 import React from 'react';
-import Link from 'next/link';
+import { Link } from '@/i18n/routing';
 import styles from './Services.module.css';
 import { motion } from 'framer-motion';
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import {
     HiOutlineLightningBolt,
     HiOutlineDocumentReport,
@@ -60,7 +60,7 @@ const itemVariants = {
 export default function ServicesPage() {
     const t = useTranslations('Services');
     const tPage = useTranslations('ServicesPage');
-    const locale = useLocale();
+
 
     return (
         <main className={styles.pageWrapper}>
@@ -106,7 +106,7 @@ export default function ServicesPage() {
                                 className={styles.card}
                                 variants={itemVariants}
                             >
-                                <Link href={`/${locale}${service.route}`} className={styles.cardLink}>
+                                <Link href={service.route} className={styles.cardLink}>
                                     <div className={styles.cardGlow}></div>
                                     <div className={styles.cardContent}>
                                         <div className={styles.iconWrapper}>

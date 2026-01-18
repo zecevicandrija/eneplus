@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from '@/i18n/routing';
 import { useTranslations, useLocale } from 'next-intl';
 import styles from './Team.module.css';
 
@@ -68,7 +68,7 @@ export default function Team() {
                 </div>
 
                 <div className={styles.ctaWrapper}>
-                    <Link href={`/${locale}/contact`} className={styles.ctaButton}>
+                    <Link href="/contact" className={styles.ctaButton}>
                         {t('cta')}
                     </Link>
                 </div>

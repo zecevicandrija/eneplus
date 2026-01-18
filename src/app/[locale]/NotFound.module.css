@@ -1,0 +1,157 @@
+.section {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8fcf9;
+    position: relative;
+    overflow: hidden;
+    padding: 2rem;
+}
+
+/* Background elements borrowed from About.module.css */
+.bgDecoGlow {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 70%;
+    background: radial-gradient(ellipse at center, rgba(74, 222, 128, 0.08) 0%, transparent 70%);
+    filter: blur(100px);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.bgDecoLine {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 1px;
+    height: 120%;
+    background: linear-gradient(to bottom, transparent, rgba(74, 222, 128, 0.3), transparent);
+    z-index: 1;
+    opacity: 0.6;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+}
+
+.glassCard {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 6rem 4rem;
+    text-align: center;
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+}
+
+.heading {
+    margin-bottom: 2rem;
+    font-family: var(--font-outfit), sans-serif;
+    text-transform: uppercase;
+}
+
+.titlePrefix {
+    display: block;
+    font-size: clamp(6rem, 15vw, 10rem);
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke: 2px #4ade80;
+    line-height: 0.9;
+    opacity: 0.8;
+    margin-bottom: 1rem;
+    letter-spacing: -5px;
+}
+
+.titleAccent {
+    display: block;
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800;
+    color: #1a1a1a;
+    letter-spacing: -1px;
+    line-height: 1.1;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #4b5563;
+    margin-bottom: 3.5rem;
+    font-family: var(--font-outfit), sans-serif;
+    line-height: 1.6;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.highlight {
+    color: #4ade80;
+    font-weight: 700;
+}
+
+.ctaWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.ctaButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    color: white;
+    padding: 1.2rem 3rem;
+    font-family: var(--font-outfit), sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 10px 20px -5px rgba(34, 197, 94, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.ctaButton:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 30px -8px rgba(34, 197, 94, 0.5);
+    background: linear-gradient(135deg, #4ade80, #22c55e);
+}
+
+.btnIcon {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+
+.ctaButton:hover .btnIcon {
+    transform: translateX(3px);
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 4rem 1rem;
+    }
+
+    .glassCard {
+        padding: 3rem 1.5rem;
+    }
+
+    .titlePrefix {
+        -webkit-text-stroke: 1px #4ade80;
+    }
+}

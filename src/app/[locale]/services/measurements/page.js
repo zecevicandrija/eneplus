@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from '@/i18n/routing';
 import { useTranslations, useLocale } from 'next-intl';
 import styles from './Measurements.module.css';
 
@@ -130,7 +130,7 @@ export default function MeasurementsPage() {
                 <div className={styles.ctaContainer}>
                     <h2 className={styles.ctaTitle}>{t('ctaTitle')}</h2>
                     <p className={styles.ctaText}>{t.rich('ctaText')}</p>
-                    <Link href={`/${locale}/contact`} className={styles.ctaButton}>{t('ctaButton')}</Link>
+                    <Link href="/contact" className={styles.ctaButton}>{t('ctaButton')}</Link>
                 </div>
             </section>
         </main>

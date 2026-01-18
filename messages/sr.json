@@ -533,5 +533,11 @@
         "ctaTitle": "Pokrenite svoj projekat",
         "ctaText": "Prepustite upravljanje stručnjacima i osigurajte uspeh vaše investicije.",
         "ctaButton": "Kontaktirajte nas"
+    },
+    "NotFound": {
+        "titlePrefix": "404",
+        "titleAccent": "STRANICA NIJE PRONAĐENA",
+        "description": "Žao nam je, stranica koju tražite ne postoji ili je premeštena.",
+        "button": "POVRATAK NA POČETNU"
     }
 }

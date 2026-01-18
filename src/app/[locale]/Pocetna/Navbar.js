@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from '@/i18n/routing';
 import { usePathname } from 'next/navigation';
 import { useLocale, useTranslations } from 'next-intl';
 import styles from './Navbar.module.css';
@@ -26,12 +26,12 @@ export default function Navbar() {
     const switchLocalePath = `/${otherLocale}${getPathWithoutLocale()}`;
 
     const navLinks = [
-        { name: t('home'), href: `/${locale}` },
-        { name: t('about'), href: `/${locale}/about` },
-        { name: t('services'), href: `/${locale}/services` },
-        { name: t('software'), href: `/${locale}/software` },
-        { name: t('media'), href: `/${locale}/media` },
-        { name: t('contact'), href: `/${locale}/contact` },
+        { name: t('home'), href: '/' },
+        { name: t('about'), href: '/about' },
+        { name: t('services'), href: '/services' },
+        { name: t('software'), href: '/software' },
+        { name: t('media'), href: '/media' },
+        { name: t('contact'), href: '/contact' },
     ];
 
     const toggleMobileMenu = () => {
@@ -40,7 +40,7 @@ export default function Navbar() {
 
     return (
         <header className={styles.header}>
-            <Link href={`/${locale}`} className={styles.logo}>
+            <Link href="/" className={styles.logo}>
                 <Image
                     src="/Assets/enepluslogo.png"
                     alt="Eneplus Logo"
@@ -53,11 +53,11 @@ export default function Navbar() {
 
             <nav className={styles.nav}>
                 {/* Language Toggle - Desktop (using direct link, not router.push) */}
-                <Link href={switchLocalePath} className={styles.langToggle} aria-label="Toggle Language">
+                <a href={switchLocalePath} className={styles.langToggle} aria-label="Toggle Language">
                     <span className={locale === 'sr' ? styles.langActive : ''}>SR</span>
                     <span className={styles.langDivider}>/</span>
                     <span className={locale === 'en' ? styles.langActive : ''}>EN</span>
-                </Link>
+                </a>
 
                 {/* Desktop Menu */}
                 <ul className={styles.navList}>
@@ -73,9 +73,9 @@ export default function Navbar() {
                 {/* Mobile Controls */}
                 <div className={styles.mobileControls}>
                     {/* Language Toggle - Mobile (using direct link) */}
-                    <Link href={switchLocalePath} className={styles.langToggleMobile} aria-label="Toggle Language">
+                    <a href={switchLocalePath} className={styles.langToggleMobile} aria-label="Toggle Language">
                         {otherLocale.toUpperCase()}
-                    </Link>
+                    </a>
 
                     {/* Mobile Hamburger */}
                     <div className={styles.mobileToggle} onClick={toggleMobileMenu}>

@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import Link from 'next/link';
+import { Link } from '@/i18n/routing';
 import styles from './Services.module.css';
 import { motion } from 'framer-motion';
 import { useLocale, useTranslations } from 'next-intl';
@@ -90,7 +90,7 @@ export default function Services() {
                             className={styles.card}
                             variants={itemVariants}
                         >
-                            <Link href={`/${locale}${service.route}`} className={styles.cardLink}>
+                            <Link href={service.route} className={styles.cardLink}>
                                 <div className={styles.cardGlow}></div>
                                 <div className={styles.cardContent}>
                                     <div className={styles.iconWrapper}>

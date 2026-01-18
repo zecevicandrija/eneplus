@@ -533,5 +533,11 @@
         "ctaTitle": "Start your project",
         "ctaText": "Let experts handle management and ensure your investment success.",
         "ctaButton": "Contact us"
+    },
+    "NotFound": {
+        "titlePrefix": "404",
+        "titleAccent": "PAGE NOT FOUND",
+        "description": "Sorry, the page you are looking for does not exist or has been moved.",
+        "button": "BACK TO HOME"
     }
 }
