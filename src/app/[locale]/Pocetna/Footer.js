@@ -3,28 +3,27 @@
 import React from 'react';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import styles from './Footer.module.css';
 
 export default function Footer() {
     const t = useTranslations('Footer');
     const tServices = useTranslations('Services');
     const tNav = useTranslations('Navbar');
-    const locale = useLocale();
     const currentYear = new Date().getFullYear();
 
     const footerLinks = {
         usluge: [
-            { name: tServices('energyManagement.name'), href: `/${locale}/services/energy-management` },
-            { name: tServices('audits.name'), href: `/${locale}/services/energy-audits` },
-            { name: tServices('iso.name'), href: `/${locale}/services/iso-50001` },
-            { name: tServices('design.name'), href: `/${locale}/services/design` },
+            { name: tServices('energyManagement.name'), href: '/services/energy-management' },
+            { name: tServices('audits.name'), href: '/services/energy-audits' },
+            { name: tServices('iso.name'), href: '/services/iso-50001' },
+            { name: tServices('design.name'), href: '/services/design' },
         ],
         kompanija: [
-            { name: tNav('about'), href: `/${locale}/about` },
-            { name: tNav('services'), href: `/${locale}/services` },
-            { name: tNav('software'), href: `/${locale}/software` },
-            { name: tNav('contact'), href: `/${locale}/contact` },
+            { name: tNav('about'), href: '/about' },
+            { name: tNav('services'), href: '/services' },
+            { name: tNav('software'), href: '/software' },
+            { name: tNav('contact'), href: '/contact' },
         ],
     };
 
