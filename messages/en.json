@@ -255,6 +255,11 @@
         "overline": "SERVICE",
         "heroTitle1": "ENERGY",
         "heroTitle2": "CERTIFICATION",
+        "metadata": {
+            "title": "Energy Certification | Eneplus",
+            "description": "Professional energy efficiency reports and energy passports for all types of buildings.",
+            "keywords": "energy certification, energy passport, energy efficiency report, energy class, eneplus"
+        },
         "elaboratTitle": "Energy efficiency elaborate",
         "elaboratText": "Determination of the fulfillment of the conditions of energy efficiency of the building is done by the energy efficiency elaborate. It is an integral part of the technical documentation necessary for the issuance of a building permit for the construction of new and reconstruction of existing buildings",
         "passportTitle": "Energy passport",

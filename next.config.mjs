@@ -82,6 +82,73 @@ const nextConfig = {
         source: '/o-nama',
         destination: '/sr/o-nama',
         permanent: true,
+      },
+      // English-in-Serbian Redirects
+      {
+        source: '/sr/energy-audit',
+        destination: '/en/services/energy-audits',
+        permanent: true,
+      },
+      {
+        source: '/sr/design',
+        destination: '/en/services/design',
+        permanent: true,
+      },
+      {
+        source: '/sr/energy-certification',
+        destination: '/en/services/energy-certification',
+        permanent: true,
+      },
+      {
+        source: '/sr/energy-consulting',
+        destination: '/en/services/energy-consulting',
+        permanent: true,
+      },
+      {
+        source: '/sr/energy-management',
+        destination: '/en/services/energy-management',
+        permanent: true,
+      },
+      {
+        source: '/sr/iso-50001',
+        destination: '/en/services/iso-50001',
+        permanent: true,
+      },
+      {
+        source: '/sr/measurements',
+        destination: '/en/services/measurements',
+        permanent: true,
+      },
+      {
+        source: '/sr/ppp-support',
+        destination: '/en/services/ppp-support',
+        permanent: true,
+      },
+      {
+        source: '/sr/project-management',
+        destination: '/en/services/project-management',
+        permanent: true,
+      },
+      {
+        source: '/sr/studies-and-analysis',
+        destination: '/en/services/studies-and-analysis',
+        permanent: true,
+      },
+      {
+        source: '/sr/training-and-education',
+        destination: '/en/services/training-and-education',
+        permanent: true,
+      },
+      {
+        source: '/sr/web-applications',
+        destination: '/en/services/web-applications',
+        permanent: true,
+      },
+      // SEO Shortcuts
+      {
+        source: '/energetski-pasos',
+        destination: '/sr/usluge/energetska-sertifikacija',
+        permanent: true,
       }
     ];
   },

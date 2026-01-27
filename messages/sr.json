@@ -255,6 +255,11 @@
         "overline": "USLUGA",
         "heroTitle1": "ENERGETSKA",
         "heroTitle2": "SERTIFIKACIJA",
+        "metadata": {
+            "title": "Energetska Sertifikacija | Eneplus",
+            "description": "Profesionalna izrada elaborata energetske efikasnosti i izdavanje energetskih pasoša za sve tipove objekata.",
+            "keywords": "energetska sertifikacija, energetski pasoš, elaborat energetske efikasnosti, energetski razred, eneplus"
+        },
         "elaboratTitle": "Elaborat energetske efikasnosti",
         "elaboratText": "Utvrđivanje ispunjenosti uslova energetske efikasnosti zgrade vrši se izradom elaborata EE, koji je sastavni deo tehničke dokumentacije koja se prilaže uz zahtev za izdavanje građevinske dozvole ili uz zahtev za izdavanje rešenja kojim se odobrava izvođenje radova na adaptaciji ili sanaciji objekta, kao i energetskoj sanaciji.",
         "passportTitle": "Energetski pasoš",
