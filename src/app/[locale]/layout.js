@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono, Outfit } from "next/font/google";
 import '../globals.css';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, setRequestLocale } from 'next-intl/server';
+import { getMessages, setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import Navbar from './Pocetna/Navbar';
@@ -103,11 +103,10 @@ export default async function LocaleLayout({ children, params }) {
 
 export async function generateMetadata({ params }) {
     const { locale } = await params;
+    const t = await getTranslations({ locale, namespace: 'HomePage.metadata' });
 
-    const title = locale === 'sr' ? 'Eneplus | Energetska Efikasnost' : 'Eneplus | Energy Efficiency';
-    const description = locale === 'sr'
-        ? 'Eneplus pruža ekspertske usluge u oblasti energetske efikasnosti, menadžmenta i obnovljivih izvora energije. Vaš partner za održivu budućnost.'
-        : 'Eneplus provides expert services in energy efficiency, management, and renewable energy sources. Your partner for a sustainable future.';
+    const title = t('title');
+    const description = t('description');
 
     return {
         title: {
@@ -115,6 +114,7 @@ export async function generateMetadata({ params }) {
             default: title,
         },
         description: description,
+        keywords: t('keywords'),
         metadataBase: new URL('https://eneplus.rs'),
         alternates: {
             canonical: `https://eneplus.rs/${locale}`,

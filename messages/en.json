@@ -2,6 +2,7 @@
     "Navbar": {
         "home": "Home",
         "about": "About",
+        "energyPassport": "En. Passport",
         "services": "Services",
         "software": "Software",
         "media": "Media",
@@ -115,13 +116,23 @@
             "nikola": {
                 "title": "M.Sc. Mechanical Engineering"
             }
+        },
+        "metadata": {
+            "title": "About Us | Eneplus",
+            "description": "ENEPLUS is a consulting firm providing services in energy management, and energy efficiency. Meet our expert engineering team.",
+            "keywords": "about us, eneplus team, energy management, energy efficiency, analytics"
         }
     },
     "ServicesPage": {
         "overline": "ENEPLUS",
         "heroTitle1": "OUR",
         "heroTitle2": "SERVICES",
-        "subtitle": "Comprehensive solutions for energy efficiency and sustainability"
+        "subtitle": "Comprehensive solutions for energy efficiency and sustainability",
+        "metadata": {
+            "title": "Services | Energy Efficiency | Eneplus",
+            "description": "We offer comprehensive solutions for energy efficiency and sustainability, including design, audits, and certifications.",
+            "keywords": "services, energy efficiency, energy management, design, energy passport, eneplus services"
+        }
     },
     "SoftwarePage": {
         "overline": "SOFTWARE",
@@ -159,7 +170,12 @@
         },
         "ctaTitle": "Interested in our software?",
         "ctaText": "Contact us for a demo version and a detailed presentation.",
-        "ctaButton": "Contact us"
+        "ctaButton": "Contact us",
+        "metadata": {
+            "title": "Energy Management Software | Eneplus",
+            "description": "Web-oriented energy management software. An indispensable tool for tracking and optimizing energy consumption for municipalities and companies.",
+            "keywords": "energy management software, tracking energy, energy efficiency, smart management, eneplus"
+        }
     },
     "MediaPage": {
         "overline": "RESOURCES",
@@ -176,6 +192,11 @@
         "docs": {
             "blowerDoor": "Blower door test",
             "thermography": "Thermographic Imaging"
+        },
+        "metadata": {
+            "title": "Media and Resources | Eneplus",
+            "description": "Download useful materials, documentation, and video presentations of our software and services. Stay informed.",
+            "keywords": "media, documentation, video presentations, energy management resources, eneplus"
         }
     },
     "ContactPage": {
@@ -189,7 +210,12 @@
         "email": "E-mail",
         "phones": "Phones",
         "address": "Address",
-        "socialTitle": "Follow us"
+        "socialTitle": "Follow us",
+        "metadata": {
+            "title": "Contact Us | Eneplus",
+            "description": "Contact ENEPLUS. We are at your disposal for all information and consultations on improving your energy efficiency.",
+            "keywords": "contact, eneplus, information, address, phone, email, scheduling, consultations"
+        }
     },
     "EnergyManagementPage": {
         "overline": "SERVICE",
@@ -213,7 +239,12 @@
         ],
         "ctaTitle": "Ready for cooperation?",
         "ctaText": "Contact us to find out how we can help your organization.",
-        "ctaButton": "Contact us"
+        "ctaButton": "Contact us",
+        "metadata": {
+            "title": "Energy Management | Services | Eneplus",
+            "description": "Energy management service according to ISO 50001 standard. We help you systematically manage energy performance and usage.",
+            "keywords": "energy management, ISO 50001, energy savings, management lifecycle, eneplus"
+        }
     },
     "StudiesPage": {
         "overline": "SERVICE",
@@ -231,7 +262,12 @@
         ],
         "ctaTitle": "Need expert analysis?",
         "ctaText": "Contact us for detailed studies and strategic planning.",
-        "ctaButton": "Contact us"
+        "ctaButton": "Contact us",
+        "metadata": {
+            "title": "Studies and Analyses | Eneplus",
+            "description": "Preparation of studies and detailed analyses in the field of energy efficiency and renewable energy sources for smart investment decisions.",
+            "keywords": "studies, analyses, cost benefit, action plans, energy efficiency, eneplus"
+        }
     },
     "TrainingPage": {
         "overline": "SERVICE",
@@ -249,7 +285,12 @@
         ],
         "ctaTitle": "Want to improve your knowledge?",
         "ctaText": "Sign up for our training and certified courses.",
-        "ctaButton": "Contact us"
+        "ctaButton": "Contact us",
+        "metadata": {
+            "title": "Training and Education | Eneplus",
+            "description": "Certified courses and training in energy management. We transfer the latest practical knowledge and trends in energy.",
+            "keywords": "training, courses, education, energy managers, eneplus training"
+        }
     },
     "CertificationPage": {
         "overline": "SERVICE",
@@ -292,7 +333,12 @@
         ],
         "ctaTitle": "Planning a project?",
         "ctaText": "Contact us on time for maximum results.",
-        "ctaButton": "Contact us"
+        "ctaButton": "Contact us",
+        "metadata": {
+            "title": "Design | Energy Efficiency | Eneplus",
+            "description": "Building design services focused on maximum energy efficiency, precision, and long-term economic sustainability.",
+            "keywords": "design, construction, renovation, energy saving, eneplus"
+        }
     },
     "WebAppsPage": {
         "overline": "SERVICE",
@@ -310,7 +356,12 @@
         ],
         "ctaTitle": "Need a software solution?",
         "ctaText": "Contact us for custom application and presentation development.",
-        "ctaButton": "Contact us"
+        "ctaButton": "Contact us",
+        "metadata": {
+            "title": "Web Applications & Presentations | Eneplus",
+            "description": "Development of custom web applications and presentations using modern IT technologies aimed at professional results.",
+            "keywords": "web applications, software development, presentations, IT solutions, eneplus"
+        }
     },
     "EnergyConsultingPage": {
         "overline": "SERVICE",
@@ -346,7 +397,12 @@
         "generalContact": "For any additional questions, you can write to <a href='mailto:office@eneplus.rs' class='linkLight'>office@eneplus.rs</a>",
         "ctaTitle": "Available 24/7",
         "ctaText": "We are available to clients 24 hours a day, always ready to provide valuable advice or suggestions, all with the aim and desire to make our clients satisfied, turning your ideas and visions into reality.",
-        "ctaButton": "Schedule a consultation"
+        "ctaButton": "Schedule a consultation",
+        "metadata": {
+            "title": "Energy Consulting | Eneplus",
+            "description": "Expert consultations and support during construction or renovation of facilities to the highest energy efficiency principles.",
+            "keywords": "energy consulting, consulting services, renovation support, expert advice, eneplus"
+        }
     },
     "PppSupportPage": {
         "overline": "SERVICE",
@@ -402,7 +458,12 @@
         ],
         "ctaTitle": "Planning a PPP project?",
         "ctaText": "Contact us for expert support in all phases of realization.",
-        "ctaButton": "Contact us"
+        "ctaButton": "Contact us",
+        "metadata": {
+            "title": "PPP Preparation and Support | Eneplus",
+            "description": "We provide professional support to the public and private sectors in implementing Public-Private Partnership (PPP) projects.",
+            "keywords": "public private partnership, PPP, tender prep, project support, eneplus"
+        }
     },
     "IsoPage": {
         "overline": "STANDARD",
@@ -437,7 +498,12 @@
         "consultingText": "Our practical experience, participation in standard preparation committees, knowledge of procedures, required documents and available technologies will greatly facilitate the introduction of the ISO 50001 standard in your organization.",
         "ctaTitle": "Want to introduce the standard?",
         "ctaText": "Contact us for expert assistance in implementing ISO 50001.",
-        "ctaButton": "Contact us"
+        "ctaButton": "Contact us",
+        "metadata": {
+            "title": "ISO 50001 Standard | Implementation | Eneplus",
+            "description": "Consulting services and assistance in establishing the ISO 50001 energy management standard. Maximize your savings with ENEPLUS.",
+            "keywords": "ISO 50001, standard implementation, energy management system, certification, eneplus"
+        }
     },
     "EnergyAuditsPage": {
         "overline": "SERVICE",
@@ -469,7 +535,12 @@
         ],
         "ctaTitle": "Schedule an energy audit",
         "ctaText": "Reduce costs and optimize energy consumption.",
-        "ctaButton": "Contact us"
+        "ctaButton": "Contact us",
+        "metadata": {
+            "title": "Energy Audits | Service | Eneplus",
+            "description": "Energy audits of facilities and equipment that provide clear insight into irrational consumption and propose specific optimization measures.",
+            "keywords": "energy audits, energy savings, ISO 50002, EN 16247, consulting, eneplus"
+        }
     },
     "MeasurementsPage": {
         "overline": "SERVICE",
@@ -500,7 +571,12 @@
         ],
         "ctaTitle": "Need measurements?",
         "ctaText": "Contact us for precise measurements and analysis of your building.",
-        "ctaButton": "Contact us"
+        "ctaButton": "Contact us",
+        "metadata": {
+            "title": "Thermography & Blower Door | Eneplus",
+            "description": "Advanced infrared thermography, air tightness testing (Blower Door), and assessment of comfort conditions (CO2, temp, humidity).",
+            "keywords": "measurements, thermography, blower door test, comfort conditions, infrared camera, eneplus"
+        }
     },
     "ProjectManagementPage": {
         "overline": "SERVICE",
@@ -537,12 +613,89 @@
         ],
         "ctaTitle": "Start your project",
         "ctaText": "Let experts handle management and ensure your investment success.",
-        "ctaButton": "Contact us"
+        "ctaButton": "Contact us",
+        "metadata": {
+            "title": "Project Management | Service | Eneplus",
+            "description": "End-to-end project management. Team coordination, schedule tracking, and budget control to ensure your project's success.",
+            "keywords": "project management, coordination, budget analysis, timeline, eneplus"
+        }
+    },
+    "EnergyPassportPage": {
+        "metadata": {
+            "title": "Energy Passport | Eneplus",
+            "description": "Professional energy passport certification for all types of buildings. Find out if you need an energy passport and submit your request.",
+            "keywords": "energy passport, energy certificate, energy class, usage permit, eneplus"
+        },
+        "overline": "CERTIFICATION",
+        "heroTitle1": "ENERGY",
+        "heroTitle2": "PASSPORT",
+        "introTitle": "What is an energy passport?",
+        "introText1": "An energy passport, also referred to as an energy performance certificate, is an official document that presents the calculated energy consumption values of a building, its energy rating class, and professional recommendations for improving energy performance.",
+        "introText2": "This document is mandatory for all newly constructed buildings, as well as existing structures undergoing reconstruction, adaptation, renovation, or energy rehabilitation – with the exception of buildings specifically exempt from this requirement by regulation.",
+        "introText3": "The energy passport constitutes an essential part of the technical documentation submitted when applying for a building usage permit.",
+        "scenariosTitle": "Who needs an energy passport?",
+        "scenario1Title": "Planning to build or renovate a property?",
+        "scenario1Text": "Whether you are constructing a new building for the market or for personal use, an energy passport is a mandatory step in the process of obtaining a usage permit for your property.",
+        "scenario2Title": "Buying, selling, or renting out a property?",
+        "scenario2Text": "Every property placed on the market for sale or lease must have a valid energy passport. If you are the owner selling or renting out a property, you are legally required to obtain this document.",
+        "scenario3Title": "Need financing for your property?",
+        "scenario3Text": "Whether you are purchasing your first apartment, upgrading to a larger space, or planning to renovate an existing property – an energy passport is required as part of your loan documentation.",
+        "ctaTitle": "Need an energy passport?",
+        "ctaText": "Contact us and submit your request for energy passport certification. Our expert team will help you obtain all the necessary documentation quickly and efficiently.",
+        "ctaButton": "Send Request"
+    },
+    "EnergyPassportRequestPage": {
+        "metadata": {
+            "title": "Energy Passport Request | Eneplus",
+            "description": "Submit a request for an energy passport for your building.",
+            "keywords": "request, energy passport, application, documentation, eneplus"
+        },
+        "title": "Property details",
+        "buildingType": "Building type *",
+        "buildingTypePlaceholder": "Select",
+        "btResidential": "Residential building",
+        "btCommercial": "Commercial building",
+        "btPublic": "Public building",
+        "btIndustrial": "Industrial building",
+        "btOther": "Other",
+        "streetAndNumber": "Street and number",
+        "cadastralParcel": "Cadastral parcel number *",
+        "cadastralMunicipality": "Cadastral municipality *",
+        "city": "City/Town",
+        "contactTitle": "Contact details",
+        "fullName": "Full name *",
+        "email": "E-mail *",
+        "phone": "Phone *",
+        "note": "Note",
+        "notePlaceholder": "If you wish to add a note",
+        "documentsTitle": "We provide the following documents",
+        "docBuildingPermit": "Building permit",
+        "docArchitecturalProject": "Architectural project",
+        "docMechanicalProject": "Mechanical installations project",
+        "docEfficiencyElaborate": "Energy efficiency elaborate",
+        "docPhotos": "Photos and additional documents",
+        "addDocument": "+ Add document",
+        "documentsNote": "If any documentation does not exist in electronic form, please mention it in the Note.",
+        "printedCopyTitle": "Do you want us to deliver the energy passport in printed form as well?",
+        "printedCopyOption": "I want the energy passport in printed form",
+        "printedCopyNote": "Note: We deliver the energy passport to you in electronic form. A copy of the energy passport is delivered to the relevant ministry.",
+        "privacyPolicyOption": "I agree with the Terms of Use and Privacy Policy",
+        "submitButton": "SEND REQUEST",
+        "sending": "Sending...",
+        "successMessage": "Your request has been successfully sent.",
+        "errorMessage": "An error occurred while sending. Please try again."
     },
     "NotFound": {
         "titlePrefix": "404",
         "titleAccent": "PAGE NOT FOUND",
         "description": "Sorry, the page you are looking for does not exist or has been moved.",
         "button": "BACK TO HOME"
+    },
+    "HomePage": {
+        "metadata": {
+            "title": "Home",
+            "description": "Eneplus provides expert services in energy efficiency, management, and renewable energy sources. Your partner for a sustainable future.",
+            "keywords": "eneplus, energy efficiency, smart energy, money saving"
+        }
     }
 }

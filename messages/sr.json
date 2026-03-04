@@ -2,6 +2,7 @@
     "Navbar": {
         "home": "Početna",
         "about": "O nama",
+        "energyPassport": "En. Pasoš",
         "services": "Usluge",
         "software": "Softver",
         "media": "Media",
@@ -115,13 +116,23 @@
             "nikola": {
                 "title": "dipl.inž.maš.-master"
             }
+        },
+        "metadata": {
+            "title": "O Nama | Eneplus",
+            "description": "ENEPLUS je konsultantska firma koja pruža usluge iz oblasti energetskog menadžmenta, energetske efikasnosti i projektnog menadžmenta. Upoznajte naš ekspertski tim.",
+            "keywords": "o nama, eneplus tim, energetski menadžment, analitika, energetska efikasnost"
         }
     },
     "ServicesPage": {
         "overline": "ENEPLUS",
         "heroTitle1": "NAŠE",
         "heroTitle2": "USLUGE",
-        "subtitle": "Sveobuhvatna rešenja za energetsku efikasnost i održivost"
+        "subtitle": "Sveobuhvatna rešenja za energetsku efikasnost i održivost",
+        "metadata": {
+            "title": "Usluge | Energetska Efikasnost i Menadžment | Eneplus",
+            "description": "Nudimo sveobuhvatna rešenja za energetsku efikasnost i održivost. Otkrijte naše usluge iz oblasti energetskog menadžmenta, projektovanja i sertifikacije.",
+            "keywords": "usluge, energetska efikasnost, energetski menadžment, projektovanje, energetski pasoš, eneplus usluge"
+        }
     },
     "SoftwarePage": {
         "overline": "SOFTVER",
@@ -159,7 +170,12 @@
         },
         "ctaTitle": "Zainteresovani ste za softver?",
         "ctaText": "Kontaktirajte nas za demo verziju i detaljnu prezentaciju.",
-        "ctaButton": "Kontaktirajte nas"
+        "ctaButton": "Kontaktirajte nas",
+        "metadata": {
+            "title": "Softver za Energetski Menadžment | Eneplus",
+            "description": "Web orijentisan softver za energetski menadžment. Neizostavna alatka za praćenje i optimizaciju energetske potrošnje opština i preduzeća.",
+            "keywords": "softver za energetski menadžment, praćenje potrošnje energije, energetska efikasnost softver, pametno upravljanje, eneplus"
+        }
     },
     "MediaPage": {
         "overline": "RESURSI",
@@ -176,6 +192,11 @@
         "docs": {
             "blowerDoor": "Blower door test",
             "thermography": "Termovizijsko snimanje"
+        },
+        "metadata": {
+            "title": "Media i Resursi | Eneplus",
+            "description": "Preuzmite korisne materijale, dokumentaciju i video prezentacije naših softvera i usluga. Informišite se o najnovijim trendovima.",
+            "keywords": "media, dokumentacija, video prezentacije, energetski menadžment materijali, eneplus resursi"
         }
     },
     "ContactPage": {
@@ -189,7 +210,12 @@
         "email": "E-mail",
         "phones": "Telefoni",
         "address": "Adresa",
-        "socialTitle": "Pratite nas"
+        "socialTitle": "Pratite nas",
+        "metadata": {
+            "title": "Kontakt | Eneplus",
+            "description": "Kontaktirajte ENEPLUS. Stojimo Vam na raspolaganju za sve informacije i konsultacije o unapređenju energetske efikasnosti vaših objekata.",
+            "keywords": "kontakt, eneplus, informacije, adresa, telefon, email, zakazivanje, konsultacije"
+        }
     },
     "EnergyManagementPage": {
         "overline": "USLUGA",
@@ -213,7 +239,12 @@
         ],
         "ctaTitle": "Spremni za saradnju?",
         "ctaText": "Kontaktirajte nas i saznajte kako možemo pomoći vašoj organizaciji.",
-        "ctaButton": "Kontaktirajte nas"
+        "ctaButton": "Kontaktirajte nas",
+        "metadata": {
+            "title": "Energetski Menadžment | Usluge | Eneplus",
+            "description": "Usluga energetskog menadžmenta po standardu ISO 50001. Pomažemo vam u sistematičnom upravljanju energetskim performansama i racionalnom korišćenju energije.",
+            "keywords": "energetski menadžment, ISO 50001, upravljanje energijom, ušteda energije, eneplus"
+        }
     },
     "StudiesPage": {
         "overline": "USLUGA",
@@ -231,7 +262,12 @@
         ],
         "ctaTitle": "Potrebna vam je stručna analiza?",
         "ctaText": "Kontaktirajte nas za detaljne studije i strateško planiranje.",
-        "ctaButton": "Kontaktirajte nas"
+        "ctaButton": "Kontaktirajte nas",
+        "metadata": {
+            "title": "Studije i Analize EE | Eneplus",
+            "description": "Izrada studija i detaljnih analiza iz oblasti energetske efikasnosti i obnovljivih izvora energije za pametno donošenje investicionih odluka.",
+            "keywords": "studije, energetska analiza, cost benefit, akcioni planovi, energetska efikasnost, eneplus"
+        }
     },
     "TrainingPage": {
         "overline": "USLUGA",
@@ -249,7 +285,12 @@
         ],
         "ctaTitle": "Želite da unapredite znanje?",
         "ctaText": "Prijavite se za naše obuke i sertifikovane treninge.",
-        "ctaButton": "Kontaktirajte nas"
+        "ctaButton": "Kontaktirajte nas",
+        "metadata": {
+            "title": "Treninzi i Edukacije | Eneplus",
+            "description": "Sertifikovane obuke i treninzi iz oblasti energetskog menadžmenta. Prenosimo najnovija praktična znanja i trendove u energetici.",
+            "keywords": "treninzi, obuke, edukacija, energetski menadžeri, eneplus edukacije"
+        }
     },
     "CertificationPage": {
         "overline": "USLUGA",
@@ -292,7 +333,12 @@
         ],
         "ctaTitle": "Planirate projekat?",
         "ctaText": "Kontaktirajte nas na vreme za maksimalne rezultate.",
-        "ctaButton": "Kontaktirajte nas"
+        "ctaButton": "Kontaktirajte nas",
+        "metadata": {
+            "title": "Projektovanje | Energetska Efikasnost | Eneplus",
+            "description": "Usluga projektovanja u građevinarstvu sa fokusom na maksimalnu energetsku efikasnost, preciznost i dugoročnu isplativost.",
+            "keywords": "projektovanje, izgradnja, sanacija, rekonstrukcija, ušteda energije, eneplus"
+        }
     },
     "WebAppsPage": {
         "overline": "USLUGA",
@@ -310,7 +356,12 @@
         ],
         "ctaTitle": "Trebate softversko rešenje?",
         "ctaText": "Kontaktirajte nas za razvoj namenskih aplikacija i prezentacija.",
-        "ctaButton": "Kontaktirajte nas"
+        "ctaButton": "Kontaktirajte nas",
+        "metadata": {
+            "title": "Web Aplikacije i Prezentacije | Eneplus",
+            "description": "Izrada namenskih web aplikacija i prezentacija uz korišćenje najsavremenijih IT tehnologija sa profesionalnim pristupom.",
+            "keywords": "web aplikacije, razvoj softvera, prezentacije, IT rešenja, eneplus"
+        }
     },
     "EnergyConsultingPage": {
         "overline": "USLUGA",
@@ -346,7 +397,12 @@
         "generalContact": "Za sva dodatna pitanja možete pisati na <a href='mailto:office@eneplus.rs' class='linkLight'>office@eneplus.rs</a>",
         "ctaTitle": "Dostupni 24/7",
         "ctaText": "Klijentima smo dostupni 24 časa dnevno, uvek spremni da pružimo dragocen savet ili sugestiju, a sve u cilju i sa željom da naše klijente učinimo zadovoljnim, vaše ideje i vizije pretvorimo u stvarnost.",
-        "ctaButton": "Zakažite konsultacije"
+        "ctaButton": "Zakažite konsultacije",
+        "metadata": {
+            "title": "Energetski Konsalting | Eneplus",
+            "description": "Stručne konsultacije i podrška prilikom gradnje ili rekonstrukcije objekata po najvišim principima energetske efikasnosti.",
+            "keywords": "energetski konsalting, savetovanje, rekonstrukcija, konsultacije, stručna podrška, eneplus"
+        }
     },
     "PppSupportPage": {
         "overline": "USLUGA",
@@ -402,7 +458,12 @@
         ],
         "ctaTitle": "Planirate JPP projekat?",
         "ctaText": "Kontaktirajte nas za stručnu podršku u svim fazama realizacije.",
-        "ctaButton": "Kontaktirajte nas"
+        "ctaButton": "Kontaktirajte nas",
+        "metadata": {
+            "title": "Priprema i Podrška za JPP | Eneplus",
+            "description": "Pružamo stručnu i profesionalnu podršku javnom i privatnom sektoru u realizaciji projekata Javno-Privatnog Partnerstva (JPP).",
+            "keywords": "javno privatno partnerstvo, JPP, priprema tendera, podrška projektima, eneplus"
+        }
     },
     "IsoPage": {
         "overline": "STANDARD",
@@ -437,7 +498,12 @@
         "consultingText": "Naše praktično iskustvo, učešće u komisijama za pripremu standarda, poznavanje procedura, potrebnih dokumenata i dostupnih tehnologija će značajno olakšati uvođenje standarda ISO 50001 u Vašoj organizaciji.",
         "ctaTitle": "Želite da uvedete standard?",
         "ctaText": "Kontaktirajte nas za stručnu pomoć pri implementaciji ISO 50001.",
-        "ctaButton": "Kontaktirajte nas"
+        "ctaButton": "Kontaktirajte nas",
+        "metadata": {
+            "title": "ISO 50001 Standard | Uvođenje | Eneplus",
+            "description": "Konsultantske usluge i asistencija pri uspostavljanju ISO 50001 standarda za energetski menadžment. Maksimizirajte uštede uz ENEPLUS.",
+            "keywords": "ISO 50001, uvođenje standarda, implementacija, sistem energetskog menadžmenta, sertifikat, eneplus"
+        }
     },
     "EnergyAuditsPage": {
         "overline": "USLUGA",
@@ -469,7 +535,12 @@
         ],
         "ctaTitle": "Zakažite energetski pregled",
         "ctaText": "Smanjite troškove i optimizujte potrošnju energije.",
-        "ctaButton": "Kontaktirajte nas"
+        "ctaButton": "Kontaktirajte nas",
+        "metadata": {
+            "title": "Energetski Pregledi | Usluga | Eneplus",
+            "description": "Energetski pregledi objekata i opreme koji daju jasan uvid u mesta neracionalne potrošnje i predlog konkretnih mera za optimizaciju.",
+            "keywords": "energetski pregledi, ušteda energije, identifikacija potrošnje, ISO 50002, EN 16247, eneplus"
+        }
     },
     "MeasurementsPage": {
         "overline": "USLUGA",
@@ -500,7 +571,12 @@
         ],
         "ctaTitle": "Potrebna su vam merenja?",
         "ctaText": "Kontaktirajte nas za precizna merenja i analizu vašeg objekta.",
-        "ctaButton": "Kontaktirajte nas"
+        "ctaButton": "Kontaktirajte nas",
+        "metadata": {
+            "title": "Termografija i Blower Door Merenja | Eneplus",
+            "description": "Napredna infracrvena termografija, provera vazdušne zaptivenosti (Blower Door) i provera uslova komfora (CO2, temperatura).",
+            "keywords": "merenja, termografija, blower door test, uslovi komfora, infracrvena kamera, zaptivenost zgrade, eneplus"
+        }
     },
     "ProjectManagementPage": {
         "overline": "USLUGA",
@@ -537,12 +613,89 @@
         ],
         "ctaTitle": "Pokrenite svoj projekat",
         "ctaText": "Prepustite upravljanje stručnjacima i osigurajte uspeh vaše investicije.",
-        "ctaButton": "Kontaktirajte nas"
+        "ctaButton": "Kontaktirajte nas",
+        "metadata": {
+            "title": "Projekt Menadžment | Upravljanje | Eneplus",
+            "description": "Upravljanje projektima od planiranja do zatvaranja. Koordinacija tima, praćenje rokova, resursa i budžeta za uspeh vašeg projekta.",
+            "keywords": "projekt menadžment, upravljanje projektima, koordinacija tima, analiza budžeta, eneplus"
+        }
+    },
+    "EnergyPassportPage": {
+        "metadata": {
+            "title": "Energetski Pasoš | Eneplus",
+            "description": "Profesionalna izrada energetskih pasoša za sve tipove objekata. Saznajte da li vam je potreban energetski pasoš i pošaljite zahtev.",
+            "keywords": "energetski pasoš, energetski sertifikat, energetski razred, upotrebna dozvola, eneplus"
+        },
+        "overline": "SERTIFIKACIJA",
+        "heroTitle1": "ENERGETSKI",
+        "heroTitle2": "PASOŠ",
+        "introTitle": "Šta je energetski pasoš?",
+        "introText1": "Energetski pasoš, poznat i kao sertifikat o energetskim karakteristikama, predstavlja zvaničan dokument u kome su prikazane proračunate vrednosti energetske potrošnje objekta, njegov energetski razred, kao i stručne preporuke za unapređenje energetske efikasnosti.",
+        "introText2": "Obaveza posedovanja ovog dokumenta odnosi se na sve novoizgrađene objekte, ali i na one koji prolaze kroz procese rekonstrukcije, adaptacije, sanacije ili energetske obnove – izuzev objekata koji su zakonom oslobođeni ove obaveze.",
+        "introText3": "Ovaj sertifikat je neophodan deo tehničke dokumentacije koja se podnosi prilikom pribavljanja upotrebne dozvole za objekat.",
+        "scenariosTitle": "Ko ima potrebu za energetskim pasošem?",
+        "scenario1Title": "Planirate izgradnju ili renoviranje objekta?",
+        "scenario1Text": "Bez obzira da li podižete novu zgradu namenjenu prodaji ili za sopstvene potrebe, energetski pasoš je obavezan korak u procesu dobijanja upotrebne dozvole za vaš objekat.",
+        "scenario2Title": "U planu vam je prodaja, kupovina ili izdavanje nekretnine?",
+        "scenario2Text": "Svaka nekretnina koja se stavlja na tržište radi prodaje ili iznajmljivanja mora posedovati važeći energetski pasoš. Ako ste vlasnik koji prodaje ili izdaje nekretninu, zakonski ste obavezni da obezbedite ovaj dokument.",
+        "scenario3Title": "Potrebno vam je finansiranje?",
+        "scenario3Text": "Bilo da kupujete prvi stan, menjate manji za veći, ili planirate renoviranje postojećeg prostora – uz kredit vam je potreban i energetski pasoš kao deo obavezne dokumentacije.",
+        "ctaTitle": "Potreban vam je energetski pasoš?",
+        "ctaText": "Kontaktirajte nas i pošaljite zahtev za izradu energetskog pasoša. Naš stručni tim će vam pomoći da brzo i efikasno dobijete svu potrebnu dokumentaciju.",
+        "ctaButton": "Pošalji zahtev"
+    },
+    "EnergyPassportRequestPage": {
+        "metadata": {
+            "title": "Zahtev za energetski pasoš | Eneplus",
+            "description": "Podnesite zahtev za izradu energetskog pasoša za vaš objekat.",
+            "keywords": "zahtev, energetski pasoš, prijava, dokumentacija, eneplus"
+        },
+        "title": "Podaci o objektu",
+        "buildingType": "Vrsta zgrade *",
+        "buildingTypePlaceholder": "Izaberi",
+        "btResidential": "Stambena zgrada",
+        "btCommercial": "Poslovna zgrada",
+        "btPublic": "Zgrada javne namene",
+        "btIndustrial": "Industrijska zgrada",
+        "btOther": "Ostalo",
+        "streetAndNumber": "Ulica i broj",
+        "cadastralParcel": "Broj katastarske parcele *",
+        "cadastralMunicipality": "Katastarska opština *",
+        "city": "Mesto",
+        "contactTitle": "Kontakt podaci",
+        "fullName": "Ime i prezime *",
+        "email": "E-mail *",
+        "phone": "Telefon *",
+        "note": "Napomena",
+        "notePlaceholder": "Ukoliko želite nešto da napomenete",
+        "documentsTitle": "Dostavljamo sledeće dokumente",
+        "docBuildingPermit": "Građevinska dozvola",
+        "docArchitecturalProject": "Arhitektonski projekat",
+        "docMechanicalProject": "Projekat mašinskih instalacija",
+        "docEfficiencyElaborate": "Elaborat energetske efikasnosti",
+        "docPhotos": "Fotografije i dodatna dokumenta",
+        "addDocument": "+ Dodajte dokument",
+        "documentsNote": "Ako nešto od dokumentacije ne postoji u elektronskom obliku, molimo Vas da to navedete u Napomeni.",
+        "printedCopyTitle": "Da li želite da vam energetski pasoš dostavimo i u štampanoj formi?",
+        "printedCopyOption": "Želim energetski pasoš u štampanoj formi",
+        "printedCopyNote": "Napomena: Energetski pasoš dostavljamo Vam u elektronskoj formi. Primerak energetskog pasoša dostavljamo u nadležno ministarstvo.",
+        "privacyPolicyOption": "Slažem se sa Uslovima korišćenja i politikom privatnosti",
+        "submitButton": "POŠALJITE ZAHTEV",
+        "sending": "Šalje se...",
+        "successMessage": "Vaš zahtev je uspešno poslat.",
+        "errorMessage": "Došlo je do greške prilikom slanja. Molimo pokušajte ponovo."
     },
     "NotFound": {
         "titlePrefix": "404",
         "titleAccent": "STRANICA NIJE PRONAĐENA",
         "description": "Žao nam je, stranica koju tražite ne postoji ili je premeštena.",
         "button": "POVRATAK NA POČETNU"
+    },
+    "HomePage": {
+        "metadata": {
+            "title": "Početna",
+            "description": "Eneplus pruža ekspertske usluge u oblasti energetske efikasnosti, menadžmenta i obnovljivih izvora energije. Vaš partner za održivu budućnost.",
+            "keywords": "eneplus, energetska efikasnost, pametna energija, ušteda novca"
+        }
     }
 }

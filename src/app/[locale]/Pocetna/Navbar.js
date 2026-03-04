@@ -28,6 +28,7 @@ export default function Navbar() {
     const navLinks = [
         { name: t('home'), href: '/' },
         { name: t('about'), href: '/about' },
+        { name: t('energyPassport'), href: '/energy-passport' },
         { name: t('services'), href: '/services' },
         { name: t('software'), href: '/software' },
         { name: t('media'), href: '/media' },

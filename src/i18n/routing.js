@@ -63,6 +63,14 @@ export const routing = defineRouting({
             sr: '/usluge/web-aplikacije',
             en: '/services/web-applications'
         },
+        '/energy-passport': {
+            sr: '/energetski-pasos',
+            en: '/energy-passport'
+        },
+        '/energy-passport/request': {
+            sr: '/energetski-pasos/zahtev',
+            en: '/energy-passport/request'
+        },
         '/software': {
             sr: '/softver',
             en: '/software'
