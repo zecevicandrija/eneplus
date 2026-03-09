@@ -1,6 +1,6 @@
 import { routing } from '../i18n/routing';
 
-const baseUrl = 'https://eneplus.rs';
+const baseUrl = 'https://www.eneplus.rs';
 
 export default function sitemap() {
     // List of all static routes in the application
@@ -14,8 +14,8 @@ export default function sitemap() {
 
         // Use default locale to determine change frequency and priority or define per route logic
         // For simplicity, homepage gets higher priority
-        const priority = routeKey === '/' ? 1 : 0.8;
-        const changeFrequency = routeKey === '/' ? 'daily' : 'weekly';
+        const priority = routeKey === '/' ? 1 : routeKey.startsWith('/energy-passport') ? 0.9 : 0.8;
+        const changeFrequency = routeKey === '/' ? 'daily' : routeKey.startsWith('/energy-passport') ? 'daily' : 'weekly';
 
         // Generate entries for each locale
         routing.locales.forEach(locale => {

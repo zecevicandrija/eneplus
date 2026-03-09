@@ -147,7 +147,7 @@ const nextConfig = {
       // SEO Shortcuts
       {
         source: '/energetski-pasos',
-        destination: '/sr/usluge/energetska-sertifikacija',
+        destination: '/sr/energetski-pasos',
         permanent: true,
       }
     ];

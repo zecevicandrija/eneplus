@@ -121,8 +121,17 @@
     width: 120px;
     height: 4px;
     background: linear-gradient(90deg, #4ade80, transparent);
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     border-radius: 2px;
+}
+
+.heroSubtitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 600px;
+    margin-bottom: 2.5rem;
 }
 
 .heroActions {
@@ -184,6 +193,60 @@
 
 .heroCta:hover .heroCtaIcon {
     transform: translateX(5px);
+}
+
+/* Hero phone link */
+.heroPhone {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.heroPhone:hover {
+    color: #4ade80;
+}
+
+.heroPhoneIcon {
+    font-size: 1.2rem;
+}
+
+/* ==================== TRUST BADGES ==================== */
+.trustBadges {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.trustBadge {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+}
+
+.trustBadgeValue {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #4ade80;
+    line-height: 1;
+}
+
+.trustBadgeLabel {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 /* ==================== INTRO SECTION ==================== */
@@ -362,17 +425,443 @@
     flex-grow: 1;
 }
 
+/* ==================== PROCESS SECTION ==================== */
+.processSection {
+    padding: 6rem 8%;
+    background-color: #f8faf9;
+    position: relative;
+}
+
+.processContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.processHeader {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.processOverline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #4ade80;
+    font-weight: 800;
+    letter-spacing: 5px;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+    font-family: var(--font-outfit), sans-serif;
+}
+
+.processTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-weight: 900;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+
+.processTimeline {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.processTimeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(180deg, #4ade80, #22c55e 50%, rgba(34, 197, 94, 0.1));
+    border-radius: 3px;
+}
+
+.processStep {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem 0;
+    position: relative;
+}
+
+.processStepNumber {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #4ade80, #22c55e);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #050505;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 4px 20px rgba(74, 222, 128, 0.3);
+}
+
+.processStepContent {
+    padding-top: 0.8rem;
+}
+
+.processStepTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+.processStepText {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #4b5563;
+}
+
+/* ==================== LEGAL SECTION ==================== */
+.legalSection {
+    padding: 6rem 8%;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.legalContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.legalTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-weight: 900;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 1.5rem;
+}
+
+.legalTitle::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #4ade80, transparent);
+}
+
+.legalText {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #4b5563;
+    margin-bottom: 2rem;
+}
+
+.legalHighlight {
+    background: linear-gradient(135deg, rgba(74, 222, 128, 0.08), rgba(74, 222, 128, 0.03));
+    border-left: 4px solid #4ade80;
+    padding: 1.5rem 2rem;
+    border-radius: 0 12px 12px 0;
+    margin: 2rem 0;
+}
+
+.legalHighlight p {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #1a1a1a;
+    font-weight: 600;
+    margin: 0;
+}
+
+.legalList {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.legalListItem {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #4b5563;
+}
+
+.legalListIcon {
+    color: #4ade80;
+    font-size: 1.2rem;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+/* ==================== DOCUMENTS SECTION ==================== */
+.docsSection {
+    padding: 6rem 8%;
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.docsContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+}
+
+.docsHeader {
+    margin-bottom: 4rem;
+}
+
+.docsTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.docsSubtitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.7;
+    max-width: 700px;
+}
+
+.docsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.docItem {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+    transition: all 0.3s ease;
+}
+
+.docItem:hover {
+    background: rgba(74, 222, 128, 0.05);
+    border-color: rgba(74, 222, 128, 0.3);
+    transform: translateY(-3px);
+}
+
+.docIcon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.docText {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 600;
+}
+
+.docsNote {
+    margin-top: 2rem;
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-style: italic;
+}
+
+/* ==================== FAQ SECTION ==================== */
+.faqSection {
+    padding: 6rem 8%;
+    background-color: #f8faf9;
+    position: relative;
+}
+
+.faqContainer {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.faqHeader {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.faqOverline {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #4ade80;
+    font-weight: 800;
+    letter-spacing: 5px;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+    font-family: var(--font-outfit), sans-serif;
+}
+
+.faqTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-weight: 900;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+
+.faqList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.faqItem {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    background: #ffffff;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.faqItem:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.faqQuestion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5rem 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    transition: color 0.3s ease;
+}
+
+.faqQuestion:hover {
+    color: #22c55e;
+}
+
+.faqQuestionOpen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5rem 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #22c55e;
+    transition: color 0.3s ease;
+}
+
+.faqToggle {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #4ade80, #22c55e);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #050505;
+    font-size: 1.3rem;
+    font-weight: 700;
+    transition: transform 0.3s ease;
+    margin-left: 1rem;
+}
+
+.faqToggleOpen {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #4ade80, #22c55e);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #050505;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-left: 1rem;
+    transition: transform 0.3s ease;
+    transform: rotate(45deg);
+}
+
+.faqAnswer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1), padding 0.4s ease;
+    padding: 0 2rem;
+}
+
+.faqAnswerOpen {
+    max-height: 500px;
+    padding: 0 2rem 1.5rem;
+}
+
+.faqAnswer p {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #4b5563;
+    margin: 0;
+}
+
 /* ==================== CTA SECTION ==================== */
 .ctaSection {
     padding: 6rem 8%;
-    background-color: #ffffff;
+    background: linear-gradient(135deg, #050505 0%, #111111 100%);
     text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.ctaSection::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(rgba(74, 222, 128, 0.1) 1px, transparent 1px);
+    background-size: 40px 40px;
+    opacity: 0.5;
+    z-index: 1;
 }
 
 .ctaContainer {
     max-width: 800px;
     margin: 0 auto;
     position: relative;
+    z-index: 10;
 }
 
 .ctaGlow {
@@ -380,10 +869,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
-    height: 300px;
-    background: radial-gradient(circle, rgba(74, 222, 128, 0.08) 0%, transparent 70%);
-    filter: blur(40px);
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(74, 222, 128, 0.15) 0%, transparent 70%);
+    filter: blur(60px);
     z-index: 0;
     pointer-events: none;
 }
@@ -392,7 +881,7 @@
     font-family: var(--font-outfit), sans-serif;
     font-size: clamp(2rem, 5vw, 4rem);
     font-weight: 900;
-    color: #1a1a1a;
+    color: #ffffff;
     text-transform: uppercase;
     margin-bottom: 1.5rem;
     position: relative;
@@ -402,8 +891,19 @@
 .ctaText {
     font-family: var(--font-outfit), sans-serif;
     font-size: 1.2rem;
-    color: #4b5563;
-    margin-bottom: 3rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 2.5rem;
+    position: relative;
+    z-index: 1;
+    line-height: 1.7;
+}
+
+.ctaActions {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     position: relative;
     z-index: 1;
 }
@@ -434,6 +934,31 @@
     box-shadow: 0 20px 35px -10px rgba(74, 222, 128, 0.6), inset 0px -3px 0px rgba(0, 0, 0, 0.2);
 }
 
+.ctaPhone {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1.2rem 2.5rem;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    color: #ffffff;
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.ctaPhone:hover {
+    border-color: #4ade80;
+    color: #4ade80;
+    transform: translateY(-3px);
+}
+
+.ctaPhoneIcon {
+    font-size: 1.1rem;
+}
+
 /* ==================== RESPONSIVE ==================== */
 @media (max-width: 1024px) {
     .scenariosGrid {
@@ -441,20 +966,83 @@
         max-width: 600px;
         margin: 0 auto;
     }
+
+    .docsGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .trustBadges {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
 }
 
 @media (max-width: 768px) {
     .heroSection {
-        padding: 5rem 5%;
+        padding: 8rem 5% 5rem;
     }
 
     .introSection,
     .scenariosSection,
-    .ctaSection {
+    .ctaSection,
+    .processSection,
+    .legalSection,
+    .faqSection,
+    .docsSection {
         padding: 4rem 5%;
     }
 
     .scenarioCard {
         padding: 2rem 1.5rem;
+    }
+
+    .processTimeline::before {
+        left: 20px;
+    }
+
+    .processStepNumber {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        font-size: 0.9rem;
+    }
+
+    .processStep {
+        gap: 1.2rem;
+    }
+
+    .heroActions {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ctaActions {
+        flex-direction: column;
+    }
+
+    .ctaPhone {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .trustBadges {
+        gap: 1.2rem;
+    }
+
+    .trustBadgeValue {
+        font-size: 1.4rem;
+    }
+
+    .faqQuestion {
+        padding: 1.2rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .faqAnswer p {
+        font-size: 0.95rem;
+    }
+
+    .docItem {
+        padding: 1.2rem 1.5rem;
     }
 }
