@@ -70,7 +70,7 @@ export async function POST(request) {
         }
 
         const { data, error } = await resend.emails.send({
-            from: 'Eneplus Zahtev <onboarding@resend.dev>',
+            from: 'Eneplus Zahtev <zahtevi@eneplus.rs>',
             to: ['office@eneplus.rs'],
             subject: `Zahtev za energetski pasoš - ${fullName}`,
             html: htmlContent,
