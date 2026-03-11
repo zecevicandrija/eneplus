@@ -103,48 +103,13 @@ export default async function LocaleLayout({ children, params }) {
 
 export async function generateMetadata({ params }) {
     const { locale } = await params;
-    const t = await getTranslations({ locale, namespace: 'HomePage.metadata' });
-
-    const title = t('title');
-    const description = t('description');
 
     return {
         title: {
             template: '%s | Eneplus',
-            default: title,
+            default: 'Eneplus',
         },
-        description: description,
-        keywords: t('keywords'),
         metadataBase: new URL('https://eneplus.rs'),
-        alternates: {
-            canonical: `https://eneplus.rs/${locale}`,
-            languages: {
-                'sr': '/sr',
-                'en': '/en',
-            },
-        },
-        openGraph: {
-            title: title,
-            description: description,
-            url: `https://eneplus.rs/${locale}`,
-            siteName: 'Eneplus',
-            images: [
-                {
-                    url: 'https://eneplus.rs/Assets/enepluslogo.png',
-                    width: 800,
-                    height: 600,
-                    alt: 'Eneplus Logo',
-                },
-            ],
-            locale: locale,
-            type: 'website',
-        },
-        twitter: {
-            card: 'summary_large_image',
-            title: title,
-            description: description,
-            images: ['https://eneplus.rs/Assets/enepluslogo.png'],
-        },
         icons: {
             icon: 'https://eneplus.rs/Assets/enepluslogo.png',
             shortcut: 'https://eneplus.rs/Assets/enepluslogo.png',

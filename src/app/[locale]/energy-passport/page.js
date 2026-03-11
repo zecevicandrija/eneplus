@@ -28,7 +28,7 @@ const documentItems = [
     { id: 6, icon: '📄' },
 ];
 
-const faqItems = [1, 2, 3, 4, 5, 6, 7, 8];
+const faqItems = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 export default function EnergyPassportPage() {
     const t = useTranslations('EnergyPassportPage');
