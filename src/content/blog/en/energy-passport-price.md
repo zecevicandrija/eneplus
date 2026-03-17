@@ -1,6 +1,6 @@
 ---
 translationKey: "energy-passport-price"
-title: "Energy Passport Price 2026: Everything You Need to Know About the Certificate"
+title: "Energy Passport Price 2026: Everything You Need to Know About the Energy Passport"
 description: "How much does an energy passport cost in Serbia? A comprehensive guide through the prices for houses and buildings, energy efficiency laws, and licensed issuers."
 author: "Eneplus Team"
 date: "2026-03-17"

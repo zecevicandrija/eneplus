@@ -4,7 +4,7 @@
         "about": "O nama",
         "energyPassport": "En. Pasoš",
         "services": "Usluge",
-        "references": "REFERENCE",
+        "ourClients": "NAŠI KLIJENTI",
         "software": "Softver",
         "media": "MEDIA",
         "blog": "BLOG",
@@ -791,17 +791,17 @@
         "successMessage": "Vaš zahtev je uspešno poslat.",
         "errorMessage": "Došlo je do greške prilikom slanja. Molimo pokušajte ponovo."
     },
-    "ReferencesPage": {
+    "OurClientsPage": {
         "metadata": {
-            "title": "Reference | Eneplus",
-            "description": "Pogledajte naše reference i klijente sa kojima smo sarađivali.",
-            "keywords": "reference, klijenti, energetska efikasnost, eneplus"
+            "title": "Naši klijenti | Eneplus",
+            "description": "Lista uspešnih saradnji sa međunarodnim organizacijama, gradovima i kompanijama.",
+            "keywords": "klijenti, reference, energetska efikasnost, eneplus"
         },
         "overline": "NAŠI PARTNERI",
-        "heroTitle1": "NAŠE",
-        "heroTitle2": "REFERENCE",
-        "heroSubtitle": "Ponosni smo na uspešnu saradnju sa brojnim domaćim i stranim organizacijama, gradovima i kompanijama. Naše reference su garancija kvaliteta i profesionalnosti.",
-        "categoryGreen": "Međunarodne organizacije i institucije",
+        "heroTitle1": "NAŠI",
+        "heroTitle2": "KLIJENTI",
+        "heroSubtitle": "Ponosni smo na uspešnu saradnju sa brojnim domaćim i stranim organizacijama, gradovima i kompanijama. Naši klijenti su garancija kvaliteta i profesionalnosti.",
+        "categoryGreen": "Poverenje vodećih brendova",
         "categoryRed": "Gradovi",
         "categoryBlue": "Opštine",
         "categoryOther": "Kompanije i organizacije",
@@ -819,7 +819,9 @@
             "mre": "Ministarstvo rudarstva i energetike",
             "nlb": "NLB Komercijalna",
             "pse": "Pokrajinski sekretarijat za energetiku",
-            "pgv": "Pokret gorana Vojvodine",
+            "primas": "Primas consulting",
+            "skgo": "Stalna konferencija gradova i opština (SKGO)",
+            "magna": "Magna",
             "rraBacka": "Regionalna razvojna agencija Bačka",
             "rraSrem": "Regionalna razvojna agencija Srem",
             "rraZlatibor": "Regionalna razvojna agencija Zlatibor",
@@ -867,6 +869,9 @@
             "modelartArhitekti": "Modelart arhitekti",
             "nandra": "Nandra",
             "poliklinikaBozicic": "Poliklinika Dr Božičić",
+            "pgv": "Pokret gorana Vojvodine",
+            "lamex": "Lamex",
+            "reri": "Regulatorni institut za obnovljivu energiju i životnu sredinu (RERI)",
             "stsPupin": "STŠ Mihajlo Pupin",
             "studioDart": "Studio DArt",
             "suProspect": "Su-Prospect"

@@ -1,6 +1,6 @@
 ---
 translationKey: "energy-passport-price"
-title: "Energetski Pasoš Cena 2026: Sve Što Treba Da Znate o Elaboratu"
+title: "Energetski Pasoš Cena 2026: Sve Što Treba Da Znate o Energetskom Pasošu"
 description: "Kolika je cena energetskog pasoša u Srbiji? Detaljan vodič kroz cene za kuće i zgrade, zakon o energetskoj efikasnosti i licencirana lica koja izdaju sertifikat."
 author: "Eneplus Tim"
 date: "2026-03-17"

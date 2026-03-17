@@ -4,7 +4,7 @@
         "about": "About",
         "energyPassport": "En. Passport",
         "services": "Services",
-        "references": "REFERENCES",
+        "ourClients": "OUR CLIENTS",
         "software": "Software",
         "media": "MEDIA",
         "blog": "BLOG",
@@ -791,17 +791,17 @@
         "successMessage": "Your request has been successfully sent.",
         "errorMessage": "An error occurred while sending. Please try again."
     },
-    "ReferencesPage": {
+    "OurClientsPage": {
         "metadata": {
-            "title": "References | Eneplus",
-            "description": "See our references and clients we have worked with.",
-            "keywords": "references, clients, energy efficiency, eneplus"
+            "title": "Our Clients | Eneplus",
+            "description": "List of successful collaborations with international organizations, cities, and companies.",
+            "keywords": "clients, references, energy efficiency, eneplus"
         },
         "overline": "OUR PARTNERS",
         "heroTitle1": "OUR",
-        "heroTitle2": "REFERENCES",
-        "heroSubtitle": "We are proud of the successful cooperation with many domestic and international organizations, cities, and companies. Our references are a guarantee of quality and professionalism.",
-        "categoryGreen": "International Organizations & Institutions",
+        "heroTitle2": "CLIENTS",
+        "heroSubtitle": "We are proud of the successful cooperation with many domestic and international organizations, cities, and companies. Our clients are a guarantee of quality and professionalism.",
+        "categoryGreen": "Trusted by Leading Brands",
         "categoryRed": "Cities",
         "categoryBlue": "Municipalities",
         "categoryOther": "Companies & Organizations",
@@ -819,7 +819,9 @@
             "mre": "Ministry of Mining and Energy",
             "nlb": "NLB Komercijalna",
             "pse": "Provincial Secretariat for Energy",
-            "pgv": "Movement of Gorans of Vojvodina",
+            "primas": "Primas consulting",
+            "skgo": "Standing Conference of Towns and Municipalities (SKGO)",
+            "magna": "Magna",
             "rraBacka": "Regional Development Agency Bačka",
             "rraSrem": "Regional Development Agency Srem",
             "rraZlatibor": "Regional Development Agency Zlatibor",
@@ -867,6 +869,9 @@
             "modelartArhitekti": "Modelart Architects",
             "nandra": "Nandra",
             "poliklinikaBozicic": "Polyclinic Dr Božičić",
+            "pgv": "Movement of Gorans of Vojvodina",
+            "lamex": "Lamex",
+            "reri": "Regulatory Institute for Renewable Energy and Environmental Protection (RERI)",
             "stsPupin": "Technical School Mihajlo Pupin",
             "studioDart": "Studio DArt",
             "suProspect": "Su-Prospect"

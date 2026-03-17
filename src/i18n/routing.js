@@ -75,6 +75,10 @@ export const routing = defineRouting({
             sr: '/softver',
             en: '/software'
         },
+        '/our-clients': {
+            sr: '/nasi-klijenti',
+            en: '/our-clients'
+        },
         '/contact': {
             sr: '/kontakt',
             en: '/contact'

@@ -46,7 +46,7 @@ export default function Navbar() {
         { name: t('about'), href: '/about' },
         { name: t('energyPassport'), href: '/energy-passport' },
         { name: t('services'), href: '/services' },
-        { name: t('references'), href: '/references' },
+        { name: t('ourClients'), href: '/our-clients' },
         { name: t('software'), href: '/software' },
         { name: t('media'), href: '/media' },
         { name: t('blog'), href: '/blog' },

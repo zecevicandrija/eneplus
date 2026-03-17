@@ -17,6 +17,9 @@ const referenceGroups = [
         translationKey: "categoryGreen",
         colorVar: "#4ade80",
         items: [
+            { key: "magna", path: "/Assets/slike_za_reference/Magna.png" },
+            { key: "primas", path: "/Assets/slike_za_reference/Primas consulting.png" },
+            { key: "skgo", path: "/Assets/slike_za_reference/SKGO.png" },
             { key: "ebrd", path: "/Assets/slike_za_reference/European Bank for Reconstruction and Development.png" },
             { key: "undp", path: "/Assets/slike_za_reference/United Nations Development Programme.png" },
             { key: "giz", path: "/Assets/slike_za_reference/GIZ.png" },
@@ -30,7 +33,6 @@ const referenceGroups = [
             { key: "mre", path: "/Assets/slike_za_reference/Ministarstvo rudarstva i energetike.png" },
             { key: "nlb", path: "/Assets/slike_za_reference/nlb-komercialna-logo.svg" },
             { key: "pse", path: "/Assets/slike_za_reference/Pokrajinski sekretarijat za energetiku, građevinarstvo i saobraćaj.jpeg" },
-            { key: "pgv", path: "/Assets/slike_za_reference/Pokret gorana Vojvodine.png" },
             { key: "rraBacka", path: "/Assets/slike_za_reference/Regionalna razvojna agencija Bačka.jpeg" },
             { key: "rraSrem", path: "/Assets/slike_za_reference/Regionalna razvojna agencija Srem.png" },
             { key: "rraZlatibor", path: "/Assets/slike_za_reference/Regionalna razvojna agencija Zlatibor.jpeg" },
@@ -101,13 +103,16 @@ const referenceGroups = [
             { key: "poliklinikaBozicic", path: "/Assets/slike_za_reference/Poliklinika Dr Božičić.png" },
             { key: "stsPupin", path: "/Assets/slike_za_reference/STŠ Mihajlo Pupin Kula.png" },
             { key: "studioDart", path: "/Assets/slike_za_reference/Studio DArt.png" },
-            { key: "suProspect", path: "/Assets/slike_za_reference/Su- Prospect.png" }
+            { key: "suProspect", path: "/Assets/slike_za_reference/Su- Prospect.png" },
+            { key: "pgv", path: "/Assets/slike_za_reference/Pokret gorana Vojvodine.png" },
+            { key: "lamex", path: "/Assets/slike_za_reference/Lamex.png" },
+            { key: "reri", path: "/Assets/slike_za_reference/RERI.png" }
         ]
     }
 ];
 
-export default function ReferencesPage() {
-    const t = useTranslations('ReferencesPage');
+export default function OurClientsPage() {
+    const t = useTranslations('OurClientsPage');
     const introRef = useRef(null);
     const referencesRef = useRef(null);
 
