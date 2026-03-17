@@ -17,9 +17,6 @@ const referenceGroups = [
         translationKey: "categoryGreen",
         colorVar: "#4ade80",
         items: [
-            { key: "magna", path: "/Assets/slike_za_reference/Magna.png" },
-            { key: "primas", path: "/Assets/slike_za_reference/Primas consulting.png" },
-            { key: "skgo", path: "/Assets/slike_za_reference/SKGO.png" },
             { key: "ebrd", path: "/Assets/slike_za_reference/European Bank for Reconstruction and Development.png" },
             { key: "undp", path: "/Assets/slike_za_reference/United Nations Development Programme.png" },
             { key: "giz", path: "/Assets/slike_za_reference/GIZ.png" },
@@ -32,6 +29,9 @@ const referenceGroups = [
             { key: "mgsi", path: "/Assets/slike_za_reference/Ministarstvo građevinarstva, saobrćaja i  infrastrukture.jpeg" },
             { key: "mre", path: "/Assets/slike_za_reference/Ministarstvo rudarstva i energetike.png" },
             { key: "nlb", path: "/Assets/slike_za_reference/nlb-komercialna-logo.svg" },
+            { key: "magna", path: "/Assets/slike_za_reference/Magna.png" },
+            { key: "primas", path: "/Assets/slike_za_reference/Primas consulting.png" },
+            { key: "skgo", path: "/Assets/slike_za_reference/SKGO.png" },
             { key: "pse", path: "/Assets/slike_za_reference/Pokrajinski sekretarijat za energetiku, građevinarstvo i saobraćaj.jpeg" },
             { key: "rraBacka", path: "/Assets/slike_za_reference/Regionalna razvojna agencija Bačka.jpeg" },
             { key: "rraSrem", path: "/Assets/slike_za_reference/Regionalna razvojna agencija Srem.png" },
@@ -129,7 +129,7 @@ export default function OurClientsPage() {
             // Animate reference groups and logos
             if (referencesRef.current) {
                 const groups = referencesRef.current.querySelectorAll(`.${styles.categoryWrapper}`);
-                
+
                 groups.forEach((group) => {
                     const cards = group.querySelectorAll(`.${styles.logoCard}`);
                     const header = group.querySelector(`.${styles.categoryHeader}`);
@@ -201,21 +201,21 @@ export default function OurClientsPage() {
                                 <h2 className={styles.categoryTitle}>{t(group.translationKey)}</h2>
                                 <div className={styles.categoryLine} style={{ background: `linear-gradient(90deg, ${group.colorVar}, transparent)` }}></div>
                             </div>
-                            
+
                             <div className={styles.logosGrid}>
                                 {group.items.map((item, idx) => (
-                                    <div 
-                                        key={idx} 
+                                    <div
+                                        key={idx}
                                         className={styles.logoCard}
                                         style={{ '--accent-color': group.colorVar }}
                                         title={t(`items.${item.key}`)}
                                     >
                                         {/* Use img here as next/image requires width/height and these images have varied aspect ratios */}
-                                        <img 
-                                            src={item.path} 
-                                            alt={t(`items.${item.key}`)} 
+                                        <img
+                                            src={item.path}
+                                            alt={t(`items.${item.key}`)}
                                             className={styles.logoImage}
-                                            loading="lazy" 
+                                            loading="lazy"
                                         />
                                         <span className={styles.logoText}>{t(`items.${item.key}`)}</span>
                                     </div>
