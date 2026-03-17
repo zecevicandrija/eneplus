@@ -124,6 +124,18 @@
     margin-bottom: 2rem;
 }
 
+.seoTitle {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #1a1a1a;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #4ade80;
+    padding-left: 1rem;
+    line-height: 1.3;
+}
+
 .highlightBlock {
     border-left: 4px solid #4ade80;
     padding-left: 2rem;

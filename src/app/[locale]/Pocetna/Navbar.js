@@ -1,14 +1,16 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import { usePathname } from 'next/navigation';
 import { useLocale, useTranslations } from 'next-intl';
 import styles from './Navbar.module.css';
+import { getAlternateBlogPath } from '@/lib/actions';
 
 export default function Navbar() {
     const [mobileOpen, setMobileOpen] = useState(false);
+    const [alternatePath, setAlternatePath] = useState(null);
     const t = useTranslations('Navbar');
     const locale = useLocale();
     const pathname = usePathname();
@@ -23,15 +25,31 @@ export default function Navbar() {
     };
 
     const otherLocale = locale === 'sr' ? 'en' : 'sr';
-    const switchLocalePath = `/${otherLocale}${getPathWithoutLocale()}`;
+    
+    useEffect(() => {
+        const segments = pathname.split('/').filter(Boolean);
+        if (segments.length >= 3 && segments[1] === 'blog') {
+            const currentSlug = segments[2];
+            getAlternateBlogPath(locale, currentSlug).then(path => {
+                if (path) setAlternatePath(path);
+                else setAlternatePath(null);
+            });
+        } else {
+            setAlternatePath(null);
+        }
+    }, [pathname, locale]);
+
+    const switchLocalePath = alternatePath || `/${otherLocale}${getPathWithoutLocale()}`;
 
     const navLinks = [
         { name: t('home'), href: '/' },
         { name: t('about'), href: '/about' },
         { name: t('energyPassport'), href: '/energy-passport' },
         { name: t('services'), href: '/services' },
+        { name: t('references'), href: '/references' },
         { name: t('software'), href: '/software' },
         { name: t('media'), href: '/media' },
+        { name: t('blog'), href: '/blog' },
         { name: t('contact'), href: '/contact' },
     ];
 

@@ -118,6 +118,10 @@ export default function AboutPage() {
                         <p>
                             {t('p2')}
                         </p>
+                        <h2 className={styles.seoTitle}>{t('seoTitle')}</h2>
+                        <p>{t('seoText1')}</p>
+                        <p>{t('seoText2')}</p>
+                        <p>{t('seoText3')}</p>
                     </div>
                     <div className={styles.imageWrapper}>
                         <Image

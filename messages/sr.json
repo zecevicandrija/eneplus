@@ -4,9 +4,50 @@
         "about": "O nama",
         "energyPassport": "En. Pasoš",
         "services": "Usluge",
+        "references": "REFERENCE",
         "software": "Softver",
-        "media": "Media",
-        "contact": "Kontakt"
+        "media": "MEDIA",
+        "blog": "BLOG",
+        "contact": "KONTAKT"
+    },
+    "BlogPage": {
+        "metadata": {
+            "title": "Eneplus Blog | Saveti za Energetsku Efikasnost i Uštedu",
+            "description": "Čitajte najnovije vesti, savete i analize o energetskoj efikasnosti, energetskim pasošima i ISO 50001 menadžmentu u Srbiji.",
+            "keywords": "energetska efikasnost blog, usteda energije, sta je energetski pasos, subvencije za energetsku efikasnost"
+        },
+        "overline": "EDUKACIJA I SAVETI",
+        "heroTitle1": "SAZNAJTE KAKO DA",
+        "heroTitle2": "UŠTEDITE",
+        "heroLine": "Najnovije vesti iz industrije i praktični saveti",
+        "heroSubtitle": "Pratite naš blog i saznajte kako pametno upravljanje energijom donosi stvarne finansijske rezultate na Vašem objektu.",
+        "trustBadge1Value": "30+",
+        "trustBadge1Label": "Stručnih Članaka",
+        "trustBadge2Value": "Novosti",
+        "trustBadge2Label": "Redovno ažurirano",
+        "trustBadge3Value": "100%",
+        "trustBadge3Label": "Praktični Saveti",
+        "blogListTitle": "NAJNOVIJI ČLANCI",
+        "readMore": "Pročitaj ceo članak",
+        "backToBlog": "Nazad na blog",
+        "post1": {
+            "title": "Šta je energetski pasoš i zašto vam je potreban?",
+            "excerpt": "Saznajte sve detalje: od toga šta tačno predstavlja elaborat energetske efikasnosti, preko procesa dobijanja, do toga koliko novca možete uštedeti posedovanjem sertifikata.",
+            "date": "15. Mart 2024",
+            "category": "Regulativa"
+        },
+        "post2": {
+            "title": "Top 5 mera za poboljšanje energetske efikasnosti",
+            "excerpt": "Termografija jasno pokazuje gde vaš objekat gubi toplotu. Predstavljamo vam 5 najefikasnijih načina da zaustavite gubitke i dobijete najbrži povrat investicije.",
+            "date": "28. Februar 2024",
+            "category": "Saveti"
+        },
+        "post3": {
+            "title": "Subvencije države za energetsku sanaciju objekata",
+            "excerpt": "Koji su uslovi, kompletna potrebna dokumentacija i koraci za dobijanje državnih subvencija tokom tekuće godine za pametnu kuću i solarne panele.",
+            "date": "10. Februar 2024",
+            "category": "Finansije"
+        }
     },
     "Hero": {
         "headingLine1": "Eneplus",
@@ -107,6 +148,10 @@
         "leadText": "ENEPLUS je konsultantska firma koja pruža usluge iz oblasti energetskog menadžmenta, energetske efikasnosti i projektnog menadžmenta.",
         "p1": "Naš ekspertski tim stoji Vam na raspolaganju prilikom analize i odabira najoptimalnijih rešenja koji će povećati energetsku efikasnost Vašeg sistema uz smanjenje troškova.",
         "p2": "ENEPLUS razvija strategije i implementira rešenja koja omogućuju optimizaciju procesa, smanjenja troškova i održivi razvoj.",
+        "seoTitle": "Stručnost, regulativa i uštede",
+        "seoText1": "Naši licencirani inženjeri poseduju bogato iskustvo rada širom Srbije. Bilo da Vam je potrebna napredna termografija, usklađivanje sistema sa smernicama koje daje Agencija za energetiku, ili pripremna dokumentacija za opština pregled, Eneplus garantuje tačno poštovanje dogovora, precizan rok izrade i neupitan kvalitet.",
+        "seoText2": "Budući da Zakon o planiranju i izgradnji propisuje visoke standarde pri gradnji i renoviranju, obavezan korak ka dobijanju zvaničnih dozvola jeste validan elaborat energetske efikasnosti. Naša firma vrši i zvanično izdavanje pasoša, uz nihovo obavezno unose i evidentiranje kroz nacionalni BEES registar.",
+        "seoText3": "Svesni smo važnosti finansijskog planiranja za svaki projekat. Zbog toga je naša cena izrade transparentna i u potpunosti prilagođena složenosti Vašeg objekta. Pored svega, redovno usmeravamo naše klijente o tome kako se najlakše i najbrže dobijaju aktuelne državne subvencije za energetsku efikasnost.",
         "teamLabel": "ENEPLUS",
         "teamTitle": "EKSPERTSKI TIM",
         "team": {
@@ -746,6 +791,87 @@
         "successMessage": "Vaš zahtev je uspešno poslat.",
         "errorMessage": "Došlo je do greške prilikom slanja. Molimo pokušajte ponovo."
     },
+    "ReferencesPage": {
+        "metadata": {
+            "title": "Reference | Eneplus",
+            "description": "Pogledajte naše reference i klijente sa kojima smo sarađivali.",
+            "keywords": "reference, klijenti, energetska efikasnost, eneplus"
+        },
+        "overline": "NAŠI PARTNERI",
+        "heroTitle1": "NAŠE",
+        "heroTitle2": "REFERENCE",
+        "heroSubtitle": "Ponosni smo na uspešnu saradnju sa brojnim domaćim i stranim organizacijama, gradovima i kompanijama. Naše reference su garancija kvaliteta i profesionalnosti.",
+        "categoryGreen": "Međunarodne organizacije i institucije",
+        "categoryRed": "Gradovi",
+        "categoryBlue": "Opštine",
+        "categoryOther": "Kompanije i organizacije",
+        "items": {
+            "ebrd": "EBRD",
+            "undp": "UNDP",
+            "giz": "GIZ",
+            "niras": "NIRAS",
+            "siemens": "SIEMENS",
+            "gfa": "GFA",
+            "ibf": "IBF",
+            "chemonics": "Chemonics",
+            "ftn": "Fakultet tehničkih nauka - Novi Sad",
+            "mgsi": "Ministarstvo građevinarstva, saobraćaja i infrastrukture",
+            "mre": "Ministarstvo rudarstva i energetike",
+            "nlb": "NLB Komercijalna",
+            "pse": "Pokrajinski sekretarijat za energetiku",
+            "pgv": "Pokret gorana Vojvodine",
+            "rraBacka": "Regionalna razvojna agencija Bačka",
+            "rraSrem": "Regionalna razvojna agencija Srem",
+            "rraZlatibor": "Regionalna razvojna agencija Zlatibor",
+            "unicredit": "UniCredit Bank",
+            "veolia": "Veolia",
+            "gradBeograd": "Grad Beograd",
+            "gradSubotica": "Grad Subotica",
+            "gradZrenjanin": "Grad Zrenjanin",
+            "gradKraljevo": "Grad Kraljevo",
+            "gradValjevo": "Grad Valjevo",
+            "gradSremskaMitrovica": "Grad Sremska Mitrovica",
+            "gradKikinda": "Grad Kikinda",
+            "gradBor": "Grad Bor",
+            "opstinaApatin": "Opština Apatin",
+            "opstinaBackaPalanka": "Opština Bačka Palanka",
+            "opstinaGrocka": "Opština Grocka",
+            "opstinaKula": "Opština Kula",
+            "opstinaOdzaci": "Opština Odžaci",
+            "opstinaRuma": "Opština Ruma",
+            "opstinaSrbobran": "Opština Srbobran",
+            "opstinaTemerin": "Opština Temerin",
+            "opstinaVrbas": "Opština Vrbas",
+            "opstinaZabalj": "Opština Žabalj",
+            "opstinaSid": "Opština Šid",
+            "adviseInstitute": "Advise Institute",
+            "agroglobe": "Agroglobe",
+            "amss": "Auto moto savez Srbije",
+            "bestSystem": "Best system",
+            "capriolo": "Capriolo",
+            "cfd2020": "CFD 2020",
+            "cfkDragoJovovic": "CFK Drago Jovović",
+            "dekorInvest": "Dekor invest",
+            "domZdravljaSrbobran": "Dom zdravlja Srbobran",
+            "enova": "Enova",
+            "garantElit": "Garant Elit",
+            "gerontoloskiSubotica": "Gerontološki centar Subotica",
+            "gerontoloskiVrbas": "Gerontološki centar Vrbas",
+            "greenConstruction": "Green construction",
+            "inkoNational": "Inko national",
+            "jaffa": "Jaffa",
+            "jkpTemerin": "JKP Temerin",
+            "kryogas": "Kryogas",
+            "mareraProperties": "Marera properties",
+            "mibar": "Mibar",
+            "modelartArhitekti": "Modelart arhitekti",
+            "nandra": "Nandra",
+            "poliklinikaBozicic": "Poliklinika Dr Božičić",
+            "stsPupin": "STŠ Mihajlo Pupin",
+            "studioDart": "Studio DArt",
+            "suProspect": "Su-Prospect"
+        }
+    },
     "NotFound": {
         "titlePrefix": "404",
         "titleAccent": "STRANICA NIJE PRONAĐENA",
@@ -754,9 +880,23 @@
     },
     "HomePage": {
         "metadata": {
-            "title": "Početna",
-            "description": "Eneplus pruža ekspertske usluge u oblasti energetske efikasnosti, menadžmenta i obnovljivih izvora energije. Vaš partner za održivu budućnost.",
-            "keywords": "eneplus, energetska efikasnost, pametna energija, ušteda novca"
+            "title": "Energetska Efikasnost i Konsalting Srbija",
+            "description": "Eneplus pruža ekspertske usluge iz oblasti energetske efikasnosti, energetskog menadžmenta, izrade energetskih pasoša i sertifikacije u Srbiji. Povećajte uštede. Kontaktirajte nas!",
+            "keywords": "eneplus, energetska efikasnost, energetski menadzment, energetski pasos, konsalting, usteda novca"
+        },
+        "FAQ": {
+            "title": "Česta pitanja",
+            "subtitle": "Odgovori na najčešća pitanja iz oblasti energetske efikasnosti, menadžmenta i konsaltinga",
+            "q1": "Kolika je cena za energetski pasoš i koliko se čeka?",
+            "a1": "Cena izrade energetskog pasoša zavisi od veličine i namene objekta. Za standardne stambene objekte cena se najčešće kreće od 15.000 do 30.000 dinara. Sama izrada obično traje 2 do 5 radnih dana, a uz naš profesionalni tim, proces teče brzo i efikasno.",
+            "q2": "Da li je energetski pasoš zakonski obavezan?",
+            "a2": "Da, prema Zakonu o planiranju i izgradnji. Energetski pasoš je obavezan za sve nove objekte, kao i za postojeće zgrade koje se rekonstruišu, adaptiraju ili saniraju. Pored toga, potreban je prilikom prodaje ili izdavanja nekretnine.",
+            "q3": "Šta obuhvata proces energetskog menadžmenta?",
+            "a3": "Energetski menadžment predstavlja sistematsko praćenje i analizu energetske potrošnje sa ciljem smanjenja troškova i optimizacije resursa (prema standardu ISO 50001). Proces obuhvata detaljan energetski pregled, izradu akcionog plana ušteda energije, kao i nadzor nad primenom predloženih mera.",
+            "q4": "Kako izgleda energetski konsalting i zakazivanje?",
+            "a4": "Naš energetski konsalting pruža stručne savete o optimalnim rešenjima za vaš objekat. Kontakt nam je uvek dostupan - pošaljite nam opis projekta i eventualnu dokumentaciju, i naši licencirani inženjeri će analizirati vaš predmet i predložiti energetski najefikasnije korake.",
+            "q5": "Zašto je energetski pregled važan pre obnove?",
+            "a5": "Detaljni energetski pregled tačno locira mesta gde gubite energiju pre nego što počnete rekonstrukciju. Otkrivanjem mesta neracionalne potrošnje energije uspešno se usmerava budžet na mere koje donose najveću uštedu i efikasnost, izbegavajući suvišne troškove."
         }
     }
 }

@@ -5,6 +5,7 @@ import EneplusScroll from './EneplusScroll';
 import Services from './Services';
 import About from './About';
 import Team from './Team';
+import FAQ from './FAQ';
 
 export default function Pocetna() {
     return (
@@ -13,6 +14,7 @@ export default function Pocetna() {
             <About />
             <Team />
             <Services />
+            <FAQ />
         </main>
     );
 }
