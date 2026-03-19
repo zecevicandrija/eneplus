@@ -67,4 +67,4 @@ Međutim, važno je napomenuti: ukoliko u međuvremenu na samom objektu izvršit
 
 Da biste bili sigurni da proces ide brzo, legalno i stručno, bitno je da sarađujete sa pouzdanom firmom. 
 
-**Trebate energetski pasoš za vašu kuću ili zgradu?** [Saznajte više o našim uslugama i zatražite ponudu već danas.](/sr/kontakt)
+**Treba vam energetski pasoš za vašu kuću ili zgradu?** [Saznajte više o našim uslugama i kontaktirajte nas.](/sr/kontakt)

@@ -25,7 +25,7 @@ export default function Navbar() {
     };
 
     const otherLocale = locale === 'sr' ? 'en' : 'sr';
-    
+
     useEffect(() => {
         const segments = pathname.split('/').filter(Boolean);
         if (segments.length >= 3 && segments[1] === 'blog') {
@@ -61,7 +61,7 @@ export default function Navbar() {
         <header className={styles.header}>
             <Link href="/" className={styles.logo}>
                 <Image
-                    src="/Assets/enepluslogo.png"
+                    src="/Assets/enepluslogo2.png"
                     alt="Eneplus Logo"
                     width={200}
                     height={60}
