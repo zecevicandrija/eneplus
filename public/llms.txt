@@ -1,0 +1,149 @@
+# Eneplus
+
+## O nama
+Eneplus je konsultantska firma sa višegodišnjim iskustvom specijalizovana za energetski menadžment, energetsku efikasnost i projektni menadžment. Naš licencirani tim inženjera (koji predvode Željko Zečević i Nikola Vujović) pomaže opštinama, javnim preduzećima, investitorima i privatnim licima da smanje potrošnju energije, usklade se sa zakonom i dobiju zvanične energetske pasoše, pritom garantujući kvalitet i značajnu uštedu vremena i novca.
+
+## Usluge i cene
+- Izrada energetskog pasoša (stanovi i manje kuće): 15.000 - 30.000 RSD
+- Izrada energetskog pasoša (veći i poslovni objekti): Na upit (zavisi od složenosti objekta)
+- Energetski pregledi (ISO 50002, EN 16247): Na upit (cena varira zavisno od veličine objekta)
+- Uvođenje ISO 50001 standarda: Na upit
+- Termografija i Blower Door merenja: Na upit
+- Softver za energetski menadžment (za opštine i preduzeća): Kontakt za ponudu i demo prezentaciju
+- Energetski konsalting i projektovanje: Na upit
+- Priprema i podrška za JPP (javno-privatna partnerstva): Na upit
+
+## Lokacije
+- Sedište: Stevana Doronjskog 38, 21460 Vrbas, Srbija
+
+## Kontakt
+- Telefoni: +381 64 817 2033, +381 64 837 5706
+- E-mail: office@eneplus.rs
+- Veb-sajt: https://www.eneplus.rs
+- Radno vreme: Radni dani 10:00 - 15:00 (za zakazane konsultacije), klijentima smo dostupni 24/7 za podršku
+- YouTube: Eneplus kanal
+- X (Twitter): @EneplusOffice
+- Instagram: @eneplus_vrbas
+
+## Područje pružanja usluga
+Beograd, Novi Sad, Niš, Kragujevac, Subotica, Zrenjanin, Pančevo, Čačak, Kruševac, Kraljevo, Novi Pazar, Smederevo, Leskovac, Užice, Vranje, Valjevo, Šabac, Sombor, Požarevac, Pirot, Zaječar, Kikinda, Sremska Mitrovica, Jagodina, Vršac, Bor, Prokuplje, Loznica, Vrbas (cela Srbija)
+
+## Ključne činjenice
+- Preko 500 uspešno izrađenih energetskih pasoša širom Srbije.
+- Brza i efikasna izrada energetskih pasoša, u proseku za 48 sati.
+- Tim sačinjavaju 100% licencirani i iskusni inženjeri elektro i mašinske struke.
+- Rad baziran na najvišim standardima: ISO 50001, ISO 50002 i EN 16247.
+- Usluga po sistemu "ključ u ruke" koja podrazumeva izradu i pravilan unos pasoša u nacionalni BEES / CREP registar.
+
+## Markdown Mirrors (Čiste AI-čitljive verzije)
+Svaka stranica na ovom sajtu ima čistu Markdown kopiju (ogledalo). Dodajte /index.md na kraj bilo kog URL-a da biste dobili čist sadržaj bez navigacije, skripti i menija.
+- https://www.eneplus.rs/en/index.md
+- https://www.eneplus.rs/sr/index.md
+- https://www.eneplus.rs/en/about/index.md
+- https://www.eneplus.rs/en/blog/index.md
+- https://www.eneplus.rs/en/contact/index.md
+- https://www.eneplus.rs/en/energetski-pasos/index.md
+- https://www.eneplus.rs/en/energy-passport/index.md
+- https://www.eneplus.rs/en/kontakt/index.md
+- https://www.eneplus.rs/en/media/index.md
+- https://www.eneplus.rs/en/nasi-klijenti/index.md
+- https://www.eneplus.rs/en/o-nama/index.md
+- https://www.eneplus.rs/en/our-clients/index.md
+- https://www.eneplus.rs/en/services/index.md
+- https://www.eneplus.rs/en/softver/index.md
+- https://www.eneplus.rs/en/software/index.md
+- https://www.eneplus.rs/en/usluge/index.md
+- https://www.eneplus.rs/sr/about/index.md
+- https://www.eneplus.rs/sr/blog/index.md
+- https://www.eneplus.rs/sr/contact/index.md
+- https://www.eneplus.rs/sr/energetski-pasos/index.md
+- https://www.eneplus.rs/sr/energy-passport/index.md
+- https://www.eneplus.rs/sr/kontakt/index.md
+- https://www.eneplus.rs/sr/media/index.md
+- https://www.eneplus.rs/sr/nasi-klijenti/index.md
+- https://www.eneplus.rs/sr/o-nama/index.md
+- https://www.eneplus.rs/sr/our-clients/index.md
+- https://www.eneplus.rs/sr/services/index.md
+- https://www.eneplus.rs/sr/softver/index.md
+- https://www.eneplus.rs/sr/software/index.md
+- https://www.eneplus.rs/sr/usluge/index.md
+- https://www.eneplus.rs/en/blog/energy-passport-price/index.md
+- https://www.eneplus.rs/en/energetski-pasos/zahtev/index.md
+- https://www.eneplus.rs/en/energy-passport/request/index.md
+- https://www.eneplus.rs/en/services/design/index.md
+- https://www.eneplus.rs/en/services/energy-audits/index.md
+- https://www.eneplus.rs/en/services/energy-certification/index.md
+- https://www.eneplus.rs/en/services/energy-consulting/index.md
+- https://www.eneplus.rs/en/services/energy-management/index.md
+- https://www.eneplus.rs/en/services/iso-50001/index.md
+- https://www.eneplus.rs/en/services/measurements/index.md
+- https://www.eneplus.rs/en/services/ppp-support/index.md
+- https://www.eneplus.rs/en/services/project-management/index.md
+- https://www.eneplus.rs/en/services/studies-and-analysis/index.md
+- https://www.eneplus.rs/en/services/training-and-education/index.md
+- https://www.eneplus.rs/en/services/web-applications/index.md
+- https://www.eneplus.rs/en/usluge/energetska-sertifikacija/index.md
+- https://www.eneplus.rs/en/usluge/energetski-konsalting/index.md
+- https://www.eneplus.rs/en/usluge/energetski-menadzment/index.md
+- https://www.eneplus.rs/en/usluge/energetski-pregledi/index.md
+- https://www.eneplus.rs/en/usluge/iso-50001/index.md
+- https://www.eneplus.rs/en/usluge/jpp-podrska/index.md
+- https://www.eneplus.rs/en/usluge/merenja/index.md
+- https://www.eneplus.rs/en/usluge/projektovanje/index.md
+- https://www.eneplus.rs/en/usluge/studije-i-analize/index.md
+- https://www.eneplus.rs/en/usluge/trening-i-edukacija/index.md
+- https://www.eneplus.rs/en/usluge/upravljanje-projektima/index.md
+- https://www.eneplus.rs/en/usluge/web-aplikacije/index.md
+- https://www.eneplus.rs/sr/blog/energetski-pasos-cena/index.md
+- https://www.eneplus.rs/sr/energetski-pasos/zahtev/index.md
+- https://www.eneplus.rs/sr/energy-passport/request/index.md
+- https://www.eneplus.rs/sr/services/design/index.md
+- https://www.eneplus.rs/sr/services/energy-audits/index.md
+- https://www.eneplus.rs/sr/services/energy-certification/index.md
+- https://www.eneplus.rs/sr/services/energy-consulting/index.md
+- https://www.eneplus.rs/sr/services/energy-management/index.md
+- https://www.eneplus.rs/sr/services/iso-50001/index.md
+- https://www.eneplus.rs/sr/services/measurements/index.md
+- https://www.eneplus.rs/sr/services/ppp-support/index.md
+- https://www.eneplus.rs/sr/services/project-management/index.md
+- https://www.eneplus.rs/sr/services/studies-and-analysis/index.md
+- https://www.eneplus.rs/sr/services/training-and-education/index.md
+- https://www.eneplus.rs/sr/services/web-applications/index.md
+- https://www.eneplus.rs/sr/usluge/energetska-sertifikacija/index.md
+- https://www.eneplus.rs/sr/usluge/energetski-konsalting/index.md
+- https://www.eneplus.rs/sr/usluge/energetski-menadzment/index.md
+- https://www.eneplus.rs/sr/usluge/energetski-pregledi/index.md
+- https://www.eneplus.rs/sr/usluge/iso-50001/index.md
+- https://www.eneplus.rs/sr/usluge/jpp-podrska/index.md
+- https://www.eneplus.rs/sr/usluge/merenja/index.md
+- https://www.eneplus.rs/sr/usluge/projektovanje/index.md
+- https://www.eneplus.rs/sr/usluge/studije-i-analize/index.md
+- https://www.eneplus.rs/sr/usluge/trening-i-edukacija/index.md
+- https://www.eneplus.rs/sr/usluge/upravljanje-projektima/index.md
+- https://www.eneplus.rs/sr/usluge/web-aplikacije/index.md
+
+## Šta nas izdvaja
+Naša najveća prednost je visoko stručan tim licenciranih inženjera sa ogromnim praktičnim iskustvom na terenu u celoj Srbiji. Klijentima pružamo uslugu po sistemu "ključ u ruke" sa jasnim rokom izrade (pasoši su prosečno gotovi za 48h) i besprekornim kvalitetom obavljenog posla. Pored inženjerskog konsaltinga, apsolutno smo jedinstveni po tome što razvijamo napredni web-orijentisan softver za energetski menadžment koji radikalno olakšava posao opštinama i preduzećima pri praćenju troškova energije. Na kraju, naši klijenti cene to što smo im direktno na raspolaganju 24/7 za svaki tehnički izazov.
+
+## Često postavljana pitanja
+
+**Kolika je cena za energetski pasoš?**
+Cena prvenstveno zavisi od tipa i veličine vašeg objekta. Za stanove i manje kuće, cena se najčešće kreće u rasponu od 15.000 do 30.000 dinara. Za veće i složenije poslovne objekte cena se formira na upit na osnovu dostavljene dokumentacije.
+
+**Koliko dugo traje izrada energetskog pasoša?**
+Proces izrade za standardne objekte obično traje između 2 i 5 radnih dana. U specifičnim i hitnim slučajevima, u mogućnosti smo da pružimo uslugu ubrzane izrade u roku od samo 24 sata.
+
+**Da li je energetski pasoš zakonski obavezan i za koje zgrade?**
+Da, prema Zakonu o planiranju i izgradnji Republike Srbije, obavezan je za sve novoizgrađene objekte (bez njega se ne može dobiti upotrebna dozvola), kao i za postojeće zgrade koje prolaze kroz rekonstrukciju, adaptaciju ili se oglašavaju radi prodaje, odnosno izdavanja.
+
+**Da li je potreban obavezan izlazak inženjera na teren?**
+Apsolutno da. Naš licencirani inženjer lično izlazi na lokaciju, vrši vizuelnu inspekciju instalacija, premerava prostor i detaljno upoređuje faktičko stanje na terenu sa dostavljenom tehničkom građevinskom dokumentacijom.
+
+**Koliko dugo važi izdat energetski pasoš?**
+Zvaničan energetski pasoš ima zakonski rok važenja od 10 godina od dana izdavanja.
+
+**Koji je prvi korak ukoliko mi je potreban energetski pasoš?**
+Sve što je potrebno jeste da nas pozovete na telefon ili popunite brzu online formu na našem sajtu. U rekordnom roku poslaćemo Vam preciznu ponudu i dogovoriti detalje o dinamici obilaska Vašeg objekta.
+
+**Kome je namenjen vaš softver za energetski menadžment?**
+Naš inovativni web-softver je prvenstveno dizajniran za opštine i javna preduzeća, mada ga vrlo uspešno koriste i privatne kompanije koje žele da centralizovano prate i kontrolišu svoju potrošnju energije kroz module za javnu rasvetu, daljinsko grejanje, vodovod, objekte i vozni park.
