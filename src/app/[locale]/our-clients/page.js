@@ -21,6 +21,7 @@ const referenceGroups = [
             { key: "undp", path: "/Assets/slike_za_reference/United Nations Development Programme.png" },
             { key: "giz", path: "/Assets/slike_za_reference/GIZ.png" },
             { key: "niras", path: "/Assets/slike_za_reference/Niras.png" },
+            { key: "zijin", path: "/Assets/slike_za_reference/zijin.png" },
             { key: "siemens", path: "/Assets/slike_za_reference/Siemens energy.png" },
             { key: "gfa", path: "/Assets/slike_za_reference/GFA South East Europe.jpeg" },
             { key: "ibf", path: "/Assets/slike_za_reference/IBF.jpeg" },
