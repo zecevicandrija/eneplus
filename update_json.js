@@ -7,12 +7,10 @@ const srData = JSON.parse(fs.readFileSync(srPath, 'utf8'));
 const enData = JSON.parse(fs.readFileSync(enPath, 'utf8'));
 
 // SR Metadata Additions
-srData.HomePage = {
-    metadata: {
-        title: "Početna",
-        description: "Eneplus pruža ekspertske usluge u oblasti energetske efikasnosti, menadžmenta i obnovljivih izvora energije. Vaš partner za održivu budućnost.",
-        keywords: "eneplus, energetska efikasnost, pametna energija, ušteda novca"
-    }
+srData.HomePage.metadata = {
+    title: "Početna",
+    description: "Eneplus pruža ekspertske usluge u oblasti energetske efikasnosti, menadžmenta i obnovljivih izvora energije. Vaš partner za održivu budućnost.",
+    keywords: "eneplus, energetska efikasnost, pametna energija, ušteda novca"
 };
 
 srData.AboutPage.metadata = {
@@ -94,9 +92,9 @@ srData.IsoPage.metadata = {
 };
 
 srData.EnergyAuditsPage.metadata = {
-    title: "Energetski Pregledi | Usluga | Eneplus",
-    description: "Energetski pregledi objekata i opreme koji daju jasan uvid u mesta neracionalne potrošnje i predlog konkretnih mera za optimizaciju.",
-    keywords: "energetski pregledi, ušteda energije, identifikacija potrošnje, ISO 50002, EN 16247, eneplus"
+    title: "Energetski Pregled i Audit Zgrada | Cena i Izrada | Eneplus",
+    description: "Profesionalni energetski pregled zgrada, kuća i industrijskih objekata u Srbiji prema standardima ISO 50002 i EN 16247. Saznajte cenu i zakažite pregled.",
+    keywords: "energetski pregled, energetski pregled zgrade, energetski pregled cena, energetski audit, energetski pregledi, ušteda energije, ISO 50002, EN 16247, eneplus"
 };
 
 srData.MeasurementsPage.metadata = {
@@ -112,12 +110,10 @@ srData.ProjectManagementPage.metadata = {
 };
 
 // EN Metadata Additions
-enData.HomePage = {
-    metadata: {
-        title: "Home",
-        description: "Eneplus provides expert services in energy efficiency, management, and renewable energy sources. Your partner for a sustainable future.",
-        keywords: "eneplus, energy efficiency, smart energy, money saving"
-    }
+enData.HomePage.metadata = {
+    title: "Home",
+    description: "Eneplus provides expert services in energy efficiency, management, and renewable energy sources. Your partner for a sustainable future.",
+    keywords: "eneplus, energy efficiency, smart energy, money saving"
 };
 
 enData.AboutPage.metadata = {
@@ -199,9 +195,9 @@ enData.IsoPage.metadata = {
 };
 
 enData.EnergyAuditsPage.metadata = {
-    title: "Energy Audits | Service | Eneplus",
-    description: "Energy audits of facilities and equipment that provide clear insight into irrational consumption and propose specific optimization measures.",
-    keywords: "energy audits, energy savings, ISO 50002, EN 16247, consulting, eneplus"
+    title: "Energy Audits & Reviews for Buildings | Eneplus Serbia",
+    description: "Professional energy audits of facilities, residential buildings, and systems in Serbia according to ISO 50002 & EN 16247 standards. Request a quote.",
+    keywords: "energy audit, energy audit Serbia, energy audit price, building energy audit, ISO 50002, EN 16247, eneplus"
 };
 
 enData.MeasurementsPage.metadata = {
