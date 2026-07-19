@@ -188,6 +188,198 @@
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.06);
 }
 
+/* Custom blog elements: Tables, Myth boxes, Case studies, Process steps, FAQ */
+
+.content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2.5em 0;
+    font-size: 1.1rem;
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.content :global(th),
+.content :global(td) {
+    padding: 18px 22px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.content :global(th) {
+    background-color: #f9fafb;
+    color: #111827;
+    font-family: var(--font-outfit), sans-serif;
+    font-weight: 800;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.content :global(td) {
+    color: #4b5563;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.content :global(tr:last-child td) {
+    border-bottom: none;
+}
+
+.content :global(tr:nth-child(even)) {
+    background-color: #fafbfc;
+}
+
+/* Myth / Callout Box */
+.content :global(.myth-box) {
+    background: #fef2f2;
+    border-left: 4px solid #ef4444;
+    padding: 26px;
+    margin: 2.5em 0;
+    border-radius: 0 16px 16px 0;
+    box-shadow: 0 10px 30px rgba(239, 68, 68, 0.03);
+}
+
+.content :global(.myth-title) {
+    font-family: var(--font-outfit), sans-serif;
+    font-weight: 800;
+    color: #991b1b;
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content :global(.myth-title)::before {
+    content: "⚠️";
+    font-size: 1.3rem;
+}
+
+.content :global(.myth-content) {
+    color: #7f1d1d;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Case Study Box */
+.content :global(.case-study-box) {
+    background: #f0fdf4;
+    border-left: 4px solid #10b981;
+    padding: 30px;
+    margin: 3em 0;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0 12px 35px rgba(16, 185, 129, 0.04);
+}
+
+.content :global(.case-study-title) {
+    font-family: var(--font-outfit), sans-serif;
+    font-weight: 800;
+    color: #065f46;
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content :global(.case-study-title)::before {
+    content: "💡";
+    font-size: 1.4rem;
+}
+
+.content :global(.case-study-content) {
+    color: #047857;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* Process Infographic Steps */
+.content :global(.process-steps) {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 3em 0;
+}
+
+.content :global(.step-card) {
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+    background: #ffffff;
+    padding: 26px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.content :global(.step-card:hover) {
+    transform: translateY(-3px);
+    box-shadow: 0 20px 40px rgba(16, 185, 129, 0.06);
+    border-color: rgba(16, 185, 129, 0.25);
+}
+
+.content :global(.step-num) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #4ade80 0%, #10b981 100%);
+    color: #ffffff;
+    font-family: var(--font-outfit), sans-serif;
+    font-weight: 900;
+    font-size: 1.4rem;
+    box-shadow: 0 8px 20px rgba(16, 185, 129, 0.25);
+}
+
+.content :global(.step-text) {
+    font-size: 1.15rem;
+    color: #4b5563;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.content :global(.step-text strong) {
+    color: #111827;
+    font-size: 1.25rem;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+/* FAQ Styling */
+.content :global(h4) {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 1.35rem;
+    font-weight: 800;
+    margin: 2.2em 0 1em;
+    color: #1f2937;
+    position: relative;
+    padding-left: 28px;
+    letter-spacing: -0.25px;
+}
+
+.content :global(h4)::before {
+    content: "?";
+    position: absolute;
+    left: 0;
+    color: #10b981;
+    font-weight: 900;
+    font-size: 1.45rem;
+    line-height: 1;
+}
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 1024px) {
     .article {
@@ -225,4 +417,38 @@
         font-size: 1.2rem;
         padding: 1.2em 1.5em;
     }
+
+    .content :global(table) {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .content :global(th),
+    .content :global(td) {
+        padding: 14px 16px;
+        font-size: 0.95rem;
+        white-space: nowrap;
+    }
+
+    .content :global(.myth-box),
+    .content :global(.case-study-box) {
+        padding: 20px;
+        border-radius: 12px;
+        margin: 2em 0;
+    }
+
+    .content :global(.step-card) {
+        flex-direction: column;
+        gap: 16px;
+        padding: 20px;
+    }
+
+    .content :global(.step-num) {
+        min-width: 44px;
+        height: 44px;
+        font-size: 1.2rem;
+    }
 }
+
