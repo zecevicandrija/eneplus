@@ -101,6 +101,17 @@ export default function Footer() {
                     <p className={styles.copyright}>
                         © {currentYear} Eneplus. {t('rights')}
                     </p>
+                    <p className={styles.developer}>
+                        Dizajn i razvoj:{' '}
+                        <a
+                            href="https://zecevicdev.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className={styles.devLink}
+                        >
+                            zecevicdev.com
+                        </a>
+                    </p>
                 </div>
             </div>
         </footer>

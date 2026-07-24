@@ -125,6 +125,24 @@
     color: rgba(255, 255, 255, 0.4);
 }
 
+.developer {
+    font-family: var(--font-outfit), sans-serif;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.devLink {
+    color: #4ade80;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.devLink:hover {
+    color: #6ee7b7;
+    text-decoration: underline;
+}
+
 .bottomLinks {
     display: flex;
     align-items: center;
