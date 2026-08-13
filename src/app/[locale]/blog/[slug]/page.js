@@ -1,10 +1,17 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
-import { getPostBySlug, getTranslatedSlug } from '@/lib/blog';
+import { getPostBySlug, getTranslatedSlug, getAllPosts } from '@/lib/blog';
 import MarkdownRenderer from '@/components/MarkdownRenderer';
 import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import styles from './BlogPost.module.css';
+
+export async function generateStaticParams() {
+    const srPosts = getAllPosts('sr').map((post) => ({ locale: 'sr', slug: post.slug }));
+    const enPosts = getAllPosts('en').map((post) => ({ locale: 'en', slug: post.slug }));
+    return [...srPosts, ...enPosts];
+}
+
 
 export async function generateMetadata({ params }) {
     const { locale, slug } = await params;
