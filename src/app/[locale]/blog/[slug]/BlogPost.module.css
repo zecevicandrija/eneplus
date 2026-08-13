@@ -276,6 +276,9 @@
     margin: 3em 0;
     border-radius: 0 20px 20px 0;
     box-shadow: 0 12px 35px rgba(16, 185, 129, 0.04);
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .content :global(.case-study-title) {
@@ -283,7 +286,7 @@
     font-weight: 800;
     color: #065f46;
     font-size: 1.3rem;
-    margin-bottom: 12px;
+    margin-bottom: 16px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     display: flex;
@@ -302,6 +305,27 @@
     line-height: 1.8;
     margin: 0;
 }
+
+.content :global(.case-study-content p) {
+    margin-bottom: 1.2em;
+    color: #047857;
+}
+
+.content :global(.case-study-content p:last-child) {
+    margin-bottom: 0;
+}
+
+.content :global(.case-study-content strong) {
+    color: #065f46;
+    font-weight: 800;
+}
+
+.content :global(.case-study-content a) {
+    color: #059669;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
 
 /* Process Infographic Steps */
 .content :global(.process-steps) {

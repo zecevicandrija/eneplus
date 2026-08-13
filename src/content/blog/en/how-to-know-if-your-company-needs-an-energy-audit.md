@@ -105,11 +105,12 @@ Instead of dry technical definitions and thick reports that gather dust in a dra
 *   **A foundation for decision-making:** Reliable data that makes it easier for management to decide on future infrastructure investments.
 
 <div class="case-study-box">
-  <div class="case-study-title">Case Study (Anonymized)</div>
-  <div class="case-study-content">
-    A local manufacturing company noticed a 15% increase in electricity costs over the year, even though production volume remained unchanged. Following an energy audit, our engineers discovered that the primary cause was a minor, unnoticed air leak in the compressor station, combined with cooling systems running at maximum capacity during weekends when the factory was closed. By implementing the recommended measures without any capital investment in new equipment (simply by adjusting automated schedules and fixing leaks), the company reduced its monthly electricity bills by 12%.
-  </div>
+<div class="case-study-title">Case Study (Anonymized)</div>
+<div class="case-study-content">
+<p>A local manufacturing company noticed a 15% increase in electricity costs over the year, even though production volume remained unchanged. Following an energy audit, our engineers discovered that the primary cause was a minor, unnoticed air leak in the compressor station, combined with cooling systems running at maximum capacity during weekends when the factory was closed. By implementing the recommended measures without any capital investment in new equipment (simply by adjusting automated schedules and fixing leaks), the company reduced its monthly electricity bills by 12%.</p>
 </div>
+</div>
+
 
 ---
 

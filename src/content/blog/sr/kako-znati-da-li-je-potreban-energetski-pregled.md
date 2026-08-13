@@ -105,11 +105,12 @@ Umesto suvoparnih tehničkih definicija i debelih elaborata koji stoje u fioci, 
 *   **Osnovu za donošenje odluka:** Pouzdane podatke koji menadžmentu olakšavaju donošenje odluka o budućim investicijama u infrastrukturu.
 
 <div class="case-study-box">
-  <div class="case-study-title">Primer iz prakse (Anonimizovano)</div>
-  <div class="case-study-content">
-    Jedna domaća proizvodna kompanija uočila je rast troškova za električnu energiju od 15% tokom godine, iako je obim proizvodnje ostao isti. Nakon sprovedenog energetskog pregleda, naši inženjeri su otkrili da je glavni uzrok bio neprimetno curenje vazduha na kompresorskoj stanici, kao i rad rashladnih sistema u režimu maksimalnog kapaciteta tokom vikenda kada fabrika nije radila. Implementacijom preporučenih mera bez ikakvih investicija u novu opremu (samo podešavanjem automatike i sanacijom curenja), kompanija je smanjila mesečne račune za struju za čak 12%.
-  </div>
+<div class="case-study-title">Primer iz prakse (Anonimizovano)</div>
+<div class="case-study-content">
+<p>Jedna domaća proizvodna kompanija uočila je rast troškova za električnu energiju od 15% tokom godine, iako je obim proizvodnje ostao isti. Nakon sprovedenog energetskog pregleda, naši inženjeri su otkrili da je glavni uzrok bio neprimetno curenje vazduha na kompresorskoj stanici, kao i rad rashladnih sistema u režimu maksimalnog kapaciteta tokom vikenda kada fabrika nije radila. Implementacijom preporučenih mera bez ikakvih investicija u novu opremu (samo podešavanjem automatike i sanacijom curenja), kompanija je smanjila mesečne račune za struju za čak 12%.</p>
 </div>
+</div>
+
 
 ---
 

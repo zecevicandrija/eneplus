@@ -99,12 +99,33 @@ export default async function BlogPost({ params }) {
         "description": frontmatter.description
     };
 
+    // FAQ Schema Markup (if present in frontmatter)
+    const faqSchemaData = frontmatter.faq && Array.isArray(frontmatter.faq) && frontmatter.faq.length > 0 ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": frontmatter.faq.map(item => ({
+            "@type": "Question",
+            "name": item.question,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": item.answer
+            }
+        }))
+    } : null;
+
     return (
         <main className={styles.postWrapper}>
              <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchemaData) }}
             />
+            {faqSchemaData && (
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchemaData) }}
+                />
+            )}
+
             <article className={styles.article}>
                 <header className={styles.header}>
                     <Link href="/blog" className={styles.backLink}>
