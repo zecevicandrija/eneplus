@@ -8,7 +8,8 @@
         "software": "Software",
         "media": "MEDIA",
         "blog": "BLOG",
-        "contact": "CONTACT"
+        "contact": "CONTACT",
+        "results": "Results"
     },
     "BlogPage": {
         "metadata": {
@@ -54,7 +55,8 @@
         "headingLine2": "HELPS YOU",
         "headingLine3": "BE MORE EFFICIENT",
         "subheading": "The future of energy management is here. Become a leader in energy efficiency with our expertise.",
-        "cta": "Start Project"
+        "cta": "Start Project",
+        "resultsCta": "View Results"
     },
     "About": {
         "analytics": "ENEPLUS ANALYTICS",
@@ -958,6 +960,460 @@
             "a4": "Our energy consulting provides expert advice on optimal solutions for your facility. Simply send us a project description and relevant documentation, and our engineers will analyze and propose the most energy-efficient and cost-effective steps.",
             "q5": "Why is an energy audit important before renovation?",
             "a5": "An energy audit deeply analyzes your current condition using state-of-the-art equipment. It precisely locates energy losses before you start renovating, which prevents unnecessary expenses and directs the budget to measures that yield the highest savings."
+        }
+    },
+    "ResultsPage": {
+        "metadata": {
+            "title": "Results & Track Record | Major Energy Efficiency Projects | Eneplus",
+            "description": "Explore Eneplus track record: over 1,400,000 m² audited building area, landmark projects for EBRD, USAID, UNDP, GIZ and national rulemaking under EU EPBD directives.",
+            "keywords": "energy efficiency track record, eneplus references, EBRD energy audits, ESCO residential buildings, energy performance certificate serbia, EPBD compliance, BESTenergIS Kula"
+        },
+        "overline": "PROVEN EXPERTISE & INTERNATIONAL TRACK RECORD",
+        "heroTitle1": "RESULTS THAT DELIVER",
+        "heroTitle2": "MEASURABLE IMPACT",
+        "heroSubtitle": "From shaping national regulatory frameworks and EU EPBD directives, through the energy rehabilitation of over 1,400,000 m² of residential and public building stock, to advanced digital energy platforms for cities and industry.",
+        "heroCta": "Schedule Consultation",
+        "heroCtaSecondary": "Explore Projects",
+        "stats": {
+            "stat1Value": "1,400,000+ m²",
+            "stat1Label": "Audited and analyzed residential and public building floor area",
+            "stat2Value": "€3.2M+",
+            "stat2Label": "Total contract value of managed and implemented projects",
+            "stat3Value": "150+",
+            "stat3Label": "Detailed audited and certified institutional facilities",
+            "stat4Value": "100%",
+            "stat4Label": "Compliance with EU EPBD Directives & EBRD Green Standards"
+        },
+        "trustSection": {
+            "title": "Clients & International Institutions That Trust Us",
+            "subtitle": "We have successfully executed capital assignments funded by leading development banks, government ministries, and international cooperation agencies."
+        },
+        "filterSection": {
+            "title": "Our Project Portfolio",
+            "subtitle": "Filter our assignments by domain or explore comprehensive case studies with technical and financial outcomes.",
+            "all": "All Projects",
+            "capital": "Capital ESCO & Residential",
+            "public": "Public Sector & Education",
+            "policy": "EU Policy & Directives",
+            "software": "Digitalization & Software",
+            "heating": "District Heating & RES"
+        },
+        "labels": {
+            "period": "Assignment Period",
+            "client": "Client / Funding Body",
+            "role": "Our Role",
+            "value": "Contract Value",
+            "scale": "Project Scope",
+            "whatWeDid": "What We Delivered (Key Outputs)",
+            "focus": "Strategic & Engineering Focus",
+            "impact": "Client Advancement & Measurable Impact",
+            "details": "View Details",
+            "hideDetails": "Hide Details",
+            "soleImplementer": "Sole Implementer",
+            "jvPartner": "Joint Venture (JV) Partner",
+            "leadPartner": "Lead Partner",
+            "ongoing": "Ongoing",
+            "completed": "Completed"
+        },
+        "projects": [
+            {
+                "id": "public-esco-mome-ebrd",
+                "category": "capital",
+                "title": "Energy Rehabilitation of Residential, Multi-Family Buildings Connected to District Heating – Public ESCO Project",
+                "client": "EBRD and Ministry of Mining and Energy of the Republic of Serbia (MoME)",
+                "location": "Serbia (14 Local Self-Governments)",
+                "period": "December 2024 – ongoing",
+                "value": "1,800,000 EUR (475,000 EUR Eneplus share)",
+                "role": "jvPartner",
+                "scaleBadge": "1,400,000+ m² / 14 LSGs",
+                "clientLogo": "/Assets/slike_za_reference/European Bank for Reconstruction and Development.png",
+                "summary": "Strategic technical assistance supporting the Ministry of Mining and Energy in scaling up the Centralized Building Billing (CBB) system and designing scalable energy efficiency financing mechanisms for multi-family residential buildings.",
+                "deliverables": [
+                    "Preparation of project audit plans across 14 Local Self-Governments (LSGs) in Serbia.",
+                    "Conducting detailed energy audits on buildings with a heated area exceeding 1,400,000 m² selected for EE refurbishment potential.",
+                    "Development of customized investment offers for Homeowners' Associations (HOAs) including detailed Bills of Quantities (BoQ), investment plans, annuity repayment schedules, and lifecycle energy cost comparisons.",
+                    "Formulation of a two-year Priority Investment Programme (PIP) emphasizing techno-economic feasibility and bankability.",
+                    "Execution of Environmental & Social assessments (SEP, ESAP, ESMP, asbestos surveys, fire safety, and poverty impact).",
+                    "Alignment of all project documentation with the Paris Agreement and EBRD Green Cities benchmarks."
+                ],
+                "focus": "Designing an economically viable, bankable, and scalable financing model for homeowners' associations where facade insulation and heating modernization are repaid directly through verified energy bill reductions without financial overburden.",
+                "impact": "Catalyzed large-scale residential energy renovation across Serbia. HOAs gain fully transparent financial models with guaranteed 30-50% reductions in heating bills, while municipal district heating networks achieve peak shaving and major CO2 emission abatement.",
+                "tags": [
+                    "EBRD",
+                    "Residential ESCO",
+                    "District Heating",
+                    "1.4M m²",
+                    "HOA Renovation",
+                    "Green Finance"
+                ]
+            },
+            {
+                "id": "plac-iv-epbd-rulebooks",
+                "category": "policy",
+                "title": "Policy and Legal Advice Centre (PLAC IV) – National Rulebooks & Methodology Harmonized with EU EPBD Directives",
+                "client": "IBF International Consulting & Ministry of Construction, Transport and Infrastructure (MGSI)",
+                "location": "Serbia / EU",
+                "period": "October 2024 – ongoing",
+                "value": "20,000 EUR",
+                "role": "soleImplementer",
+                "scaleBadge": "National Regulatory Framework (EPBD)",
+                "clientLogo": "/Assets/slike_za_reference/Ministarstvo građevinarstva, saobrćaja i  infrastrukture.jpeg",
+                "summary": "Direct high-level technical and legal assistance in transposing the EU Energy Performance of Buildings Directive (EPBD 2010/31/EU & new 2024/1275/EU) into Serbian national legislation.",
+                "deliverables": [
+                    "Drafting the national Rulebook on the content, method, and procedure of preparing technical documentation for building energy performance.",
+                    "Drafting the national Rulebook on the conditions and procedures for independent quality control of Building Energy Passports, Building Renovation Passports, and Energy Audit Reports.",
+                    "Drafting the official national Methodology for calculating financial cost-optimality parameters for energy efficiency measures under EU Regulation 2018/1999."
+                ],
+                "focus": "Aligning Serbia's building codes and construction regulations with EU 2050 zero-emission building mandates, introducing Renovation Passports, and establishing a rigorous independent quality control regime for energy certifications.",
+                "impact": "Established a modernized, legally robust, and transparent regulatory standard for Serbia's construction sector, ensuring the integrity of energy certificates, unlocking access to EU green funding, and standardizing investment feasibility benchmarks.",
+                "tags": [
+                    "EU EPBD",
+                    "Ministry MGSI",
+                    "Legislation",
+                    "Certificate Control",
+                    "Renovation Passport",
+                    "IBF"
+                ]
+            },
+            {
+                "id": "usaid-kula-bestenergis",
+                "category": "software",
+                "title": "Screening of Building Energy Performance & Digitalization in Kula Municipality (BESTenergIS)",
+                "client": "USAID",
+                "location": "Kula Municipality, Serbia",
+                "period": "September 2024 – December 2024",
+                "value": "25,000 EUR",
+                "role": "soleImplementer",
+                "scaleBadge": "139 Buildings (89 Residential + 50 Public)",
+                "clientLogo": "/Assets/slike_za_reference/Opština Kula.png",
+                "summary": "Comprehensive energy performance screening of building envelopes and HVAC/lighting technical systems combined with municipal energy management digitalization via the BESTenergIS platform.",
+                "deliverables": [
+                    "Detailed energy audits and systematic on-site screening for 89 residential and 50 public buildings (139 facilities total).",
+                    "Collection and digital calibration of building envelope parameters, HVAC plant specifications, and lighting loads.",
+                    "Integration into BESTenergIS software enabling dynamic energy simulations, comparative benchmarking, and retrofit prioritization.",
+                    "Streamlined municipal pipeline for Energy Passport issuance and subsidy allocation."
+                ],
+                "focus": "Building an operational digital twin of municipal building energy demands, enabling local authorities to make data-driven investment decisions and prioritize high-yield retrofit measures.",
+                "impact": "Positioned Kula Municipality as a national benchmark model for digital municipal energy management in Serbia, accelerating access to energy passports and boosting investment readiness for international grants.",
+                "tags": [
+                    "USAID",
+                    "BESTenergIS",
+                    "Digitalization",
+                    "139 Buildings",
+                    "HVAC Screening",
+                    "Kula Municipality"
+                ]
+            },
+            {
+                "id": "ebrd-niras-air-quality",
+                "category": "heating",
+                "title": "Serbia Air Quality Improvement – Project Feasibility Assessment & Boiler Room Elimination",
+                "client": "EBRD / NIRAS",
+                "location": "Belgrade, Niš, Užice, Valjevo, Zaječar, Novi Pazar, Smederevo",
+                "period": "September 2024 – ongoing",
+                "value": "250,000 EUR (18,000 EUR Eneplus share)",
+                "role": "jvPartner",
+                "scaleBadge": "7 Major Urban Centers in Serbia",
+                "clientLogo": "/Assets/slike_za_reference/Niras.png",
+                "summary": "Comprehensive technical and economic feasibility study for decommissioning highly polluting municipal coal and heavy fuel oil boiler rooms across 7 key Serbian cities.",
+                "deliverables": [
+                    "Detailed technical assessment of municipal boiler rooms: thermal capacity, fuel types, operating schedules, efficiency, and asset depreciation.",
+                    "Heat density mapping and analysis of connection potential to centralized district heating networks and natural gas grids.",
+                    "Integration of renewable energy sources (biomass, industrial heat pumps).",
+                    "Environmental and social impact assessments (E&S) with risk mitigation roadmaps."
+                ],
+                "focus": "Eliminating major sources of urban particulate matter (PM2.5 / PM10) air pollution through systematic infrastructure modernization and clean energy fuel switching.",
+                "impact": "Provided municipalities with bankable investment roadmaps to decommission over 50 obsolete boiler rooms, dramatically improving urban air quality and public health while reducing municipal operational expenses.",
+                "tags": [
+                    "EBRD",
+                    "NIRAS",
+                    "Air Quality",
+                    "District Heating",
+                    "7 Cities",
+                    "Decarbonization"
+                ]
+            },
+            {
+                "id": "giz-heat-distribution-roadmap",
+                "category": "heating",
+                "title": "Roadmap for Sustainable Heat Distribution & Action Plan for Inefficient Heating Device Substitution",
+                "client": "GIZ (German International Cooperation)",
+                "location": "Serbia",
+                "period": "August 2024 – ongoing",
+                "value": "50,000 EUR",
+                "role": "leadPartner",
+                "scaleBadge": "National Strategic Action Plan",
+                "clientLogo": "/Assets/slike_za_reference/GIZ.png",
+                "summary": "Strategic national roadmap for sustainable thermal energy distribution and action plan for substituting inefficient household heating systems with heat pumps in compliance with EU Directive 2009/125/EC (Eco-Design).",
+                "deliverables": [
+                    "Legal gap analysis and policy harmonization with EU Eco-Design heating standards.",
+                    "Techno-economic modeling for mass household substitution of coal/wood stoves with high-efficiency heat pumps.",
+                    "Formulation of national financial incentive and subsidy schemes.",
+                    "Capacity-building curricula for municipal energy managers, inspectors, and HVAC installers.",
+                    "Establishment of primary energy savings and CO2 monitoring and evaluation protocols."
+                ],
+                "focus": "Orchestrating a just and rapid clean energy transition in the individual residential heating sector, ensuring high-efficiency heat pumps are financially accessible to ordinary households.",
+                "impact": "Laid the national strategic foundation for heating decarbonization in Serbia, established government subsidy criteria, and introduced technical standards that protect consumers from subpar equipment.",
+                "tags": [
+                    "GIZ",
+                    "Heat Pumps",
+                    "Eco-Design",
+                    "Roadmap",
+                    "Subsidies",
+                    "Sustainable Heating"
+                ]
+            },
+            {
+                "id": "nlb-bank-regional-analysis",
+                "category": "capital",
+                "title": "Analysis of Building Stock Energy Efficiency & Legislation Across Western Balkan Markets",
+                "client": "NLB Group (NLB Bank)",
+                "location": "Serbia, North Macedonia, Bosnia & Herzegovina (FBiH & RS), Kosovo*",
+                "period": "June 2024 – ongoing",
+                "value": "14,000 EUR",
+                "role": "jvPartner",
+                "scaleBadge": "Regional Market (4 Countries/Territories)",
+                "clientLogo": "/Assets/slike_za_reference/nlb-komercialna-logo.svg",
+                "summary": "Cross-border comparative engineering study of building stock energy performance and regulatory environments across 4 Western Balkan markets where NLB Group operates.",
+                "deliverables": [
+                    "Detailed statistical and thermal analysis of average specific energy demands across residential and commercial sectors.",
+                    "Comparative review of national building codes and compliance with EU EPBD certification standards.",
+                    "Formulation of technical verification criteria for green mortgage and corporate sustainable lending products."
+                ],
+                "focus": "Establishing verifiable technical and ESG benchmarks that empower the banking group to deploy credible green mortgage portfolios with certified carbon reduction impacts.",
+                "impact": "Enabled NLB Group to launch standardized green financing products, accelerating the disbursement of tens of millions of euros into certified energy-efficient construction and renovations.",
+                "tags": [
+                    "NLB Group",
+                    "ESG Banking",
+                    "Regional Building Stock",
+                    "Green Mortgages",
+                    "Market Analysis"
+                ]
+            },
+            {
+                "id": "undp-kruscic-primary-school",
+                "category": "public",
+                "title": "Detailed Energy Audit & Triple-Tiered Investment Measure Packages for Primary School 'Veljko Vlahović'",
+                "client": "UNDP Serbia (United Nations Development Programme)",
+                "location": "Kruščić, Kula Municipality",
+                "period": "November 2023 – December 2023",
+                "value": "10,000 USD",
+                "role": "soleImplementer",
+                "scaleBadge": "Educational Facility / 3 Measure Packages",
+                "clientLogo": "/Assets/slike_za_reference/United Nations Development Programme.png",
+                "summary": "Comprehensive energy audit and thermal diagnostic of an educational facility, calculating annual heating and electricity demands and modeling tiered investment retrofit scenarios.",
+                "deliverables": [
+                    "Thermographic and technical survey of building envelope, boiler plant, and lighting systems.",
+                    "Energy balance calculation and consumption baseline benchmarking.",
+                    "Assessment of current institutional energy management practices and legal compliance.",
+                    "Design of 3 comprehensive energy efficiency and renewable energy investment packages (PV solar & heat pumps).",
+                    "Dynamic techno-economic lifecycle analysis (NPV, IRR, Payback periods)."
+                ],
+                "focus": "Finding the sweet spot between capital expenditure and maximum fossil fuel displacement while restoring optimal indoor thermal comfort for students and staff.",
+                "impact": "Delivered fully shovel-ready engineering documentation that secured over 60% reduction in heating energy demand and facilitated a transition to on-site solar generation.",
+                "tags": [
+                    "UNDP",
+                    "Education",
+                    "Energy Audit",
+                    "RES Packages",
+                    "Return on Investment"
+                ]
+            },
+            {
+                "id": "ebrd-vojvodina-public-buildings-support",
+                "category": "public",
+                "title": "Project Implementation Support for Energy Efficiency in Public Buildings of AP Vojvodina",
+                "client": "EBRD (in consortium with Enova, Plus Minus and Entazis)",
+                "location": "Autonomous Province of Vojvodina",
+                "period": "August 2023 – ongoing",
+                "value": "900,000 EUR (81,000 EUR Eneplus share)",
+                "role": "jvPartner",
+                "scaleBadge": "FIDIC Engineering & Ex-Post Audits",
+                "clientLogo": "/Assets/slike_za_reference/European Bank for Reconstruction and Development.png",
+                "summary": "Large-scale engineering and project implementation consultancy supporting the energy renovation of public buildings in Vojvodina financed by the EBRD.",
+                "deliverables": [
+                    "Technical review and validation of existing energy audits and feasibility studies.",
+                    "Preparation of comprehensive Employer's Requirements under FIDIC contracting standards.",
+                    "Development of rigorous monitoring and verification (M&V) protocols.",
+                    "Execution of post-retrofit (ex-post) energy audits on completed facilities.",
+                    "First-year outcome reporting and carbon abatement verification for the Employer and EBRD."
+                ],
+                "focus": "Ensuring executed construction works strictly achieve target energy savings while meeting rigorous international FIDIC engineering standards and loan covenants.",
+                "impact": "Guaranteed quality and performance across dozens of institutional facilities, verifying multi-million euro public budget savings and ensuring seamless EBRD loan disbursement.",
+                "tags": [
+                    "EBRD",
+                    "FIDIC Engineering",
+                    "Public Buildings",
+                    "M&V Protocol",
+                    "Ex-Post Audits"
+                ]
+            },
+            {
+                "id": "vojvodina-secretariat-33-buildings",
+                "category": "public",
+                "title": "Detailed Energy Audits & Energy Passports for 33 Public Buildings in AP Vojvodina",
+                "client": "Provincial Secretariat for Energy, Construction and Transport (Consortium with Faculty of Technical Sciences Novi Sad)",
+                "location": "Vojvodina, Serbia",
+                "period": "August 2021 – December 2021",
+                "value": "94,000 EUR (33,000 EUR Eneplus share)",
+                "role": "jvPartner",
+                "scaleBadge": "33 Public Facilities / FTN Consortium",
+                "clientLogo": "/Assets/slike_za_reference/Pokrajinski sekretarijat za energetiku, građevinarstvo i saobraćaj.jpeg",
+                "summary": "Systematic energy auditing and certification of 33 key public facilities in Vojvodina featuring advanced cost-benefit sensitivity analysis under dynamic energy tariffs.",
+                "deliverables": [
+                    "Preparation of Energy Efficiency Elaborates for baseline conditions and post-retrofit scenarios.",
+                    "Issuance of official Energy Passports and comprehensive audit reports.",
+                    "Detailed survey of building heat sources, thermal envelopes, and electrical consumers.",
+                    "Technical evaluation of fuel switching and renewable energy integration.",
+                    "Cost-benefit analysis based on metered consumption with sensitivity modeling for energy price fluctuations."
+                ],
+                "focus": "Providing the Provincial Government with a reliable, data-backed priority ranking of public assets to maximize energy and budget savings per euro of public investment.",
+                "impact": "All 33 public buildings received official Energy Passports and actionable investment blueprints, enabling the Secretariat to achieve over 40% energy savings across the portfolio.",
+                "tags": [
+                    "Provincial Secretariat",
+                    "FTN Novi Sad",
+                    "33 Buildings",
+                    "Energy Passports",
+                    "Cost-Benefit"
+                ]
+            },
+            {
+                "id": "serbia-17-public-buildings",
+                "category": "public",
+                "title": "Detailed Energy Audits & Certification of 17 Landmark Public & Institutional Buildings",
+                "client": "Municipalities & Public Institutions Across Serbia",
+                "location": "Novi Sad, Kikinda, Subotica, Šid, Vrbas, Srbobran, Kanjiža, Bačka Topola, Bač",
+                "period": "January 2019 – June 2020",
+                "value": "40,000 EUR",
+                "role": "soleImplementer",
+                "scaleBadge": "17 Landmark Facilities (Parliament, Health Centers, Gymnasiums)",
+                "clientLogo": "/Assets/slike_za_reference/Grad Kikinda.jpeg",
+                "summary": "Detailed energy audits and certifications for the Assembly Building of AP Vojvodina, 2 primary health centers, a sports arena, 5 high schools/gymnasiums, 4 primary schools, 3 kindergartens, and a library.",
+                "deliverables": [
+                    "Detailed energy audit of the Assembly Building of the Autonomous Province of Vojvodina.",
+                    "Audits and Passports for Health Center 'Đorđe Bastić' Srbobran and Health Center Kanjiža.",
+                    "Audit of Sports & Cultural Center 'Drago Jovović' Vrbas.",
+                    "Audits of technical schools and gymnasiums across Šid, Kula, Kikinda, and Subotica.",
+                    "Audits of 3 kindergartens and the Public Library 'Vuk Karadžić' Bač.",
+                    "Thermal bridging calculations and renewable heating feasibility studies."
+                ],
+                "focus": "Overcoming unique thermal engineering challenges across highly diverse building typologies—from historic government palaces to large sports complexes and high-demand healthcare clinics.",
+                "impact": "Institutions eliminated critical thermal inefficiencies, upgraded heating controls, and secured stable, cost-effective operation with superior comfort for citizens, students, and patients.",
+                "tags": [
+                    "Vojvodina Parliament",
+                    "Healthcare",
+                    "Gymnasiums",
+                    "17 Facilities",
+                    "Energy Audits"
+                ]
+            },
+            {
+                "id": "leen-gmbh-software-tools",
+                "category": "software",
+                "title": "Development & Customization of Specialized Industrial Energy Audit Software Algorithms",
+                "client": "LEEN GmbH (Germany)",
+                "location": "Germany / Serbia",
+                "period": "June 2019 – January 2020",
+                "value": "30,000 EUR",
+                "role": "soleImplementer",
+                "scaleBadge": "German Industrial Market / 10 Engineering Modules",
+                "clientLogo": "/Assets/slike_za_reference/Primas consulting.png",
+                "summary": "Engineering software algorithm development and tool customization for industrial energy efficiency networks operating across Germany.",
+                "deliverables": [
+                    "Mathematical modules for industrial waste heat recovery from process streams.",
+                    "Calculation tools for industrial heat pumps and free cooling systems.",
+                    "Simulation algorithms for oil/gas steam and hot water boiler efficiency.",
+                    "Thermal models for solar industrial process heat and domestic hot water.",
+                    "Algorithms for variable speed drives, motor replacement, and process pipe insulation."
+                ],
+                "focus": "Automating intricate thermodynamic and fluid-mechanical equations for field auditors in strict alignment with German DIN and VDI engineering standards.",
+                "impact": "Equipped German industrial energy efficiency networks with fast, reliable, and verified software tools that consistently pinpoint multi-million euro process energy savings.",
+                "tags": [
+                    "LEEN Germany",
+                    "Industrial Software",
+                    "Waste Heat",
+                    "Heat Pumps",
+                    "DIN Standards"
+                ]
+            },
+            {
+                "id": "giz-ascot-light-cba-tool",
+                "category": "software",
+                "title": "Development of Municipal CBA Calculation Tool for Educational Buildings (ASCOT Light Model)",
+                "client": "GIZ Serbia",
+                "location": "Serbia",
+                "period": "September 2017 – May 2018",
+                "value": "11,000 EUR",
+                "role": "soleImplementer",
+                "scaleBadge": "National Tool for Municipalities & Schools",
+                "clientLogo": "/Assets/slike_za_reference/GIZ.png",
+                "summary": "Development of an Excel-based Cost-Benefit Analysis (CBA) calculation engine adapted from the Danish Ascot Light model (School of The Future, Cenergia / Kuben Management A/S).",
+                "deliverables": [
+                    "Formulation of mathematical and financial algorithms for school energy retrofit modeling.",
+                    "Automated estimation of annual thermal/electrical savings and CO2 emission abatement.",
+                    "Renewable energy source (RES) integration calculators for school rooftops.",
+                    "User-friendly GUI tailored for municipal energy managers across Serbian local governments."
+                ],
+                "focus": "Delivering an accessible yet mathematically rigorous tool that enables municipal officials to rapidly screen school retrofit feasibility without commissioning costly preliminary studies.",
+                "impact": "Adopted by municipal energy departments across Serbia, facilitating the preparation and successful grant funding of dozens of school renovation projects.",
+                "tags": [
+                    "GIZ",
+                    "CBA Tool",
+                    "ASCOT Model",
+                    "Schools",
+                    "CO2 Abatement",
+                    "Municipal Managers"
+                ]
+            },
+            {
+                "id": "giz-kragujevac-biomass-schools",
+                "category": "heating",
+                "title": "Pre-Feasibility Study for Biomass Fuel Switching in 5 Primary Schools in Kragujevac",
+                "client": "GIZ Serbia / City of Kragujevac",
+                "location": "Kragujevac City, Serbia",
+                "period": "November 2016 – May 2017",
+                "value": "10,000 EUR",
+                "role": "soleImplementer",
+                "scaleBadge": "5 Primary Schools in Kragujevac",
+                "clientLogo": "/Assets/slike_za_reference/Grad Kraljevo.png",
+                "summary": "Techno-economic pre-feasibility study for converting obsolete fossil fuel boilers (coal and heavy oil) to clean wood biomass boiler systems in municipal primary schools.",
+                "deliverables": [
+                    "Detailed baseline thermal diagnostics across 5 schools: 'Živadinka Divac', 'Miloje Simović', 'Natalija Nana Nedeljković', 'Sreten Mladenović', and 'Dragiša Mihajlović'.",
+                    "Heat load calculations and boiler plant capacity sizing.",
+                    "Regional biomass supply chain logistics and economic viability assessment in the Šumadija district.",
+                    "Financial payback, capital expenditure estimates, and emissions reduction projections."
+                ],
+                "focus": "Decommissioning heavily polluting fossil boilers from school premises and transitioning to locally sourced, sustainable wood biomass heating.",
+                "impact": "Provided the City of Kragujevac with actionable investment documentation, eliminating toxic emissions around school grounds and slashing heating operational costs by over 35%.",
+                "tags": [
+                    "GIZ",
+                    "Kragujevac",
+                    "Biomass",
+                    "5 Schools",
+                    "Pre-Feasibility",
+                    "Clean Air"
+                ]
+            }
+        ],
+        "whyChooseUs": {
+            "overline": "WHY LEADING INSTITUTIONS CHOOSE ENEPLUS",
+            "title": "Engineering Authority & Proven Capacity for Large-Scale Programs",
+            "subtitle": "We blend deep regulatory mastery, licensed top-tier engineering talent, and international development bank financing experience.",
+            "pillar1Title": "Authors of National Regulations & EU Directives",
+            "pillar1Desc": "Directly drafting official national rulebooks and methodologies for Serbia under the new EU EPBD 2024/1275/EU mandate.",
+            "pillar2Title": "Trusted Partner to International Financial Institutions",
+            "pillar2Desc": "Extensive track record on multi-million euro programs financed by EBRD, USAID, UNDP, and GIZ with FIDIC engineering and M&V protocols.",
+            "pillar3Title": "Licensed Expert Engineering Team",
+            "pillar3Desc": "Degreed mechanical and electrical engineers holding top licenses from the Serbian Chamber of Engineers for building EE and thermal power.",
+            "pillar4Title": "Proprietary Software & Analytics Platforms",
+            "pillar4Desc": "We engineer customized calculation platforms (BESTenergIS, LEEN tools, ASCOT models) that guarantee analytical precision and rapid decision-making."
+        },
+        "ctaSection": {
+            "title": "Planning a Major Energy Efficiency Program?",
+            "subtitle": "Whether you represent an international financial institution, municipality, industrial facility, or residential community — our engineering team is ready to design, calculate, and manage your project for maximum ROI.",
+            "ctaPrimary": "Request Consultation & Proposal",
+            "ctaPhone": "+381 64 817 2033",
+            "ctaSecondary": "Explore All Our Services"
         }
     }
 }

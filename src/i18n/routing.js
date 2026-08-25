@@ -71,6 +71,10 @@ export const routing = defineRouting({
             sr: '/energetski-pasos/zahtev',
             en: '/energy-passport/request'
         },
+        '/results': {
+            sr: '/rezultati',
+            en: '/results'
+        },
         '/software': {
             sr: '/softver',
             en: '/software'

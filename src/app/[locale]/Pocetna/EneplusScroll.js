@@ -260,7 +260,12 @@ export default function EneplusScroll() {
                                 <span>{t('headingLine2')}<br />{t('headingLine3')}</span>
                             </h2>
                             <p ref={subheadingRef} className={styles.subheading}>{t('subheading')}</p>
-                            <a ref={ctaRef} href={`/${locale}/contact`} className={styles.ctaButton}>{t('cta')}</a>
+                            <div ref={ctaRef} className={styles.heroActions}>
+                                <a href={`/${locale}/contact`} className={styles.ctaButton}>{t('cta')}</a>
+                                <a href={`/${locale}${locale === 'sr' ? '/rezultati' : '/results'}`} className={styles.ctaButtonSecondary}>
+                                    {t('resultsCta')}
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

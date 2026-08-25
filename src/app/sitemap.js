@@ -10,8 +10,8 @@ export default function sitemap() {
     // 1. Static routes from routing.pathnames
     Object.keys(routing.pathnames).forEach(routeKey => {
         const pathnameConfig = routing.pathnames[routeKey];
-        const priority = routeKey === '/' ? 1 : routeKey.startsWith('/energy-passport') ? 0.9 : 0.8;
-        const changeFrequency = routeKey === '/' ? 'daily' : routeKey.startsWith('/energy-passport') ? 'daily' : 'weekly';
+        const priority = routeKey === '/' ? 1 : (routeKey.startsWith('/energy-passport') || routeKey === '/results') ? 0.9 : 0.8;
+        const changeFrequency = routeKey === '/' ? 'daily' : (routeKey.startsWith('/energy-passport') || routeKey === '/results') ? 'daily' : 'weekly';
 
         routing.locales.forEach(locale => {
             let localizedPath;
