@@ -34,6 +34,13 @@ export default function MarkdownRenderer({ content }) {
                  return <a {...props} />;
              }
              return <a target="_blank" rel="noopener noreferrer" {...props} />;
+         },
+         table: ({ node, ...props }) => {
+             return (
+                 <div className="table-responsive">
+                     <table {...props} />
+                 </div>
+             );
          }
     };
 

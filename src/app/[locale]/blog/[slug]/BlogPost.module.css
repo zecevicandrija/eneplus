@@ -23,6 +23,7 @@
 .article {
     position: relative;
     z-index: 1;
+    width: 100%;
     max-width: 850px;
     margin: 0 auto;
     background: #ffffff;
@@ -30,6 +31,7 @@
     padding: 60px 80px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.03);
     border: 1px solid rgba(0, 0, 0, 0.04);
+    box-sizing: border-box;
 }
 
 .header {
@@ -113,6 +115,10 @@
     font-size: 1.25rem;
     line-height: 1.9;
     color: #374151;
+    width: 100%;
+    max-width: 100%;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 .content :global(h2) {
@@ -190,23 +196,34 @@
 
 /* Custom blog elements: Tables, Myth boxes, Case studies, Process steps, FAQ */
 
-.content :global(table) {
+.content :global(.table-responsive) {
     width: 100%;
-    border-collapse: collapse;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
     margin: 2.5em 0;
-    font-size: 1.1rem;
     background: #ffffff;
     border-radius: 16px;
-    overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.content :global(table) {
+    width: 100%;
+    min-width: 580px;
+    border-collapse: collapse;
+    margin: 0;
+    font-size: 1.05rem;
+    background: #ffffff;
+    border: none;
 }
 
 .content :global(th),
 .content :global(td) {
-    padding: 18px 22px;
+    padding: 16px 20px;
     text-align: left;
     line-height: 1.6;
+    vertical-align: top;
 }
 
 .content :global(th) {
@@ -214,10 +231,11 @@
     color: #111827;
     font-family: var(--font-outfit), sans-serif;
     font-weight: 800;
-    font-size: 0.95rem;
+    font-size: 0.92rem;
     text-transform: uppercase;
     letter-spacing: 0.75px;
     border-bottom: 2px solid #e5e7eb;
+    white-space: nowrap;
 }
 
 .content :global(td) {
@@ -442,18 +460,19 @@
         padding: 1.2em 1.5em;
     }
 
+    .content :global(.table-responsive) {
+        margin: 1.8em 0;
+        border-radius: 12px;
+    }
+
     .content :global(table) {
-        display: block;
-        width: 100%;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
+        min-width: 520px;
     }
 
     .content :global(th),
     .content :global(td) {
-        padding: 14px 16px;
-        font-size: 0.95rem;
-        white-space: nowrap;
+        padding: 12px 14px;
+        font-size: 0.9rem;
     }
 
     .content :global(.myth-box),
