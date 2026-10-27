@@ -932,7 +932,13 @@
             "reri": "Regulatorni institut za obnovljivu energiju i životnu sredinu (RERI)",
             "stsPupin": "STŠ Mihajlo Pupin",
             "studioDart": "Studio DArt",
-            "suProspect": "Su-Prospect"
+            "suProspect": "Su-Prospect",
+            "ag": "AG Institut",
+            "gradNis": "Grad Niš",
+            "gradUzice": "Grad Užice",
+            "gradRuma": "Grad Ruma",
+            "opstinaKanjiza": "Opština Kanjiža",
+            "opstinaMerosina": "Opština Merošina"
         }
     },
     "NotFound": {

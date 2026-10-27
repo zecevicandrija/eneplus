@@ -932,7 +932,13 @@
             "reri": "Regulatory Institute for Renewable Energy and Environmental Protection (RERI)",
             "stsPupin": "Technical School Mihajlo Pupin",
             "studioDart": "Studio DArt",
-            "suProspect": "Su-Prospect"
+            "suProspect": "Su-Prospect",
+            "ag": "AG Institution",
+            "gradNis": "City of Niš",
+            "gradUzice": "City of Užice",
+            "gradRuma": "City of Ruma",
+            "opstinaKanjiza": "Municipality of Kanjiža",
+            "opstinaMerosina": "Municipality of Merošina"
         }
     },
     "NotFound": {

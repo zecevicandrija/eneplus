@@ -38,7 +38,8 @@ const referenceGroups = [
             { key: "rraSrem", path: "/Assets/slike_za_reference/Regionalna razvojna agencija Srem.png" },
             { key: "rraZlatibor", path: "/Assets/slike_za_reference/Regionalna razvojna agencija Zlatibor.jpeg" },
             { key: "unicredit", path: "/Assets/slike_za_reference/Unicredit Bank.png" },
-            { key: "veolia", path: "/Assets/slike_za_reference/Veolia Water Solutions & Technologies.jpeg" }
+            { key: "veolia", path: "/Assets/slike_za_reference/Veolia Water Solutions & Technologies.jpeg" },
+            {key: "ag", path: "/Assets/slike_za_reference/novi/AG Institut.png" }
         ]
     },
     {
@@ -53,7 +54,10 @@ const referenceGroups = [
             { key: "gradValjevo", path: "/Assets/slike_za_reference/Grad Valjevo.jpeg" },
             { key: "gradSremskaMitrovica", path: "/Assets/slike_za_reference/Grad Sremska Mitrovica.png" },
             { key: "gradKikinda", path: "/Assets/slike_za_reference/Grad Kikinda.jpeg" },
-            { key: "gradBor", path: "/Assets/slike_za_reference/Grad Bor.jpeg" }
+            { key: "gradBor", path: "/Assets/slike_za_reference/Grad Bor.jpeg" },
+            {key: "gradNis", path: "/Assets/slike_za_reference/novi/Grad NIš.png" },
+            {key: "gradUzice", path: "/Assets/slike_za_reference/novi/Grad Užice.png" },
+            {key: "gradRuma", path: "/Assets/slike_za_reference/novi/JP Ruma gas.png" }
         ]
     },
     {
@@ -71,7 +75,9 @@ const referenceGroups = [
             { key: "opstinaTemerin", path: "/Assets/slike_za_reference/Opština Temerin.png" },
             { key: "opstinaVrbas", path: "/Assets/slike_za_reference/Opština Vrbas.png" },
             { key: "opstinaZabalj", path: "/Assets/slike_za_reference/Opština Žabalj.png" },
-            { key: "opstinaSid", path: "/Assets/slike_za_reference/Opštona Šid.png" }
+            { key: "opstinaSid", path: "/Assets/slike_za_reference/Opštona Šid.png" },
+            { key: "opstinaKanjiza", path: "/Assets/slike_za_reference/novi/Opština Kanjiža.png" },
+            { key: "opstinaMerosina", path: "/Assets/slike_za_reference/novi/Opština Merošina.jpg" }
         ]
     },
     {
