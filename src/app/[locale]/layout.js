@@ -22,6 +22,9 @@ const outfit = Outfit({
     subsets: ["latin"],
 });
 
+// Only the supported, prebuilt locales may be served.
+export const dynamicParams = false;
+
 export function generateStaticParams() {
     return routing.locales.map((locale) => ({ locale }));
 }

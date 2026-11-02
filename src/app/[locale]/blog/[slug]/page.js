@@ -6,6 +6,10 @@ import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import styles from './BlogPost.module.css';
 
+// Posts live in the repository: new slugs become available with the next build.
+// Unknown slugs should return 404 without rendering a page on demand.
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
     const srPosts = getAllPosts('sr').map((post) => ({ locale: 'sr', slug: post.slug }));
     const enPosts = getAllPosts('en').map((post) => ({ locale: 'en', slug: post.slug }));

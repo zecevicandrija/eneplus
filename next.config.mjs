@@ -4,6 +4,10 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.js');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    // Serve unmatched URLs without rendering the localized application layout.
+    globalNotFound: true,
+  },
   async redirects() {
     return [
       // Shortcuts for Services (redirecting to Serbian version by default)
