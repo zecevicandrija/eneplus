@@ -1,16 +1,15 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
-import { Link } from '@/i18n/routing';
+import { Link, getPathname } from '@/i18n/routing';
 import { usePathname } from 'next/navigation';
 import { useLocale, useTranslations } from 'next-intl';
 import styles from './Navbar.module.css';
-import { getAlternateBlogPath } from '@/lib/actions';
+import { routingConfig } from '@/i18n/routing-config.mjs';
 
-export default function Navbar() {
+export default function Navbar({ blogLanguagePaths = {} }) {
     const [mobileOpen, setMobileOpen] = useState(false);
-    const [alternatePath, setAlternatePath] = useState(null);
     const t = useTranslations('Navbar');
     const locale = useLocale();
     const pathname = usePathname();
@@ -26,20 +25,13 @@ export default function Navbar() {
 
     const otherLocale = locale === 'sr' ? 'en' : 'sr';
 
-    useEffect(() => {
-        const segments = pathname.split('/').filter(Boolean);
-        if (segments.length >= 3 && segments[1] === 'blog') {
-            const currentSlug = segments[2];
-            getAlternateBlogPath(locale, currentSlug).then(path => {
-                if (path) setAlternatePath(path);
-                else setAlternatePath(null);
-            });
-        } else {
-            setAlternatePath(null);
-        }
-    }, [pathname, locale]);
-
-    const switchLocalePath = alternatePath || `/${otherLocale}${getPathWithoutLocale()}`;
+    const currentPath = getPathWithoutLocale();
+    const route = Object.keys(routingConfig.pathnames).find(key => {
+        const value = routingConfig.pathnames[key];
+        return key === currentPath || (typeof value === 'string' ? value : value[locale]) === currentPath;
+    });
+    const switchLocalePath = blogLanguagePaths[pathname.replace(/\/$/, '')]
+        || (route ? getPathname({ locale: otherLocale, href: route }) : `/${otherLocale}${currentPath}`);
 
     const navLinks = [
         { name: t('home'), href: '/' },

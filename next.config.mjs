@@ -1,4 +1,5 @@
 import createNextIntlPlugin from 'next-intl/plugin';
+import { localeRedirects, localeRewrites, localeHeaders } from './src/i18n/static-routing.mjs';
 
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.js');
 
@@ -153,11 +154,17 @@ const nextConfig = {
         source: '/energetski-pasos',
         destination: '/sr/energetski-pasos',
         permanent: true,
-      }
+      },
+      // Keep the explicit legacy redirects above ahead of generated locale rules.
+      ...localeRedirects(),
     ];
+  },
+  async rewrites() {
+    return { beforeFiles: localeRewrites() };
   },
   async headers() {
     return [
+      ...localeHeaders(),
       {
         source: '/:path*.md',
         headers: [

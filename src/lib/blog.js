@@ -90,3 +90,22 @@ export function getTranslatedSlug(currentLocale, currentTranslationKey) {
     
     return null;
 }
+
+// Serialize only slug pairs into the static layout; no browser-to-server lookup.
+export function getBlogLanguagePaths() {
+    const postsByLocale = { sr: getAllPosts('sr'), en: getAllPosts('en') };
+    const paths = {};
+    for (const locale of ['sr', 'en']) {
+        const otherLocale = locale === 'sr' ? 'en' : 'sr';
+        const translations = new Map(postsByLocale[otherLocale]
+            .filter(post => post.translationKey)
+            .map(post => [post.translationKey, post.slug]));
+        for (const post of postsByLocale[locale]) {
+            const translatedSlug = translations.get(post.translationKey);
+            if (translatedSlug) {
+                paths[`/${locale}/blog/${post.slug}`] = `/${otherLocale}/blog/${translatedSlug}`;
+            }
+        }
+    }
+    return paths;
+}

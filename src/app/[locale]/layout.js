@@ -6,6 +6,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '../../i18n/routing';
 import Navbar from './Pocetna/Navbar';
 import Footer from './Pocetna/Footer';
+import { getBlogLanguagePaths } from '@/lib/blog';
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -84,7 +85,7 @@ export default async function LocaleLayout({ children, params }) {
     return (
         <html lang={locale} suppressHydrationWarning>
             <body className={`${geistSans.variable} ${geistMono.variable} ${outfit.variable}`}>
-                <NextIntlClientProvider messages={messages}>
+                <NextIntlClientProvider locale={locale} messages={messages}>
                     <script
                         type="application/ld+json"
                         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
@@ -95,7 +96,7 @@ export default async function LocaleLayout({ children, params }) {
                             dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
                         />
                     )}
-                    <Navbar />
+                    <Navbar blogLanguagePaths={getBlogLanguagePaths()} />
                     {children}
                     <Footer />
                 </NextIntlClientProvider>

@@ -1,5 +1,34 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Static locale routing
+
+`src/i18n/routing-config.mjs` is the shared source for public Serbian/English paths
+and next-intl navigation. `next.config.mjs` generates locale redirects, internal
+rewrites and alternate-language HTTP headers at build time. There is no locale
+middleware: the URL determines the language, and `/` redirects to `/sr`.
+Existing explicit legacy redirects take precedence over generated rules.
+
+Keep public pages statically renderable. The locale layout supplies the locale
+and messages explicitly, and blog language links are serialized into that layout
+from the Markdown frontmatter during the build. They require no Server Action.
+The email form continues to use `/api/send-energy-passport-request`.
+
+After changing routes, build and check a local production server:
+
+```bash
+npm run build
+npm run start -- --port 3100
+# In a second terminal:
+npm run check:routing
+```
+
+The check covers public routes, legacy redirects, both languages, blog translation
+links, static rendering, RSC prefetch responses, canonical/hreflang links,
+sitemap targets, and 404s. `ROUTING_TEST_ORIGIN` can select another server.
+After deploying, verify navigation on Vercel and compare **new** Active CPU usage
+by Type over comparable traffic periods. Historical usage remains in the rolling
+30-day window; a deploy does not reset the quota.
+
 ## Getting Started
 
 First, run the development server:

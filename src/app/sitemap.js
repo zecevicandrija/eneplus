@@ -57,25 +57,8 @@ export default function sitemap() {
         });
     });
 
-    // 2. Blog index page (/sr/blog, /en/blog)
-    routing.locales.forEach(locale => {
-        const url = `${baseUrl}/${locale}/blog`;
-        const alternates = {
-            languages: {
-                sr: `${baseUrl}/sr/blog`,
-                en: `${baseUrl}/en/blog`
-            }
-        };
-        sitemapEntries.push({
-            url,
-            lastModified: new Date(),
-            changeFrequency: 'weekly',
-            priority: 0.8,
-            alternates
-        });
-    });
-
-    // 3. Dynamic blog post pages (/sr/blog/[slug], /en/blog/[slug])
+    // 2. Blog post pages (/sr/blog/[slug], /en/blog/[slug]).
+    // Blog indexes are already included in routing.pathnames above.
     routing.locales.forEach(locale => {
         const posts = getAllPosts(locale);
         posts.forEach(post => {

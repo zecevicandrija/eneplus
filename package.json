@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check:routing": "node scripts/check-static-routing.mjs"
   },
   "dependencies": {
     "framer-motion": "^12.26.1",
