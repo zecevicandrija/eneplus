@@ -1,11 +1,26 @@
 import React from 'react';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { getAllPosts } from '@/lib/blog';
+import { getSEOMetadata } from '@/utils/seo';
 import BlogClientTracker from './BlogClientTracker';
 import styles from './Blog.module.css';
 
+export async function generateMetadata({ params }) {
+    const { locale } = await params;
+    const t = await getTranslations({ locale, namespace: 'BlogPage.metadata' });
+
+    return getSEOMetadata({
+        locale,
+        route: '/blog',
+        title: t('title'),
+        description: t('description'),
+        keywords: t('keywords'),
+    });
+}
+
 export default async function BlogPage({ params }) {
     const { locale } = await params;
+    setRequestLocale(locale);
     const t = await getTranslations({ locale, namespace: 'BlogPage' });
 
     const blogPosts = getAllPosts(locale);

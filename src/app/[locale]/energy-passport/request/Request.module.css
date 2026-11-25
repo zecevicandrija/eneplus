@@ -7,6 +7,20 @@
     font-family: var(--font-outfit), sans-serif;
 }
 
+.pageHeader {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2rem 8% 0;
+}
+
+.pageTitle {
+    color: #1a1a1a;
+    font-size: clamp(2rem, 3.5vw, 2.75rem);
+    font-weight: 900;
+    line-height: 1.15;
+    margin: 0;
+}
+
 .formContainer {
     max-width: 1300px;
     margin: 0 auto;

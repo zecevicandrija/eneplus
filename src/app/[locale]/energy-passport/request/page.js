@@ -63,6 +63,9 @@ export default function RequestPage() {
 
     return (
         <main className={styles.pageWrapper}>
+            <div className={styles.pageHeader}>
+                <h1 className={styles.pageTitle}>{t('pageTitle')}</h1>
+            </div>
             <form onSubmit={handleSubmit} className={styles.formContainer}>
 
                 {/* LEFT COLUMN */}

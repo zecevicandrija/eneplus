@@ -13,7 +13,7 @@
     },
     "BlogPage": {
         "metadata": {
-            "title": "Eneplus Blog | Saveti za Energetsku Efikasnost i Uštedu",
+            "title": "Blog — Energetska efikasnost i ušteda",
             "description": "Čitajte najnovije vesti, savete i analize o energetskoj efikasnosti, energetskim pasošima i ISO 50001 menadžmentu u Srbiji.",
             "keywords": "energetska efikasnost blog, usteda energije, sta je energetski pasos, subvencije za energetsku efikasnost"
         },
@@ -165,7 +165,7 @@
             }
         },
         "metadata": {
-            "title": "O Nama | Eneplus",
+            "title": "O nama",
             "description": "ENEPLUS je konsultantska firma koja pruža usluge iz oblasti energetskog menadžmenta, energetske efikasnosti i projektnog menadžmenta. Upoznajte naš ekspertski tim.",
             "keywords": "o nama, eneplus tim, energetski menadžment, analitika, energetska efikasnost"
         }
@@ -176,7 +176,7 @@
         "heroTitle2": "USLUGE",
         "subtitle": "Sveobuhvatna rešenja za energetsku efikasnost i održivost",
         "metadata": {
-            "title": "Usluge | Energetska Efikasnost i Menadžment | Eneplus",
+            "title": "Usluge — Energetska efikasnost i menadžment",
             "description": "Nudimo sveobuhvatna rešenja za energetsku efikasnost i održivost. Otkrijte naše usluge iz oblasti energetskog menadžmenta, projektovanja i sertifikacije.",
             "keywords": "usluge, energetska efikasnost, energetski menadžment, projektovanje, energetski pasoš, eneplus usluge"
         }
@@ -219,7 +219,7 @@
         "ctaText": "Kontaktirajte nas za demo verziju i detaljnu prezentaciju.",
         "ctaButton": "Kontaktirajte nas",
         "metadata": {
-            "title": "Softver za Energetski Menadžment | Eneplus",
+            "title": "Softver za energetski menadžment",
             "description": "Web orijentisan softver za energetski menadžment. Neizostavna alatka za praćenje i optimizaciju energetske potrošnje opština i preduzeća.",
             "keywords": "softver za energetski menadžment, praćenje potrošnje energije, energetska efikasnost softver, pametno upravljanje, eneplus"
         }
@@ -241,7 +241,7 @@
             "thermography": "Termovizijsko snimanje"
         },
         "metadata": {
-            "title": "Media i Resursi | Eneplus",
+            "title": "Media i resursi",
             "description": "Preuzmite korisne materijale, dokumentaciju i video prezentacije naših softvera i usluga. Informišite se o najnovijim trendovima.",
             "keywords": "media, dokumentacija, video prezentacije, energetski menadžment materijali, eneplus resursi"
         }
@@ -259,7 +259,7 @@
         "address": "Adresa",
         "socialTitle": "Pratite nas",
         "metadata": {
-            "title": "Kontakt | Eneplus",
+            "title": "Kontakt",
             "description": "Kontaktirajte ENEPLUS. Stojimo Vam na raspolaganju za sve informacije i konsultacije o unapređenju energetske efikasnosti vaših objekata.",
             "keywords": "kontakt, eneplus, informacije, adresa, telefon, email, zakazivanje, konsultacije"
         }
@@ -288,7 +288,7 @@
         "ctaText": "Kontaktirajte nas i saznajte kako možemo pomoći vašoj organizaciji.",
         "ctaButton": "Kontaktirajte nas",
         "metadata": {
-            "title": "Energetski Menadžment | Usluge | Eneplus",
+            "title": "Energetski menadžment | Usluge",
             "description": "Usluga energetskog menadžmenta po standardu ISO 50001. Pomažemo vam u sistematičnom upravljanju energetskim performansama i racionalnom korišćenju energije.",
             "keywords": "energetski menadžment, ISO 50001, upravljanje energijom, ušteda energije, eneplus"
         }
@@ -311,7 +311,7 @@
         "ctaText": "Kontaktirajte nas za detaljne studije i strateško planiranje.",
         "ctaButton": "Kontaktirajte nas",
         "metadata": {
-            "title": "Studije i Analize EE | Eneplus",
+            "title": "Studije i analize EE",
             "description": "Izrada studija i detaljnih analiza iz oblasti energetske efikasnosti i obnovljivih izvora energije za pametno donošenje investicionih odluka.",
             "keywords": "studije, energetska analiza, cost benefit, akcioni planovi, energetska efikasnost, eneplus"
         }
@@ -334,7 +334,7 @@
         "ctaText": "Prijavite se za naše obuke i sertifikovane treninge.",
         "ctaButton": "Kontaktirajte nas",
         "metadata": {
-            "title": "Treninzi i Edukacije | Eneplus",
+            "title": "Treninzi i edukacije",
             "description": "Sertifikovane obuke i treninzi iz oblasti energetskog menadžmenta. Prenosimo najnovija praktična znanja i trendove u energetici.",
             "keywords": "treninzi, obuke, edukacija, energetski menadžeri, eneplus edukacije"
         }
@@ -344,7 +344,7 @@
         "heroTitle1": "ENERGETSKA",
         "heroTitle2": "SERTIFIKACIJA",
         "metadata": {
-            "title": "Energetska Sertifikacija | Eneplus",
+            "title": "Energetska sertifikacija",
             "description": "Profesionalna izrada elaborata energetske efikasnosti i izdavanje energetskih pasoša za sve tipove objekata.",
             "keywords": "energetska sertifikacija, energetski pasoš, elaborat energetske efikasnosti, energetski razred, eneplus"
         },
@@ -382,7 +382,7 @@
         "ctaText": "Kontaktirajte nas na vreme za maksimalne rezultate.",
         "ctaButton": "Kontaktirajte nas",
         "metadata": {
-            "title": "Projektovanje | Energetska Efikasnost | Eneplus",
+            "title": "Projektovanje | Energetska efikasnost",
             "description": "Usluga projektovanja u građevinarstvu sa fokusom na maksimalnu energetsku efikasnost, preciznost i dugoročnu isplativost.",
             "keywords": "projektovanje, izgradnja, sanacija, rekonstrukcija, ušteda energije, eneplus"
         }
@@ -405,7 +405,7 @@
         "ctaText": "Kontaktirajte nas za razvoj namenskih aplikacija i prezentacija.",
         "ctaButton": "Kontaktirajte nas",
         "metadata": {
-            "title": "Web Aplikacije i Prezentacije | Eneplus",
+            "title": "Web aplikacije i prezentacije",
             "description": "Izrada namenskih web aplikacija i prezentacija uz korišćenje najsavremenijih IT tehnologija sa profesionalnim pristupom.",
             "keywords": "web aplikacije, razvoj softvera, prezentacije, IT rešenja, eneplus"
         }
@@ -446,7 +446,7 @@
         "ctaText": "Klijentima smo dostupni 24 časa dnevno, uvek spremni da pružimo dragocen savet ili sugestiju, a sve u cilju i sa željom da naše klijente učinimo zadovoljnim, vaše ideje i vizije pretvorimo u stvarnost.",
         "ctaButton": "Zakažite konsultacije",
         "metadata": {
-            "title": "Energetski Konsalting | Eneplus",
+            "title": "Energetski konsalting",
             "description": "Stručne konsultacije i podrška prilikom gradnje ili rekonstrukcije objekata po najvišim principima energetske efikasnosti.",
             "keywords": "energetski konsalting, savetovanje, rekonstrukcija, konsultacije, stručna podrška, eneplus"
         }
@@ -507,7 +507,7 @@
         "ctaText": "Kontaktirajte nas za stručnu podršku u svim fazama realizacije.",
         "ctaButton": "Kontaktirajte nas",
         "metadata": {
-            "title": "Priprema i Podrška za JPP | Eneplus",
+            "title": "Priprema i podrška za JPP",
             "description": "Pružamo stručnu i profesionalnu podršku javnom i privatnom sektoru u realizaciji projekata Javno-Privatnog Partnerstva (JPP).",
             "keywords": "javno privatno partnerstvo, JPP, priprema tendera, podrška projektima, eneplus"
         }
@@ -547,7 +547,7 @@
         "ctaText": "Kontaktirajte nas za stručnu pomoć pri implementaciji ISO 50001.",
         "ctaButton": "Kontaktirajte nas",
         "metadata": {
-            "title": "ISO 50001 Standard | Uvođenje | Eneplus",
+            "title": "ISO 50001 standard | Uvođenje",
             "description": "Konsultantske usluge i asistencija pri uspostavljanju ISO 50001 standarda za energetski menadžment. Maksimizirajte uštede uz ENEPLUS.",
             "keywords": "ISO 50001, uvođenje standarda, implementacija, sistem energetskog menadžmenta, sertifikat, eneplus"
         }
@@ -639,7 +639,7 @@
         "ctaText": "Zakažite uvodni razgovor sa našim inženjerima i saznajte kako energetski pregled može optimizovati vaše poslovanje.",
         "ctaButton": "Započnite projekat",
         "metadata": {
-            "title": "Energetski Pregled i Audit Zgrada | Cena i Izrada | Eneplus",
+            "title": "Energetski pregled zgrada — Cena i izrada",
             "description": "Profesionalni energetski pregled zgrada, kuća i industrijskih objekata u Srbiji prema standardima ISO 50002 i EN 16247. Saznajte cenu i zakažite pregled.",
             "keywords": "energetski pregled, energetski pregled zgrade, energetski pregled cena, energetski audit, energetski pregledi, ušteda energije, ISO 50002, EN 16247, eneplus"
         }
@@ -675,7 +675,7 @@
         "ctaText": "Kontaktirajte nas za precizna merenja i analizu vašeg objekta.",
         "ctaButton": "Kontaktirajte nas",
         "metadata": {
-            "title": "Termografija i Blower Door Merenja | Eneplus",
+            "title": "Termografija i Blower Door merenja",
             "description": "Napredna infracrvena termografija, provera vazdušne zaptivenosti (Blower Door) i provera uslova komfora (CO2, temperatura).",
             "keywords": "merenja, termografija, blower door test, uslovi komfora, infracrvena kamera, zaptivenost zgrade, eneplus"
         }
@@ -717,14 +717,14 @@
         "ctaText": "Prepustite upravljanje stručnjacima i osigurajte uspeh vaše investicije.",
         "ctaButton": "Kontaktirajte nas",
         "metadata": {
-            "title": "Projekt Menadžment | Upravljanje | Eneplus",
+            "title": "Projekt menadžment | Upravljanje",
             "description": "Upravljanje projektima od planiranja do zatvaranja. Koordinacija tima, praćenje rokova, resursa i budžeta za uspeh vašeg projekta.",
             "keywords": "projekt menadžment, upravljanje projektima, koordinacija tima, analiza budžeta, eneplus"
         }
     },
     "EnergyPassportPage": {
         "metadata": {
-            "title": "Energetski Pasoš – Izrada i Cena | Eneplus Srbija",
+            "title": "Energetski pasoš – Izrada i cena",
             "description": "Profesionalna izrada energetskog pasoša za stambene, poslovne i javne objekte u Srbiji. Brza izrada, konkurentne cene, licencirani inženjeri. Pošaljite zahtev online.",
             "keywords": "energetski pasoš, energetski pasos, energetski pasoš cena, energetski pasos cena, izrada energetskog pasoša, izrada energetskog pasosa, energetski pasoš provera, energetski pasos provera, energetski pasoš zgrade, energetski pasos zgrade, energetski sertifikat, energetski pasoš za kuću, energetski pasoš za stan, energetski razred, upotrebna dozvola energetski pasoš, energetski pasoš Beograd, energetski pasoš Srbija, sertifikat o energetskim svojstvima, elaborat energetske efikasnosti, eneplus",
             "ogTitle": "Energetski Pasoš – Brza Izrada za Sve Objekte | Eneplus",
@@ -809,10 +809,11 @@
     },
     "EnergyPassportRequestPage": {
         "metadata": {
-            "title": "Zahtev za energetski pasoš | Eneplus",
+            "title": "Zahtev za energetski pasoš",
             "description": "Podnesite zahtev za izradu energetskog pasoša za vaš objekat.",
             "keywords": "zahtev, energetski pasoš, prijava, dokumentacija, eneplus"
         },
+        "pageTitle": "Zahtev za energetski pasoš",
         "title": "Podaci o objektu",
         "buildingType": "Vrsta zgrade *",
         "buildingTypePlaceholder": "Izaberi",
@@ -850,7 +851,7 @@
     },
     "OurClientsPage": {
         "metadata": {
-            "title": "Naši klijenti | Eneplus",
+            "title": "Naši klijenti",
             "description": "Lista uspešnih saradnji sa međunarodnim organizacijama, gradovima i kompanijama.",
             "keywords": "klijenti, reference, energetska efikasnost, eneplus"
         },
@@ -949,7 +950,7 @@
     },
     "HomePage": {
         "metadata": {
-            "title": "Početna",
+            "title": "Eneplus | Energetska efikasnost, menadžment i pasoši",
             "description": "Eneplus pruža ekspertske usluge u oblasti energetske efikasnosti, menadžmenta i obnovljivih izvora energije. Vaš partner za održivu budućnost.",
             "keywords": "eneplus, energetska efikasnost, pametna energija, ušteda novca"
         },
@@ -970,7 +971,7 @@
     },
     "ResultsPage": {
         "metadata": {
-            "title": "Rezultati i Reference | Kapitalni Projekti Energetske Efikasnosti | Eneplus",
+            "title": "Rezultati i reference EE projekata",
             "description": "Pogledajte dokazane rezultate kompanije Eneplus: preko 1.400.000 m² auditovanih objekata, projekti za EBRD, USAID, UNDP, GIZ i izrada nacionalnih pravilnika po EU EPBD direktivama.",
             "keywords": "energetska efikasnost rezultati, reference eneplus, EBRD energetski pregledi, ESCO stambene zgrade, energetski pasosi vojvodina, PLAC IV EPBD pravilnik, BESTenergIS Kula"
         },

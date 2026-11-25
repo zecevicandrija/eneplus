@@ -13,7 +13,7 @@
     },
     "BlogPage": {
         "metadata": {
-            "title": "Eneplus Blog | Energy Efficiency & Saving Tips",
+            "title": "Blog — Energy Efficiency & Saving Tips",
             "description": "Read the latest news, advanced tips, and professional analysis about energy efficiency, energy passports, and ISO 50001 management in Serbia.",
             "keywords": "energy efficiency blog, energy saving, what is an energy passport, energy efficiency subsidies"
         },
@@ -165,7 +165,7 @@
             }
         },
         "metadata": {
-            "title": "About Us | Eneplus",
+            "title": "About Us",
             "description": "ENEPLUS is a consulting firm providing services in energy management, and energy efficiency. Meet our expert engineering team.",
             "keywords": "about us, eneplus team, energy management, energy efficiency, analytics"
         }
@@ -176,7 +176,7 @@
         "heroTitle2": "SERVICES",
         "subtitle": "Comprehensive solutions for energy efficiency and sustainability",
         "metadata": {
-            "title": "Services | Energy Efficiency | Eneplus",
+            "title": "Services — Energy Efficiency",
             "description": "We offer comprehensive solutions for energy efficiency and sustainability, including design, audits, and certifications.",
             "keywords": "services, energy efficiency, energy management, design, energy passport, eneplus services"
         }
@@ -219,7 +219,7 @@
         "ctaText": "Contact us for a demo version and a detailed presentation.",
         "ctaButton": "Contact us",
         "metadata": {
-            "title": "Energy Management Software | Eneplus",
+            "title": "Energy Management Software",
             "description": "Web-oriented energy management software. An indispensable tool for tracking and optimizing energy consumption for municipalities and companies.",
             "keywords": "energy management software, tracking energy, energy efficiency, smart management, eneplus"
         }
@@ -241,7 +241,7 @@
             "thermography": "Thermographic Imaging"
         },
         "metadata": {
-            "title": "Media and Resources | Eneplus",
+            "title": "Media and Resources",
             "description": "Download useful materials, documentation, and video presentations of our software and services. Stay informed.",
             "keywords": "media, documentation, video presentations, energy management resources, eneplus"
         }
@@ -259,7 +259,7 @@
         "address": "Address",
         "socialTitle": "Follow us",
         "metadata": {
-            "title": "Contact Us | Eneplus",
+            "title": "Contact Us",
             "description": "Contact ENEPLUS. We are at your disposal for all information and consultations on improving your energy efficiency.",
             "keywords": "contact, eneplus, information, address, phone, email, scheduling, consultations"
         }
@@ -288,7 +288,7 @@
         "ctaText": "Contact us to find out how we can help your organization.",
         "ctaButton": "Contact us",
         "metadata": {
-            "title": "Energy Management | Services | Eneplus",
+            "title": "Energy Management | Services",
             "description": "Energy management service according to ISO 50001 standard. We help you systematically manage energy performance and usage.",
             "keywords": "energy management, ISO 50001, energy savings, management lifecycle, eneplus"
         }
@@ -311,7 +311,7 @@
         "ctaText": "Contact us for detailed studies and strategic planning.",
         "ctaButton": "Contact us",
         "metadata": {
-            "title": "Studies and Analyses | Eneplus",
+            "title": "Studies and Analyses",
             "description": "Preparation of studies and detailed analyses in the field of energy efficiency and renewable energy sources for smart investment decisions.",
             "keywords": "studies, analyses, cost benefit, action plans, energy efficiency, eneplus"
         }
@@ -334,7 +334,7 @@
         "ctaText": "Sign up for our training and certified courses.",
         "ctaButton": "Contact us",
         "metadata": {
-            "title": "Training and Education | Eneplus",
+            "title": "Training and Education",
             "description": "Certified courses and training in energy management. We transfer the latest practical knowledge and trends in energy.",
             "keywords": "training, courses, education, energy managers, eneplus training"
         }
@@ -344,7 +344,7 @@
         "heroTitle1": "ENERGY",
         "heroTitle2": "CERTIFICATION",
         "metadata": {
-            "title": "Energy Certification | Eneplus",
+            "title": "Energy Certification",
             "description": "Professional energy efficiency reports and energy passports for all types of buildings.",
             "keywords": "energy certification, energy passport, energy efficiency report, energy class, eneplus"
         },
@@ -382,7 +382,7 @@
         "ctaText": "Contact us on time for maximum results.",
         "ctaButton": "Contact us",
         "metadata": {
-            "title": "Design | Energy Efficiency | Eneplus",
+            "title": "Design | Energy Efficiency",
             "description": "Building design services focused on maximum energy efficiency, precision, and long-term economic sustainability.",
             "keywords": "design, construction, renovation, energy saving, eneplus"
         }
@@ -405,7 +405,7 @@
         "ctaText": "Contact us for custom application and presentation development.",
         "ctaButton": "Contact us",
         "metadata": {
-            "title": "Web Applications & Presentations | Eneplus",
+            "title": "Web Applications & Presentations",
             "description": "Development of custom web applications and presentations using modern IT technologies aimed at professional results.",
             "keywords": "web applications, software development, presentations, IT solutions, eneplus"
         }
@@ -446,7 +446,7 @@
         "ctaText": "We are available to clients 24 hours a day, always ready to provide valuable advice or suggestions, all with the aim and desire to make our clients satisfied, turning your ideas and visions into reality.",
         "ctaButton": "Schedule a consultation",
         "metadata": {
-            "title": "Energy Consulting | Eneplus",
+            "title": "Energy Consulting",
             "description": "Expert consultations and support during construction or renovation of facilities to the highest energy efficiency principles.",
             "keywords": "energy consulting, consulting services, renovation support, expert advice, eneplus"
         }
@@ -507,7 +507,7 @@
         "ctaText": "Contact us for expert support in all phases of realization.",
         "ctaButton": "Contact us",
         "metadata": {
-            "title": "PPP Preparation and Support | Eneplus",
+            "title": "PPP Preparation and Support",
             "description": "We provide professional support to the public and private sectors in implementing Public-Private Partnership (PPP) projects.",
             "keywords": "public private partnership, PPP, tender prep, project support, eneplus"
         }
@@ -547,7 +547,7 @@
         "ctaText": "Contact us for expert assistance in implementing ISO 50001.",
         "ctaButton": "Contact us",
         "metadata": {
-            "title": "ISO 50001 Standard | Implementation | Eneplus",
+            "title": "ISO 50001 Standard | Implementation",
             "description": "Consulting services and assistance in establishing the ISO 50001 energy management standard. Maximize your savings with ENEPLUS.",
             "keywords": "ISO 50001, standard implementation, energy management system, certification, eneplus"
         }
@@ -639,7 +639,7 @@
         "ctaText": "Schedule an initial consultation with our engineers and learn how an energy audit can optimize your facility's performance.",
         "ctaButton": "Start Project",
         "metadata": {
-            "title": "Energy Audits & Reviews for Buildings | Eneplus Serbia",
+            "title": "Energy Audits & Reviews for Buildings",
             "description": "Professional energy audits of facilities, residential buildings, and systems in Serbia according to ISO 50002 & EN 16247 standards. Request a quote.",
             "keywords": "energy audit, energy audit Serbia, energy audit price, building energy audit, ISO 50002, EN 16247, eneplus"
         }
@@ -675,7 +675,7 @@
         "ctaText": "Contact us for precise measurements and analysis of your building.",
         "ctaButton": "Contact us",
         "metadata": {
-            "title": "Thermography & Blower Door | Eneplus",
+            "title": "Thermography & Blower Door",
             "description": "Advanced infrared thermography, air tightness testing (Blower Door), and assessment of comfort conditions (CO2, temp, humidity).",
             "keywords": "measurements, thermography, blower door test, comfort conditions, infrared camera, eneplus"
         }
@@ -717,14 +717,14 @@
         "ctaText": "Let experts handle management and ensure your investment success.",
         "ctaButton": "Contact us",
         "metadata": {
-            "title": "Project Management | Service | Eneplus",
+            "title": "Project Management | Service",
             "description": "End-to-end project management. Team coordination, schedule tracking, and budget control to ensure your project's success.",
             "keywords": "project management, coordination, budget analysis, timeline, eneplus"
         }
     },
     "EnergyPassportPage": {
         "metadata": {
-            "title": "Energy Passport – Certification & Pricing | Eneplus Serbia",
+            "title": "Energy Passport – Certification & Pricing",
             "description": "Professional energy passport certification for residential, commercial, and public buildings in Serbia. Fast turnaround, competitive pricing, licensed engineers. Submit your request online.",
             "keywords": "energy passport, energy passport price, energy passport certification, energy certificate, energy passport for house, energy passport for apartment, energy class, usage permit energy passport, energy passport Belgrade, energy passport Serbia, energy performance certificate, energy efficiency report, eneplus",
             "ogTitle": "Energy Passport – Fast Certification for All Buildings | Eneplus",
@@ -809,10 +809,11 @@
     },
     "EnergyPassportRequestPage": {
         "metadata": {
-            "title": "Energy Passport Request | Eneplus",
+            "title": "Energy Passport Request",
             "description": "Submit a request for an energy passport for your building.",
             "keywords": "request, energy passport, application, documentation, eneplus"
         },
+        "pageTitle": "Energy Passport Request",
         "title": "Property details",
         "buildingType": "Building type *",
         "buildingTypePlaceholder": "Select",
@@ -850,7 +851,7 @@
     },
     "OurClientsPage": {
         "metadata": {
-            "title": "Our Clients | Eneplus",
+            "title": "Our Clients",
             "description": "List of successful collaborations with international organizations, cities, and companies.",
             "keywords": "clients, references, energy efficiency, eneplus"
         },
@@ -949,7 +950,7 @@
     },
     "HomePage": {
         "metadata": {
-            "title": "Home",
+            "title": "Eneplus | Energy Efficiency, Management & Passports",
             "description": "Eneplus provides expert services in energy efficiency, management, and renewable energy sources. Your partner for a sustainable future.",
             "keywords": "eneplus, energy efficiency, smart energy, money saving"
         },
@@ -970,7 +971,7 @@
     },
     "ResultsPage": {
         "metadata": {
-            "title": "Results & Track Record | Major Energy Efficiency Projects | Eneplus",
+            "title": "Results & Energy Efficiency Track Record",
             "description": "Explore Eneplus track record: over 1,400,000 m² audited building area, landmark projects for EBRD, USAID, UNDP, GIZ and national rulemaking under EU EPBD directives.",
             "keywords": "energy efficiency track record, eneplus references, EBRD energy audits, ESCO residential buildings, energy performance certificate serbia, EPBD compliance, BESTenergIS Kula"
         },

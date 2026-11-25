@@ -255,10 +255,10 @@ export default function EneplusScroll() {
                         </div>
 
                         <div className={styles.heroSidebar}>
-                            <h2 ref={headingRef} className={styles.heading}>
+                            <h1 ref={headingRef} className={styles.heading}>
                                 {t('headingLine1')}<br />
                                 <span>{t('headingLine2')}<br />{t('headingLine3')}</span>
-                            </h2>
+                            </h1>
                             <p ref={subheadingRef} className={styles.subheading}>{t('subheading')}</p>
                             <div ref={ctaRef} className={styles.heroActions}>
                                 <a href={`/${locale}/contact`} className={styles.ctaButton}>{t('cta')}</a>

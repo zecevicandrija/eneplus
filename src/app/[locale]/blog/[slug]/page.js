@@ -42,8 +42,20 @@ export async function generateMetadata({ params }) {
         languages[altLocale] = `${baseUrl}/${altLocale}/blog/${translatedSlug}`;
     }
 
+    const rawTitle = (frontmatter.title || '').trim();
+    let metadataTitle = rawTitle;
+    if (rawTitle.length > 50) {
+        if (rawTitle.length <= 65) {
+            metadataTitle = { absolute: rawTitle };
+        } else {
+            const cutIndex = rawTitle.lastIndexOf(' ', 62);
+            const shortened = rawTitle.slice(0, cutIndex > 30 ? cutIndex : 62).trim();
+            metadataTitle = { absolute: `${shortened}...` };
+        }
+    }
+
     return {
-        title: `${frontmatter.title} | Eneplus Blog`,
+        title: metadataTitle,
         description: frontmatter.description,
         keywords: frontmatter.keywords,
         openGraph: {
